@@ -1,0 +1,46 @@
+- name: purpose
+  values:
+  - Backup
+  - Business Intelligence
+  - Client Interface
+  - Data Connector
+  - Deployment Automation
+  - Encryption
+  - GUI
+  - Log Analysis
+  - Monitoring
+  - Object Document Mapper
+  - Performance Tuning
+  - Shell Enhancement
+
+- name: license
+  values:
+  - 2-clause BSD
+  - Apache
+  - Apache 2.0
+  - BSD 2-Clause
+  - Commercial
+  - Eclipse Public
+  - GNU
+  - GPLv2
+  - MIT
+  - MIT And GPL
+  - Simplified BSD
+  - Unknown
+
+- name: language
+  values:
+  - C
+  - C#
+  - C++
+  - Clojure
+  - Erlang
+  - Go
+  - Java
+  - Javascript
+  - PHP
+  - Perl
+  - Python
+  - Ruby
+  - Scala
+  - Unknown
