@@ -1,3 +1,7 @@
-name: Your New Jekyll Site
+name: MongoDB Tools
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+collections:
+  tools:
+    output: true
+gems: [jekyll-timeago]

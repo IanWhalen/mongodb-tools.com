@@ -1,13 +1,186 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+<header>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header navbar-left" id="navbar-title">
+        <h1><a class="navbar-brand navbar-text" href="">MongoDB Tools</a></h2>
+        <i class="navbar-text">a guide to some interesting tools for working with mongodb</i>
+    </div>
+    <button href="#submit-modal" type="button" class="btn btn-default navbar-btn navbar-right" data-toggle="modal" data-target="#submit-modal" role="button"><span class="glyphicon glyphicon-plus"></span></button>
+  </nav>
+
+  <nav class="controls just">
+    {% for attr in site.data.attr %}
+     <div class="control drop_down wf">
+      <span class="anim150">{{ attr.name }}</span>
+       <ul class="anim250">
+        <li class="active" data-filter="all" data-dimension="{{ attr.name | handle }}">All</li>
+        {% for i in attr.values %}
+        <li data-filter="{{ i | handle }}" data-dimension="{{ attr.name | handle }}">{{ i }}</li>
+        {% endfor %}
+       </ul>
+     </div>
     {% endfor %}
-  </ul>
-</div>
+    <div class="control drop_down wf">
+      <span class="anim150">Platforms</span>
+      <ul class="anim250">
+        <li class="active" data-filter="all" data-dimension="platforms">All</li>
+        <li data-filter="linux" data-dimension="platforms">Linux</li>
+        <li data-filter="windows" data-dimension="platforms">Windows</li>
+        <li data-filter="apple" data-dimension="platforms">OS X</li>
+      </ul>
+    </div>
+<!--     <div class="control drop_down wf">
+      <span class="anim150">Support</span>
+      <ul class="anim250">
+        <li class="active" data-filter="all" data-dimension="support">All</li>
+        <li data-filter="supported" data-dimension="support">MongoDB, Inc. Supported</li>
+        <li data-filter="unsupported" data-dimension="support">Not MongoDB, Inc. Supported</li>
+      </ul>
+    </div> -->
+  </nav>
+</header>
+
+<div class="main outer">
+  <div id="Grid" class="inner">
+  {% for t in site.tools %}
+  <div class="mix tool {{ t.purpose | handle }} {{ t.language | handle }} {{ t.license | handle }} {{ t.support | handle }} {{ t.environments | join ' ' }}">
+    <div class="tile">
+      {% if t.img %}
+      <div class="tool-image">
+        <img src="/img/{{ t.img }}">
+      </div>
+      {% else %}
+      <div class="tool-image no-image">
+        <i class="icon-cogs"></i>
+      </div>      
+      {% endif %}
+      <div class="summary">
+        <h4>{{ t.name }}</h4>
+        <p>{{ t.maintained ]}}</p>
+        <ul class="unstyled platforms">
+          {% for env in t.environments %}
+          <li><i class="fa-{{ env }}"></i></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="description">
+        <h3>{{ t.name }}</h3>
+        <p>{{ t.description }}</p>
+        <a href="/tool/{{ t.slug }}">More Info <i class="fa-chevron-right"></i></a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  <div class="clearboth"></div>
+  </div>
+</div><!-- /row -->
+
+
+<script>  
+$('.tool-container').hover(
+  function () {
+    $(this).children("div.tool-details").fadeTo(1,1);
+  }, 
+  function () {
+    $(this).children("div.tool-details").fadeTo(1,0);
+    $(this).children("h1").show();
+  }
+);
+</script>
+
+<script>
+$(document).ready(function(){
+  $('#Grid').mixitup();
+
+  var $filters = $('.controls').find('li'),
+    dimensions = {
+      language: 'all',
+      purpose: 'all',
+      // support: 'all',
+      license: 'all',
+      platforms: 'all'
+    };
+
+  $filters.on('click',function(){
+    var $t = $(this),
+      dimension = $t.attr('data-dimension'),
+      filter = $t.attr('data-filter'),
+      filterString = dimensions[dimension];
+
+    if(filter == 'all'){
+      // If "all"
+      if(!$t.hasClass('active')){
+        // if unchecked, check "all" and uncheck all other active filters
+        $t.addClass('active').siblings().removeClass('active');
+        // Replace entire string with "all"
+        filterString = 'all'; 
+      } else {
+        // Uncheck
+        $t.removeClass('active');
+        // Emtpy string
+        filterString = '';
+      }
+    } else {
+      // Else, uncheck "all"
+      $t.siblings('[data-filter="all"]').removeClass('active');
+      // Remove "all" from string
+      filterString = filterString.replace('all','');
+      if(!$t.hasClass('active')){
+        // Check checkbox
+        $t.addClass('active');
+        // Append filter to string
+        filterString = filterString == '' ? filter : filterString+' '+filter;
+        // Send to Google Analytics
+        _gaq.push(['_trackEvent', dimension, 'select', filter]);
+      } else {
+        // Uncheck
+        $t.removeClass('active');
+        // Remove filter and preceeding space from string with RegEx
+        var re = new RegExp('(\\s|^)'+filter);
+        filterString = filterString.replace(re,'');
+        if (filterString == '') {
+          $t.siblings('[data-filter="all"]').addClass('active');
+        }
+      };
+    };
+
+      // Set dimension with filterString
+      dimensions[dimension] = filterString;
+      
+      /*
+      * We then send these strings to MixItUp using the filter method. We can send as
+      * many dimensions to MixitUp as we need using an array as the second argument
+      * of the "filter" method. Each dimension must be a space seperated string.
+      *
+      * In this case, MixItUp will show elements using OR logic within each dimension and
+      * AND logic between dimensions. At least one dimension must pass for the element to show.
+      */
+      
+      $('#Grid').mixitup('filter',[ dimensions.language,
+                                    dimensions.purpose,
+                                    // dimensions.support,
+                                    dimensions.license,
+                                    dimensions.platforms ])
+    });
+
+
+  $('#submit-btn').click( function() { 
+      var data = { 
+          name: $( "#submit-name" ).val(),
+          email: $( "#submit-email" ).val(),
+          tool: $( "#submit-tool" ).val(),
+          url: $( "#submit-url" ).val(),
+          lang: $( "#submit-lang" ).val(),
+          purpose: $( "#submit-purpose" ).val(),
+          desc: $( "#submit-desc" ).val()
+      }
+      $.post( "/submit", data );
+
+      $( '#submit-modal' ).hide();
+    } );
+});
+</script>
