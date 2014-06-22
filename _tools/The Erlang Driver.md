@@ -3,7 +3,7 @@
 name: The Erlang Driver
 language: Erlang
 license: Apache 2.0
-maintained: Actively Maintained
+maintained: Inactive
 support: supported
 url: http://docs.mongodb.org/ecosystem/drivers/erlang/
 
