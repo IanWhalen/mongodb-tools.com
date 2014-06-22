@@ -4,4 +4,6 @@ highlighter: pygments
 collections:
   tools:
     output: true
-gems: [jekyll-timeago]
+gems:
+  - jekyll-timeago
+url: mongodb-tools.com
