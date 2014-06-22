@@ -19,7 +19,7 @@ title: MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff
        <ul class="anim250">
         <li class="active" data-filter="all" data-dimension="{{ attr.name | handle }}">All</li>
         {% for i in attr.values %}
-        <li data-filter="{{ i | handle }}" data-dimension="{{ attr.name | handle }}">{{ i }}</li>
+        <li data-filter=".{{ i | handle }}" data-dimension="{{ attr.name | handle }}">{{ i }}</li>
         {% endfor %}
        </ul>
      </div>
@@ -28,9 +28,9 @@ title: MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff
       <span class="anim150">Platforms</span>
       <ul class="anim250">
         <li class="active" data-filter="all" data-dimension="platforms">All</li>
-        <li data-filter="linux" data-dimension="platforms">Linux</li>
-        <li data-filter="windows" data-dimension="platforms">Windows</li>
-        <li data-filter="apple" data-dimension="platforms">OS X</li>
+        <li data-filter=".linux" data-dimension="platforms">Linux</li>
+        <li data-filter=".windows" data-dimension="platforms">Windows</li>
+        <li data-filter=".apple" data-dimension="platforms">OS X</li>
       </ul>
     </div>
 <!--     <div class="control drop_down wf">
@@ -94,93 +94,167 @@ $('.tool-container').hover(
 
 <script>
 $(document).ready(function(){
-  $('#Grid').mixitup();
+  var checkboxActivate = {
+    // The "init" method will run on document ready and cache any jQuery objects we will need.
+    init: function(){
+      $('.controls').find('li').on('click',function(){
+        var $t = $(this), filter = $t.attr('data-filter')
 
-  var $filters = $('.controls').find('li'),
-    dimensions = {
-      language: 'all',
-      purpose: 'all',
-      // support: 'all',
-      license: 'all',
-      platforms: 'all'
-    };
-
-  $filters.on('click',function(){
-    var $t = $(this),
-      dimension = $t.attr('data-dimension'),
-      filter = $t.attr('data-filter'),
-      filterString = dimensions[dimension];
-
-    if(filter == 'all'){
-      // If "all"
-      if(!$t.hasClass('active')){
-        // if unchecked, check "all" and uncheck all other active filters
-        $t.addClass('active').siblings().removeClass('active');
-        // Replace entire string with "all"
-        filterString = 'all'; 
-      } else {
-        // Uncheck
-        $t.removeClass('active');
-        // Emtpy string
-        filterString = '';
-      }
-    } else {
-      // Else, uncheck "all"
-      $t.siblings('[data-filter="all"]').removeClass('active');
-      // Remove "all" from string
-      filterString = filterString.replace('all','');
-      if(!$t.hasClass('active')){
-        // Check checkbox
-        $t.addClass('active');
-        // Append filter to string
-        filterString = filterString == '' ? filter : filterString+' '+filter;
-        // Send to Google Analytics
-        _gaq.push(['_trackEvent', dimension, 'select', filter]);
-      } else {
-        // Uncheck
-        $t.removeClass('active');
-        // Remove filter and preceeding space from string with RegEx
-        var re = new RegExp('(\\s|^)'+filter);
-        filterString = filterString.replace(re,'');
-        if (filterString == '') {
+        if(filter == 'all'){
+          // If "all"
+          if(!$t.hasClass('active')){
+            // if unchecked, check "all" and uncheck all other active filters
+            $t.addClass('active').siblings().removeClass('active');
+          }
+        } else {
+          // Else, uncheck "all"
+          $t.siblings('[data-filter="all"]').removeClass('active');
+          if(!$t.hasClass('active')){
+            // Check checkbox
+            $t.addClass('active');
+          } else {
+            // Uncheck
+            $t.removeClass('active');
+            // // Remove filter and preceeding space from string with RegEx
+            // var re = new RegExp('(\\s|^)'+filter);
+            // filterString = filterString.replace(re,'');
+            // if (filterString == '') {
+            //   $t.siblings('[data-filter="all"]').addClass('active');
+            // }
+          };
+        }
+        if (!$t.siblings().andSelf().hasClass('active')) {
           $t.siblings('[data-filter="all"]').addClass('active');
         }
-      };
-    };
+      });
+    }
+  }
 
-      // Set dimension with filterString
-      dimensions[dimension] = filterString;
+  var checkboxFilter = {
+    // Declare any variables we will need as properties of the object 
+    $filters: null,
+    $reset: null,
+    groups: [],
+    outputArray: [],
+    outputString: '',
+    
+    // The "init" method will run on document ready and cache any jQuery objects we will need.
+    init: function(){
+      var self = this; // As a best practice, in each method we will asign "this" to the variable "self" so that it remains scope-agnostic. We will use it to refer to the parent "checkboxFilter" object so that we can share methods and properties between all parts of the object.
       
-      /*
-      * We then send these strings to MixItUp using the filter method. We can send as
-      * many dimensions to MixitUp as we need using an array as the second argument
-      * of the "filter" method. Each dimension must be a space seperated string.
-      *
-      * In this case, MixItUp will show elements using OR logic within each dimension and
-      * AND logic between dimensions. At least one dimension must pass for the element to show.
-      */
+      self.$filters = $('nav.controls');
+      self.$container = $('#Grid');
       
-      $('#Grid').mixitup('filter',[ dimensions.language,
-                                    dimensions.purpose,
-                                    // dimensions.support,
-                                    dimensions.license,
-                                    dimensions.platforms ])
-    });
+      self.$filters.find('div.drop_down').each(function(){
+        self.groups.push({
+          $inputs: $(this).find('li'),
+          active: [],
+          tracker: false
+        });
+      });
+      
+      self.bindHandlers();
+    },
+    
+    // The "bindHandlers" method will listen for whenever a form value changes. 
+    bindHandlers: function(){
+      var self = this;
+      
+      self.$filters.on('click', function(){
+        self.parseFilters();
+      });
+    },
 
-
-  $('#submit-btn').click( function() { 
-      var data = { 
-          name: $( "#submit-name" ).val(),
-          email: $( "#submit-email" ).val(),
-          tool: $( "#submit-tool" ).val(),
-          url: $( "#submit-url" ).val(),
-          lang: $( "#submit-lang" ).val(),
-          purpose: $( "#submit-purpose" ).val(),
-          desc: $( "#submit-desc" ).val()
+    // The parseFilters method checks which filters are active in each group:
+    parseFilters: function(){
+      var self = this;
+   
+      // loop through each filter group and add active filters to arrays
+      for(var i = 0, group; group = self.groups[i]; i++){
+        group.active = []; // reset arrays
+        group.$inputs.each(function(){ 
+          $(this).hasClass('active') && group.active.push($(this).attr('data-filter'));
+        });
+        group.active.length && (group.tracker = 0);
       }
-      $.post( "/submit", data );
+      
+      self.concatenate();
+    },
+    
+    // The "concatenate" method will crawl through each group, concatenating filters as desired:
+    concatenate: function(){
+      var self = this,
+        cache = '',
+        crawled = false,
+        checkTrackers = function(){
+          var done = 0;
+          
+          for(var i = 0, group; group = self.groups[i]; i++){
+            (group.tracker === false) && done++;
+          }
 
-      $( '#submit-modal' ).hide();
-    } );
+          return (done < self.groups.length);
+        },
+        crawl = function(){
+          for(var i = 0, group; group = self.groups[i]; i++){
+            if (group.active[group.tracker] != "all") {
+              group.active[group.tracker] && (cache += group.active[group.tracker]);
+            }
+
+            if(i === self.groups.length - 1){
+              self.outputArray.push(cache);
+              cache = '';
+              updateTrackers();
+            }
+          }
+        },
+        updateTrackers = function(){
+          for(var i = self.groups.length - 1; i > -1; i--){
+            var group = self.groups[i];
+
+            if(group.active[group.tracker + 1]){
+              group.tracker++; 
+              break;
+            } else if(i > 0){
+              group.tracker && (group.tracker = 0);
+            } else {
+              crawled = true;
+            }
+          }
+        };
+      
+      self.outputArray = []; // reset output array
+
+      do{
+        crawl();
+      }
+      while(!crawled && checkTrackers());
+
+      self.outputString = self.outputArray.join();
+      
+      // If the output string is empty, show all rather than none:
+      !self.outputString.length && (self.outputString = 'all'); 
+
+      // we can check the console here to take a look at the filter string that is produced      
+      console.log(self.outputString);
+      
+      // Send the output string to MixItUp via the 'filter' method:
+      if(self.$container.mixItUp('isLoaded')){
+        self.$container.mixItUp('filter', self.outputString);
+      }
+    }
+  };
+
+  checkboxActivate.init();
+  checkboxFilter.init();
+
+  $('#Grid').mixItUp({
+    controls: {
+      enable: false
+    },
+    load: {
+      sort: 'random'
+    }
+  });
 });
 </script>
