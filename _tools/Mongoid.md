@@ -20,8 +20,8 @@ permalink: /tool/mongoid/
 layout: tool
 
 # Tool Release Info
-latest_release_date: 2013-12-02
-latest_release_version: 3.1.6
+latest_release_date: 2014-06-23
+latest_release_version: 4.0.0
 
 # Github Info
 github_repo: mongoid
