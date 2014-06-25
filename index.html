@@ -17,9 +17,9 @@ title: MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff
      <div class="control drop_down wf">
       <span class="anim150">{{ attr.name }}</span>
        <ul class="anim250">
-        <li class="active" data-filter="all" data-dimension="{{ attr.name | handle }}">All</li>
+        <li class="active" data-filter="all">All</li>
         {% for i in attr.values %}
-        <li data-filter=".{{ i | handle }}" data-dimension="{{ attr.name | handle }}">{{ i }}</li>
+        <li data-filter=".{{ i | languageHandle }}">{{ i }}</li>
         {% endfor %}
        </ul>
      </div>
@@ -27,10 +27,10 @@ title: MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff
     <div class="control drop_down wf">
       <span class="anim150">Platforms</span>
       <ul class="anim250">
-        <li class="active" data-filter="all" data-dimension="platforms">All</li>
-        <li data-filter=".linux" data-dimension="platforms">Linux</li>
-        <li data-filter=".windows" data-dimension="platforms">Windows</li>
-        <li data-filter=".apple" data-dimension="platforms">OS X</li>
+        <li class="active" data-filter="all">All</li>
+        <li data-filter=".linux">Linux</li>
+        <li data-filter=".windows">Windows</li>
+        <li data-filter=".apple">OS X</li>
       </ul>
     </div>
 <!--     <div class="control drop_down wf">
@@ -47,7 +47,7 @@ title: MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff
 <div class="main outer">
   <div id="Grid" class="inner">
   {% for t in site.tools %}
-  <div class="mix tool {{ t.purpose | handle }} {{ t.language | handle }} {{ t.license | handle }} {{ t.support | handle }} {{ t.environments | join ' ' }}">
+  <div class="mix tool {{ t.purpose | handle }} {{ t.language | languageHandle }} {{ t.license | handle }} {{ t.support | handle }} {{ t.environments | join ' ' }}">
     <div class="tile">
       {% if t.img %}
       <div class="tool-image">
