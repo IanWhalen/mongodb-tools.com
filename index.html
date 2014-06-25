@@ -55,7 +55,7 @@ title: MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff
       </div>
       {% else %}
       <div class="tool-image no-image">
-        <i class="icon-cogs"></i>
+        <i class="fa fa-cogs"></i>
       </div>      
       {% endif %}
       <div class="summary">
@@ -63,14 +63,14 @@ title: MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff
         <p>{{ t.maintained ]}}</p>
         <ul class="unstyled platforms">
           {% for env in t.environments %}
-          <li><i class="fa-{{ env }}"></i></li>
+          <li><i class="fa fa-{{ env }}"></i></li>
           {% endfor %}
         </ul>
       </div>
       <div class="description">
         <h3>{{ t.name }}</h3>
         <p>{{ t.description }}</p>
-        <a href="/tool/{{ t.slug }}">More Info <i class="fa-chevron-right"></i></a>
+        <a href="/tool/{{ t.slug }}">More Info <i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
   </div>
