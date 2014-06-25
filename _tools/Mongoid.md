@@ -5,7 +5,7 @@ language: Ruby
 license: MIT
 maintained: Actively Maintained
 support: unsupported
-url: http://mongoid.org/en/mongoid/
+officialUrl: http://mongoid.org/en/mongoid/
 environments:
 - apple
 - linux

@@ -5,7 +5,7 @@ language: Javascript
 license: MIT
 maintained: Actively Maintained
 support: unsupported
-url: https://github.com/variety/variety
+officialUrl: https://github.com/variety/variety
 
 # Info about the tool on mongodb-tools.com
 purpose: Shell Enhancement

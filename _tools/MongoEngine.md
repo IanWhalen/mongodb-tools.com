@@ -5,7 +5,7 @@ language: Python
 license: MIT
 maintained: Actively Maintained
 support: unsupported
-url: http://mongoengine.org/
+officialUrl: http://mongoengine.org/
 environments:
 - apple
 - linux

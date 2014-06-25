@@ -5,7 +5,7 @@ language: Python
 license: MIT
 maintained: Actively Maintained
 support: unsupported
-url: http://mongolab.org/mongoctl/
+officialUrl: http://mongolab.org/mongoctl/
 environments:
 - apple
 - linux

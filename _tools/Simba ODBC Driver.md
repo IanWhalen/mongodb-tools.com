@@ -5,7 +5,7 @@ language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-url: http://www.simba.com/connectors/mongodb-odbc
+officialUrl: http://www.simba.com/connectors/mongodb-odbc
 environments:
 - apple
 - linux

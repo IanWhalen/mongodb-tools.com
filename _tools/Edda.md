@@ -5,7 +5,7 @@ language: Python
 license: Unknown
 maintained: Abandonware
 support: unsupported
-url: http://blog.mongodb.org/post/28053108398/edda-a-log-visualizer-for-mongodb
+officialUrl: http://blog.mongodb.org/post/28053108398/edda-a-log-visualizer-for-mongodb
 environments:
 - apple
 - linux

@@ -5,7 +5,7 @@ language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-url: http://www.manageengine.com/products/applications_manager/help/monitors/mongodb-monitor.html
+officialUrl: http://www.manageengine.com/products/applications_manager/help/monitors/mongodb-monitor.html
 
 # Info about the tool on mongodb-tools.com
 purpose: Monitoring

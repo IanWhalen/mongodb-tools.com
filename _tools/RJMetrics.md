@@ -5,7 +5,7 @@ language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-url: https://rjmetrics.com/product/connectors/mongo-db
+officialUrl: https://rjmetrics.com/product/connectors/mongo-db
 environments:
 - apple
 - linux

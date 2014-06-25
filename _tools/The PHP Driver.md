@@ -5,7 +5,7 @@ language: PHP
 license: Apache 2.0
 maintained: Actively Maintained
 support: supported
-url: http://docs.mongodb.org/ecosystem/drivers/php/
+officialUrl: http://docs.mongodb.org/ecosystem/drivers/php/
 
 # Info about the tool on mongodb-tools.com
 purpose: Client Interface

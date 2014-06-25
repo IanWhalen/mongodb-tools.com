@@ -5,7 +5,7 @@ language: Python
 license: Apache
 maintained: Actively Maintained
 support: unsupported
-url: https://github.com/rueckstiess/mtools
+officialUrl: https://github.com/rueckstiess/mtools
 environments:
 - apple
 - linux

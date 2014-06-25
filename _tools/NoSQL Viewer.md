@@ -5,7 +5,7 @@ language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-url: http://www.spviewer.com/nosqlviewer.html
+officialUrl: http://www.spviewer.com/nosqlviewer.html
 environments:
 - windows
 

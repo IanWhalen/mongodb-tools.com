@@ -5,7 +5,7 @@ language: Python
 license: 2-clause BSD
 maintained: Actively Maintained
 support: unsupported
-url: http://django-nonrel.org/
+officialUrl: http://django-nonrel.org/
 environments:
 - apple
 - linux

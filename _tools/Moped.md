@@ -5,7 +5,7 @@ language: Ruby
 license: MIT
 maintained: Actively Maintained
 support: unsupported
-url: http://mongoid.org/en/moped/
+officialUrl: http://mongoid.org/en/moped/
 environments:
 - apple
 - linux

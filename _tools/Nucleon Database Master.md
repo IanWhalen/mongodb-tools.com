@@ -5,7 +5,7 @@ language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-url: http://www.nucleonsoftware.com/Products/Database-Master
+officialUrl: http://www.nucleonsoftware.com/Products/Database-Master
 environments:
 - windows
 

@@ -5,7 +5,7 @@ language: Python
 license: Apache
 maintained: Actively Maintained
 support: supported
-url: http://api.mongodb.org/python/current/
+officialUrl: http://api.mongodb.org/python/current/
 environments:
 - apple
 - linux

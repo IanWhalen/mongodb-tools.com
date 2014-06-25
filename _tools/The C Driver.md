@@ -5,7 +5,7 @@ language: C
 license: Apache 2.0
 maintained: Actively Maintained
 support: supported
-url: http://docs.mongodb.org/ecosystem/drivers/c/
+officialUrl: http://docs.mongodb.org/ecosystem/drivers/c/
 environments:
 - apple
 - linux

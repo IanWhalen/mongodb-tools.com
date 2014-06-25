@@ -5,7 +5,7 @@ language: Java
 license: Apache 2.0
 maintained: Actively Maintained
 support: unsupported
-url: http://projects.spring.io/spring-data-mongodb/
+officialUrl: http://projects.spring.io/spring-data-mongodb/
 environments:
 - apple
 - linux

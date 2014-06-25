@@ -5,7 +5,7 @@ language: C#
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-url: http://www.mongovue.com/
+officialUrl: http://www.mongovue.com/
 environments:
 - windows
 

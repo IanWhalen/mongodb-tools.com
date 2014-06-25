@@ -5,7 +5,7 @@ language: Go
 license: Simplified BSD
 maintained: Actively Maintained
 support: unsupported
-url: http://labix.org/mgo
+officialUrl: http://labix.org/mgo
 environments:
 - apple
 - linux

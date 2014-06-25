@@ -5,7 +5,7 @@ language: Scala
 license: Apache 2.0
 maintained: Actively Maintained
 support: unsupported
-url: https://github.com/foursquare/rogue
+officialUrl: https://github.com/foursquare/rogue
 environments:
 - apple
 - linux

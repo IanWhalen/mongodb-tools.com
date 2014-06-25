@@ -5,7 +5,7 @@ language: Ruby
 license: Apache 2.0
 maintained: Inactive
 support: unsupported
-url: http://mongo3.com
+officialUrl: http://mongo3.com
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI

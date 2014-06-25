@@ -5,7 +5,7 @@ language: Java
 license: Apache 2.0
 maintained: Actively Maintained
 support: supported
-url: https://github.com/mongodb/morphia
+officialUrl: https://github.com/mongodb/morphia
 environments:
 - apple
 - linux

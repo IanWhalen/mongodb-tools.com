@@ -5,7 +5,7 @@ language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: supported
-url: https://mms.mongodb.com/learn-more#monitoring
+officialUrl: https://mms.mongodb.com/learn-more#monitoring
 
 # Info about the tool on mongodb-tools.com
 purpose: Monitoring

@@ -5,7 +5,7 @@ language: Java
 license: Apache 2.0
 maintained: Actively Maintained
 support: unsupported
-url: http://edgytech.com/umongo/
+officialUrl: http://edgytech.com/umongo/
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI

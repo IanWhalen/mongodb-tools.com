@@ -5,7 +5,7 @@ language: Javascript
 license: MIT
 maintained: Inactive
 support: unsupported
-url: http://andzdroid.github.io/mongo-express/
+officialUrl: http://andzdroid.github.io/mongo-express/
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI

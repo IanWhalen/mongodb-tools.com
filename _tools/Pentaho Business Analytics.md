@@ -5,7 +5,7 @@ language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-url: http://www.pentahobigdata.com/ecosystem/partner-testimonials/mongodb
+officialUrl: http://www.pentahobigdata.com/ecosystem/partner-testimonials/mongodb
 environments:
 - apple
 - linux

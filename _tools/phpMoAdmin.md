@@ -5,7 +5,7 @@ language: PHP
 license: GNU
 maintained: Actively Maintained
 support: unsupported
-url: http://phpmoadmin.com
+officialUrl: http://phpmoadmin.com
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI

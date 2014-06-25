@@ -5,7 +5,7 @@ language: Python
 license: Apache
 maintained: Actively Maintained
 support: Supported
-url: http://motor.readthedocs.org/
+officialUrl: http://motor.readthedocs.org/
 environments:
 - apple
 - linux

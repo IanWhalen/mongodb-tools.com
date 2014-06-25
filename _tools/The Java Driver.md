@@ -5,7 +5,7 @@ language: Java
 license: Apache
 maintained: Actively Maintained
 support: supported
-url: http://docs.mongodb.org/ecosystem/drivers/java/
+officialUrl: http://docs.mongodb.org/ecosystem/drivers/java/
 environments:
 - apple
 - linux

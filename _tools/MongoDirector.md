@@ -5,7 +5,7 @@ language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-url: http://mongodirector.com/
+officialUrl: http://mongodirector.com/
 environments:
 - linux
 - windows

@@ -5,7 +5,7 @@ language: Scala
 license: Apache 2.0
 maintained: Actively Maintained
 support: supported
-url: http://mongodb.github.io/casbah/
+officialUrl: http://mongodb.github.io/casbah/
 environments:
 - apple
 - linux

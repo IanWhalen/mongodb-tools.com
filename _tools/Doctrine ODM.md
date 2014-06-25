@@ -5,7 +5,7 @@ language: PHP
 license: MIT
 maintained: Actively Maintained
 support: unsupported
-url: https://github.com/doctrine/mongodb-odm
+officialUrl: https://github.com/doctrine/mongodb-odm
 environments:
 - windows
 - apple

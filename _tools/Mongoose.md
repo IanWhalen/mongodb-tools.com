@@ -5,7 +5,7 @@ language: Javascript
 license: MIT
 maintained: Actively Maintained
 support: unsupported
-url: http://mongoosejs.com/
+officialUrl: http://mongoosejs.com/
 
 # Info about the tool on mongodb-tools.com
 purpose: Object Document Mapper

@@ -5,7 +5,7 @@ language: Ruby
 license: MIT
 maintained: Actively Maintained
 support: unsupported
-url: http://mongomapper.com/
+officialUrl: http://mongomapper.com/
 environments:
 - apple
 - linux

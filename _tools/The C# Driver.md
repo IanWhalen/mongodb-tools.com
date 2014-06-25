@@ -5,7 +5,7 @@ language: C#
 license: Apache
 maintained: Actively Maintained
 support: supported
-url: http://docs.mongodb.org/ecosystem/drivers/csharp/
+officialUrl: http://docs.mongodb.org/ecosystem/drivers/csharp/
 environments:
 - apple
 - linux

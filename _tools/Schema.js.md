@@ -5,7 +5,7 @@ language: Javascript
 license: MIT And GPL
 maintained: Inactive
 support: unsupported
-url: http://skratchdot.com/projects/mongodb-schema/
+officialUrl: http://skratchdot.com/projects/mongodb-schema/
 
 # Info about the tool on mongodb-tools.com
 purpose: Shell Enhancement

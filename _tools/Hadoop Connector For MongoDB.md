@@ -4,7 +4,7 @@ name: Hadoop Connector For MongoDB
 language: Java
 license: Unknown
 maintained: Actively Maintained
-url: http://docs.mongodb.org/ecosystem/tools/hadoop/
+officialUrl: http://docs.mongodb.org/ecosystem/tools/hadoop/
 
 # Info about the tool on mongodb-tools.com
 purpose: Data Connector

@@ -5,7 +5,7 @@ language: Clojure
 license: Eclipse Public
 maintained: Actively Maintained
 support: unsupported
-url: http://clojuremongodb.info/
+officialUrl: http://clojuremongodb.info/
 environments:
 - apple
 - linux

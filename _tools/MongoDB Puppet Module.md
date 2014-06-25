@@ -5,7 +5,7 @@ language: Ruby
 license: Apache 2.0
 maintained: Actively Maintained
 support: unsupported
-url: https://github.com/puppetlabs/puppetlabs-mongodb
+officialUrl: https://github.com/puppetlabs/puppetlabs-mongodb
 environments:
 - linux
 

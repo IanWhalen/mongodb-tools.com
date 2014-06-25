@@ -5,7 +5,7 @@ language: Javascript
 license: Apache 2.0
 maintained: Actively Maintained
 support: supported
-url: https://github.com/mongodb/node-mongodb-native
+officialUrl: https://github.com/mongodb/node-mongodb-native
 
 # Info about the tool on mongodb-tools.com
 purpose: Client Interface

@@ -5,7 +5,7 @@ language: C++
 license: Apache 2.0
 maintained: Actively Maintained
 support: supported
-url: http://docs.mongodb.org/ecosystem/drivers/cpp/
+officialUrl: http://docs.mongodb.org/ecosystem/drivers/cpp/
 
 # Info about the tool on mongodb-tools.com
 purpose: Client Interface

@@ -5,7 +5,7 @@ language: Ruby
 license: MIT
 maintained: Actively Maintained
 support: unsupported
-url: http://genghisapp.com/
+officialUrl: http://genghisapp.com/
 environments:
 - apple
 - linux

@@ -5,7 +5,7 @@ language: Erlang
 license: Apache 2.0
 maintained: Inactive
 support: supported
-url: http://docs.mongodb.org/ecosystem/drivers/erlang/
+officialUrl: http://docs.mongodb.org/ecosystem/drivers/erlang/
 
 # Info about the tool on mongodb-tools.com
 purpose: Client Interface

@@ -5,7 +5,7 @@ language: C++
 license: GNU
 maintained: Actively Maintained
 support: unsupported
-url: http://robomongo.org/
+officialUrl: http://robomongo.org/
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI

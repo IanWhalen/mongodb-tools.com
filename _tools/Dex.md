@@ -5,7 +5,7 @@ language: Python
 license: MIT
 maintained: Actively Maintained
 support: unsupported
-url: http://blog.mongolab.com/2012/06/introducing-dex-the-index-bot/
+officialUrl: http://blog.mongolab.com/2012/06/introducing-dex-the-index-bot/
 environments:
 - apple
 - linux

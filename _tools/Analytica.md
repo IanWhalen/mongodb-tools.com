@@ -5,7 +5,7 @@ language: Unknown
 license: Commercial
 maintained: Abandonware
 support: unsupported
-url: http://www.analytica.com/
+officialUrl: http://www.analytica.com/
 
 # Info about the tool on mongodb-tools.com
 purpose: Business Intelligence

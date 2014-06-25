@@ -5,7 +5,7 @@ language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-url: http://www.gazzang.com/products/zncrypt/mongodb
+officialUrl: http://www.gazzang.com/products/zncrypt/mongodb
 
 # Info about the tool on mongodb-tools.com
 purpose: Encryption

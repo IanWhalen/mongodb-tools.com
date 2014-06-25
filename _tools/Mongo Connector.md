@@ -5,7 +5,7 @@ language: Python
 license: Unknown
 maintained: Actively Maintained
 support: unsupported
-url: http://blog.mongodb.org/post/29127828146/introducing-mongo-connector
+officialUrl: http://blog.mongodb.org/post/29127828146/introducing-mongo-connector
 
 # Info about the tool on mongodb-tools.com
 purpose: Data Connector

@@ -5,7 +5,7 @@ language: Perl
 license: Apache 2.0
 maintained: Actively Maintained
 support: supported
-url: https://metacpan.org/module/MongoDB
+officialUrl: https://metacpan.org/module/MongoDB
 environments:
 - apple
 - linux

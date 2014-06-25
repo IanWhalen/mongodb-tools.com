@@ -5,7 +5,7 @@ language: Python
 license: BSD 2-Clause
 maintained: Actively Maintained
 support: unsupported
-url: https://github.com/dropbox/hydra
+officialUrl: https://github.com/dropbox/hydra
 
 # Info about the tool on mongodb-tools.com
 purpose: Data Connector

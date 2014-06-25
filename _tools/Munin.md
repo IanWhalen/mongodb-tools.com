@@ -5,7 +5,7 @@ language: Perl
 license: GPLv2
 maintained: Actively Maintained
 support: unsupported
-url: http://munin-monitoring.org/
+officialUrl: http://munin-monitoring.org/
 environments:
 - windows
 - apple

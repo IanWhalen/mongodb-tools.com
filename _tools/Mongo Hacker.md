@@ -5,7 +5,7 @@ language: Javascript
 license: Unknown
 maintained: Actively Maintained
 support: unsupported
-url: http://tylerbrock.github.io/mongo-hacker/
+officialUrl: http://tylerbrock.github.io/mongo-hacker/
 environments:
 - apple
 - linux

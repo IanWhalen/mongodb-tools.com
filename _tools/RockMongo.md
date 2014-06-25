@@ -5,7 +5,7 @@ language: PHP
 license: BSD 2-Clause
 maintained: Inactive
 support: unsupported
-url: http://rockmongo.com
+officialUrl: http://rockmongo.com
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI

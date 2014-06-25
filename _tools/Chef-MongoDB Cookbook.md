@@ -5,7 +5,7 @@ language: Ruby
 license: Apache 2.0
 maintained: Actively Maintained
 support: unsupported
-url: https://github.com/edelight/chef-mongodb
+officialUrl: https://github.com/edelight/chef-mongodb
 environments:
 - apple
 - linux

@@ -4,7 +4,7 @@ name: Jaspersoft
 language: Java
 license: Commercial
 support: unsupported
-url: http://community.jaspersoft.com/project/mongodb-connector/
+officialUrl: http://community.jaspersoft.com/project/mongodb-connector/
 
 # Info about the tool on mongodb-tools.com
 purpose: Business Intelligence

@@ -4,7 +4,7 @@ name: Nucleon BI Studio
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-url: http://www.nucleonsoftware.com/Products/Nucleon-BI-Studio
+officialUrl: http://www.nucleonsoftware.com/Products/Nucleon-BI-Studio
 environments:
 - windows
 
