@@ -2,3 +2,5 @@ You can find a list of all of the tools in the _tools directory of this repo.
 
 In order to submit a new tool, please submit a pull request using the same format as the other tools.
 Similarly, please feel free to submit pull requests with updated information for any existing tools.
+
+Don't forget to add your tool to the sitemap in your pull request.  (I really need to make the sitemap automatically generated.)
