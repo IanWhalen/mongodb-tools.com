@@ -20,8 +20,8 @@ permalink: /tool/mtools/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-02-10
-latest_release_version: 1.1.3
+latest_release_date: 2014-05-20
+latest_release_version: 1.1.5
 
 # Github Info
 github_repo: mtools
