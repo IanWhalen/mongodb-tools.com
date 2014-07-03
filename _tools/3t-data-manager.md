@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: 3T Data Manager
-language: Unknown
+language: English
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
@@ -13,9 +13,9 @@ environments:
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI
-description: A multi-platform application for browsing and editing your MongoDB data.
+description: A multi-platform GUI application for browsing and editing your MongoDB data.
 slug: 3t-data-manager
-img: 3t.png
+img: 3t-data-manager.png
 permalink: /tool/3t-data-manager/
 layout: tool
 
