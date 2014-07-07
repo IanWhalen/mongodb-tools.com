@@ -253,4 +253,11 @@
         <loc>http://mongodb-tools.com/tool/3t-data-manager/</loc>
     </url>
 
+    <url>
+        <loc>http://mongodb-tools.com/tool/3t-data-compare-and-sync/</loc>
+    </url>
+
+    <url>
+        <loc>http://mongodb-tools.com/tool/3t-schema-explorer/</loc>
+    </url>
 </urlset>
