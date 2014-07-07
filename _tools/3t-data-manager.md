@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: 3T Data Manager
-language: English
+language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported

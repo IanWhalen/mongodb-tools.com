@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: 3T Data Compare and Sync
-language: English
+language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
