@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: 3T Schema Explorer
-language: English
+language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
@@ -18,7 +18,7 @@ slug: 3t-schema-explorer
 img: 3t-schema-explorer.png
 permalink: /tool/3t-schema-explorer/
 layout: tool
-	
+
 # Release Info
 latest_release_date: 2014-06-01
 latest_release_version: 1.4.7
