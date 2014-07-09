@@ -123,6 +123,7 @@ $(document).ready(function(){
             $t.addClass('active').siblings().removeClass('active');
           }
         } else {
+          _gaq.push(['_trackEvent', 'clickEvent', 'click', filter]);
           // Else, uncheck "all"
           $t.siblings('[data-filter="all"]').removeClass('active');
           if(!$t.hasClass('active')){
