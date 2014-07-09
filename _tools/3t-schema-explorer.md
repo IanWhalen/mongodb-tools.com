@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: 3T Schema Explorer
-language: Unknown
+language: Java
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
