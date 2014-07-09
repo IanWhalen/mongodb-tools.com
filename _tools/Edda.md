@@ -3,7 +3,7 @@
 name: Edda
 language: Python
 license: Unknown
-maintained: Abandonware
+maintained: Actively Maintained
 support: unsupported
 officialUrl: http://blog.mongodb.org/post/28053108398/edda-a-log-visualizer-for-mongodb
 environments:
