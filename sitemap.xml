@@ -260,4 +260,8 @@
     <url>
         <loc>http://mongodb-tools.com/tool/3t-schema-explorer/</loc>
     </url>
+
+    <url>
+        <loc>http://mongodb-tools.com/tool/mongobee/</loc>
+    </url>
 </urlset>
