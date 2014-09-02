@@ -21,7 +21,7 @@ layout: tool
 
 # Release Info
 latest_release_date: 2014-08-04
-latest_release_version: 0.4
+latest_release_version: 0.6
 
 # Github Info
 github_repo: mongobee
