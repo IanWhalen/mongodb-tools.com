@@ -20,8 +20,8 @@ permalink: /tool/mongobee/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-08-04
-latest_release_version: 0.6
+latest_release_date: 2014-09-26
+latest_release_version: 0.7
 
 # Github Info
 github_repo: mongobee
