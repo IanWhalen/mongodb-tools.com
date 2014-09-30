@@ -5,7 +5,7 @@ language: Java
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-officialUrl: http://3t.io/schema-explorer/
+officialUrl: http://3t.io/schema-explorer
 environments:
 - apple
 - linux
@@ -20,8 +20,8 @@ permalink: /tool/3t-schema-explorer/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-09-04
-latest_release_version: 1.6.0
+latest_release_date: 2014-09-30
+latest_release_version: 1.6.1
 
 # Github Info
 github_repo: 
