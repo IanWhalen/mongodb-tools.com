@@ -260,4 +260,9 @@
     <url>
         <loc>http://mongodb-tools.com/tool/3t-schema-explorer/</loc>
     </url>
+    
+    <url>
+        <loc>http://mongodb-tools.com/tool/jsonstudio/</loc>
+    </url>
+
 </urlset>
