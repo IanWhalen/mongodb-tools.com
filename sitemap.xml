@@ -264,4 +264,8 @@
     <url>
         <loc>http://mongodb-tools.com/tool/mongobee/</loc>
     </url>
+
+    <url>
+        <loc>http://mongodb-tools.com/tool/mongo-management-studio/</loc>
+    </url>
 </urlset>
