@@ -4,7 +4,7 @@ name: Mongri
 language: JavaScript
 license: Commercial
 maintained: Actively Maintained
-support: supported
+support: unsupported
 officialUrl: http://github.com/dongri/mongri
 
 # Info about the tool on mongodb-tools.com
