@@ -13,7 +13,7 @@ environments:
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI
-description: The easy way to CRUD your MongoDB with a pretty UI.
+description: A CRUD interface to MongoDB with a focus on ease of use and a pretty UI.
 slug: mongo-management-studio
 img: mongo-management-studio.png
 permalink: /tool/mongo-management-studio/
