@@ -4,7 +4,6 @@
         <loc>http://mongodb-tools.com</loc>
     </url>
 
-    
     <url>
         <loc>http://mongodb-tools.com/tool/28-io/</loc>
     </url>
@@ -267,5 +266,9 @@
 
     <url>
         <loc>http://mongodb-tools.com/tool/mongo-management-studio/</loc>
+    </url>
+
+    <url>
+        <loc>http://mongodb-tools.com/tool/mongri/</loc>
     </url>
 </urlset>
