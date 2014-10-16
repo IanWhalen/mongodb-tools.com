@@ -20,8 +20,8 @@ permalink: /tool/mongo-management-studio/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-09-01
-latest_release_version: 1.0.0
+latest_release_date: 2014-09-29
+latest_release_version: 1.1.0
 
 # Github Info
 github_repo:
