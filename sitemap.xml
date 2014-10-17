@@ -131,6 +131,10 @@
     <url>
         <loc>http://mongodb-tools.com/tool/mongovue/</loc>
     </url>
+	
+    <url>
+        <loc>http://mongodb-tools.com/tool/mongoz/</loc>
+    </url>
 
     <url>
         <loc>http://mongodb-tools.com/tool/moped/</loc>
