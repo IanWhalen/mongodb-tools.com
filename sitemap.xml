@@ -271,4 +271,8 @@
     <url>
         <loc>http://mongodb-tools.com/tool/mongri/</loc>
     </url>
+
+    <url>
+        <loc>http://mongodb-tools.com/tool/mongodbmanager/</loc>
+    </url>
 </urlset>
