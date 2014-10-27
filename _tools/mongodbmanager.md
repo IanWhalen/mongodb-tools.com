@@ -12,7 +12,7 @@ environments:
 # Info about the tool on mongodb-tools.com
 purpose: GUI
 description: A desktop GUI tool for Mongo database management, administration and development. Unites user-friendly GUI and Shell power.
-slug:
+slug: mongodbmanager
 img: mongodbmanager.png 
 permalink: /tool/mongodbmanager/
 layout: tool
