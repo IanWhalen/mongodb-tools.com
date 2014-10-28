@@ -175,7 +175,11 @@
     <url>
         <loc>http://mongodb-tools.com/tool/pymongo/</loc>
     </url>
-
+	
+	<url>
+        <loc>http://mongodb-tools.com/tool/ridemongo/</loc>
+    </url>
+	
     <url>
         <loc>http://mongodb-tools.com/tool/rjmetrics/</loc>
     </url>
