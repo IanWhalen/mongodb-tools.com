@@ -155,6 +155,10 @@
     <url>
         <loc>http://mongodb-tools.com/tool/nosql-viewer/</loc>
     </url>
+    
+    <url>
+        <loc>http://mongodb-tools.com/tool/mongodbpumper/</loc>
+    </url>
 
     <url>
         <loc>http://mongodb-tools.com/tool/nucleon-bi-studio/</loc>
