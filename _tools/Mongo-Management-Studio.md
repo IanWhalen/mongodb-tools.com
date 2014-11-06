@@ -4,8 +4,8 @@ name: Mongo Management Studio
 language: Javascript
 license: Commercial
 maintained: Actively Maintained
-support: unsupported
-officialUrl: http://www.litixsoft.de/mms/
+support: Supported
+officialUrl: http://www.litixsoft.de/english/mms/
 environments:
 - apple
 - linux
@@ -20,8 +20,8 @@ permalink: /tool/mongo-management-studio/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-09-29
-latest_release_version: 1.1.0
+latest_release_date: 2014-11-06
+latest_release_version: 1.2.0
 
 # Github Info
 github_repo:
