@@ -13,15 +13,15 @@ environments:
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI
-description: 3T Schema Explorer is a multi-platform schema analysis GUI tool for MongoDB.
+description: 3T Schema Explorer is a multi-platform schema analysis GUI tool for MongoDB with full support for MongoDB 3.0
 slug: 3t-schema-explorer
 img: 3t-schema-explorer.png
 permalink: /tool/3t-schema-explorer/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-09-30
-latest_release_version: 1.6.1
+latest_release_date: 2015-02-09
+latest_release_version: 2.1.1
 
 # Github Info
 github_repo: 
