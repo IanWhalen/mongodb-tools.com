@@ -20,8 +20,8 @@ permalink: /tool/spring-data-mongodb/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-12-11
-latest_release_version: 1.3.3
+latest_release_date: 2015-01-28
+latest_release_version: 1.6.2
 
 # Github Info
 github_repo: spring-data-mongodb

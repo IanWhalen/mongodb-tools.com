@@ -20,12 +20,11 @@ permalink: /tool/mongoid/
 layout: tool
 
 # Tool Release Info
-latest_release_date: 2014-06-23
-latest_release_version: 4.0.0
+latest_release_date: 2015-02-20
+latest_release_version: 4.0.2
 
 # Github Info
 github_repo: mongoid
 github_user: mongoid
-github_latest_commit_date: 2014-02-21
-stargazers_count: 2838
+stargazers_count: 3160
 ---

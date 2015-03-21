@@ -13,15 +13,15 @@ environments:
 
 # Info about the tool on mongodb-tools.com
 purpose: Client Interface
-description: An idiomatic Clojure wrapper around the 10gen Java driver.
+description: An idiomatic Clojure wrapper around the MongoDB Java driver.
 slug: monger
 img: monger.png
 permalink: /tool/monger/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-01-10
-latest_release_version: 1.7.0
+latest_release_date: 2015-02-23
+latest_release_version: 2.1.0
 
 # Github Info
 github_repo: monger

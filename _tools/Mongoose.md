@@ -16,8 +16,8 @@ permalink: /tool/mongoose/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-01-06
-latest_release_version: 3.8.4
+latest_release_date: 2015-03-13
+latest_release_version: 3.8.25
 
 # Github Info
 github_repo: mongoose

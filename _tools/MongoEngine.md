@@ -20,8 +20,8 @@ permalink: /tool/mongoengine/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-12-03
-latest_release_version: 0.8.6
+latest_release_date: 2014-01-25
+latest_release_version: 0.8.7
 
 # Github Info
 github_repo: mongoengine

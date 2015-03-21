@@ -13,15 +13,15 @@ environments:
 
 # Info about the tool on mongodb-tools.com
 purpose: Client Interface
-description: The official, 10gen-supported client interface for C applications.
+description: The officially supported client interface for C applications.
 slug: the-c-driver
 img: c.png
 permalink: /tool/the-c-driver/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-12-03
-latest_release_version: 0.90.0
+latest_release_date: 2015-03-11
+latest_release_version: 1.1.2
 
 # Github Info
 github_repo: mongo-c-driver

@@ -20,8 +20,8 @@ permalink: /tool/morphia/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-01-07
-latest_release_version: r0.106
+latest_release_date: 2015-02-06
+latest_release_version: r0.1110
 
 # Github Info
 github_repo: morphia
