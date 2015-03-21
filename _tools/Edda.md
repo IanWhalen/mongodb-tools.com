@@ -3,9 +3,9 @@
 name: Edda
 language: Python
 license: Unknown
-maintained: Actively Maintained
+maintained: Inactive
 support: unsupported
-officialUrl: http://blog.mongodb.org/post/28053108398/edda-a-log-visualizer-for-mongodb
+officialUrl: https://github.com/10gen-labs/edda
 environments:
 - apple
 - linux
