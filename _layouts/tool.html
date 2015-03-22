@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include header.html %}
+
 <div itemscope itemtype="http://schema.org/SoftwareApplication">
   <h1 itemprop="name">{{ page.name }}</h1>
   
@@ -11,33 +13,61 @@ layout: default
   <a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
 
   {% if page.github_repo %}
-  <iframe src="http://ghbtns.com/github-btn.html?user={{ page.github_user }}&repo={{ page.github_repo }}&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" style="height: 20px"></iframe>
+  &nbsp;&nbsp;
+  <iframe src="https://ghbtns.com/github-btn.html?user={{ page.github_user }}&repo={{ page.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" allowtransparency="true" frameborder="0" scrolling="0" style="width: 100px; height: 20px"></iframe>
+
+  <iframe src="http://ghbtns.com/github-btn.html?user={{ page.github_user }}&repo={{ page.github_repo }}&type=watch&count=true&v=2" allowtransparency="true" frameborder="0" scrolling="0" style="width:100px; height: 20px"></iframe>
   {% endif %}
 
-  <hr>
-  {% if page.description %}
-  <p itemprop="description">{{ page.description }}</p>
-  {% endif %}
-  
-  <hr>
-  {% if page.latest_release_date and page.latest_release_version %}
-  <p>The most recent known version of {{ page.name }} is <strong itemprop="softwareVersion">{{ page.latest_release_version' }}</strong> - it was released <strong itemprop="datePublished" content="{{ page.latest_release_date }}">{{ page.latest_release_date | timeago }}</strong>.</p>
-  {% endif %}
+  <div class="toolinfo">
 
-  {% if page.github_repo and page.github_latest_commit_date %}
-  <p>The last known commit to {{ page.name }} was <strong>{{ page.github_latest_commit_date | timeago }}</strong>.</p>
-  {% endif %}
+      {% if page.img %}
+        <p><a itemprop="url" href="{{ page.officialUrl }}" target="_blank"><img align="left" src="/img/{{ page.img }}" width="370" height="200" style="padding-right:10px"></a>
+      {% endif %}
 
-<!--   {% if page.language != 'Unknown' %}
-  <a href="/language/{{ tool['Language']|dasherize() }}">Find More <strong itemprop="applicationCategory">{{ tool['Language']}}</strong> Tools Here</a><br>
-  {% endif %} -->
-<!--   <a href="/purpose/{{ tool['Purpose']|dasherize() }}">Find More <strong itemprop="applicationCategory">{{ tool['Purpose']}}</strong> Tools Here</a><br> -->
-  <a itemprop="url" href="{{ page.officialUrl }}">Developer's Site</a>
+
+      {% if page.description %}
+        <p itemprop="description">{{ page.description }}</p>
+      {% endif %}
+
+     <blockquote>
+      {% if page.purpose %}
+        <p>Purpose: <strong>{{page.purpose}}</strong>
+      {% endif %}
+      {% if page.maintained %}
+        <p>Maintenance status: <strong>{{page.maintained}}</strong>
+      {% endif %}
+      {% if page.license %}
+        <p>License: <strong>{{page.license}}</strong>
+      {% endif %}
+      {% if page.language != "Unknown" %}
+        <p>Language: <strong>{{page.language}}</strong>
+      {% endif %}
+      {% if page.environments %}
+        <p>Platforms:
+          {% for env in page.environments %}
+            <i class="fa fa-{{ env }}"></i>
+          {% endfor %}
+      {% endif %}
+    </blockquote>
+      <hr>
+      {% if page.latest_release_date and page.latest_release_version %}
+      <p>The most recent known version of {{ page.name }} is <strong itemprop="softwareVersion">{{ page.latest_release_version' }}</strong> - it was released <strong itemprop="datePublished" content="{{ page.latest_release_date }}">{{ page.latest_release_date | timeago }}</strong>.</p>
+      {% endif %}
+
+      {% if page.github_repo and page.github_latest_commit_date %}
+      <p>The last known commit to {{ page.name }} was <strong>{{ page.github_latest_commit_date | timeago }}</strong>.</p>
+      {% endif %}
+
+    <!--   {% if page.language != 'Unknown' %}
+      <a href="/language/{{ tool['Language']|dasherize() }}">Find More <strong itemprop="applicationCategory">{{ tool['Language']}}</strong> Tools Here</a><br>
+      {% endif %} -->
+    <!--   <a href="/purpose/{{ tool['Purpose']|dasherize() }}">Find More <strong itemprop="applicationCategory">{{ tool['Purpose']}}</strong> Tools Here</a><br> -->
+      <a itemprop="url" href="{{ page.officialUrl }}">Developer's Site</a>
+  </div>
 </div>
 
-<hr>
-
-<i>This page is a work in progress.  Please bear with me while I bring it up to speed.  In the meantime, feel free to leave your thoughts on this tool in the comments below.  Or, if you are the developer of this tool, please let me know of any updated information I should have.</i>
+<p><i>This page is a work in progress.  Please bear with me while I bring it up to speed.  In the meantime, feel free to leave your thoughts on this tool in the comments below.  Or, if you are the developer of this tool, please let me know of any updated information I should have.</i>
 
 <hr>
 
