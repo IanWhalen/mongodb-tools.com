@@ -6,4 +6,5 @@ collections:
     output: true
 gems:
   - jekyll-timeago
-url: mongodb-tools.com
+  - jekyll-sitemap
+url: http://mongodb-tools.com
