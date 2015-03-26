@@ -535,6 +535,10 @@ p.top-details {
     text-align: right;
 }
 
+.toolinfo {
+  background: #eff1f4;
+  padding:20px
+}
 
 /* Chosen UI Fixes
 ----------------------------------*/
