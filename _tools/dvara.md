@@ -20,8 +20,8 @@ permalink: /tool/dvara/
 layout: tool
 
 # Release Info
-latest_release_date:
-latest_release_version:
+latest_release_date: 2015-01-20
+latest_release_version: untagged
 
 # Github Info
 github_repo: dvara

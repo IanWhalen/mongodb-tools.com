@@ -19,8 +19,8 @@ permalink: /tool/chef-mongodb-cookbook/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-12-09
-latest_release_version: 0.14.3
+latest_release_date: 2014-11-11
+latest_release_version: 0.16.3
 
 # Github Info
 github_repo: chef-mongodb

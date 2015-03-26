@@ -20,8 +20,8 @@ permalink: /tool/doctrine-odm/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-06-05
-latest_release_version: 1.0.0-BETA9
+latest_release_date: 2015-02-24
+latest_release_version: 1.0.0-BETA12
 
 # Github Info
 github_repo: mongodb-odm

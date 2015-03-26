@@ -20,8 +20,8 @@ permalink: /tool/doctrine-mongodb/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-01-08
-latest_release_version: 1.1.2
+latest_release_date: 2015-03-25
+latest_release_version: 1.1.7
 
 # Github Info
 github_repo: mongodb
