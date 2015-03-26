@@ -6,6 +6,10 @@ license: GNU
 maintained: Actively Maintained
 support: unsupported
 officialUrl: http://robomongo.org/
+environments:
+- apple
+- linux
+- windows
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI
