@@ -5,7 +5,7 @@ language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
-officialUrl: http://www.manageengine.com/products/applications_manager/help/monitors/mongodb-monitor.html
+officialUrl: https://www.manageengine.com/products/applications_manager/
 
 # Info about the tool on mongodb-tools.com
 purpose: Monitoring
@@ -16,8 +16,8 @@ permalink: /tool/manageengine/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-11-30
-latest_release_version: 11.5
+latest_release_date:
+latest_release_version:
 
 # Github Info
 ---
