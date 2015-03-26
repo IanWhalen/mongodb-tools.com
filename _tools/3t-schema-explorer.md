@@ -20,8 +20,8 @@ permalink: /tool/3t-schema-explorer/
 layout: tool
 
 # Release Info
-latest_release_date: 2015-02-09
-latest_release_version: 2.1.1
+latest_release_date: 2015-03-05
+latest_release_version: 2.1.2
 
 # Github Info
 github_repo: 
