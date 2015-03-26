@@ -13,15 +13,15 @@ environments:
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI
-description: 3T Data Compare & Sync is a multi-platform data comparison and synchronization GUI tool for MongoDB.
+description: 3T Data Compare & Sync is a multi-platform data comparison and synchronization GUI tool for MongoDB with full support for MongoDB 3.0
 slug: 3t-data-compare-and-sync
 img: 3t-data-compare-and-sync.png
 permalink: /tool/3t-data-compare-and-sync/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-09-30
-latest_release_version: 1.7.1
+latest_release_date: 2014-02-18
+latest_release_version: 1.7.6
 
 # Github Info
 github_repo: 
