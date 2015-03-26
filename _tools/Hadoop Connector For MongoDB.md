@@ -15,8 +15,8 @@ permalink: /tool/hadoop-connector-for-mongodb/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-12-09
-latest_release_version: 1.2.0
+latest_release_date: 2015-02-04
+latest_release_version: 1.3.2
 
 # Github Info
 github_repo: mongo-hadoop

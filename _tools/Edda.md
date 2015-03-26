@@ -20,8 +20,8 @@ permalink: /tool/edda/
 layout: tool
 
 # Release Info
-latest_release_date: 2012-08-09
-latest_release_version: 0.7.0
+latest_release_date: 2014-07-11
+latest_release_version: untagged
 
 # Github Info
 github_repo: edda

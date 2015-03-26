@@ -20,8 +20,8 @@ permalink: /tool/django-mongodb-backend/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-11-28
-latest_release_version: 0.5.1
+latest_release_date: 2014-05-18
+latest_release_version: 0.5.2
 
 # Github Info
 github_repo: mongodb-engine

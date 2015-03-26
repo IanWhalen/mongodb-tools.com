@@ -15,8 +15,8 @@ permalink: /tool/jaspersoft/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-11-12
-latest_release_version: 5.5
+latest_release_date:
+latest_release_version: 
 
 # Github Info
 ---
