@@ -3,7 +3,7 @@
 name: UMongo
 language: Java
 license: Apache 2.0
-maintained: Actively Maintained
+maintained: Inactive
 support: unsupported
 officialUrl: http://edgytech.com/umongo/
 
@@ -16,8 +16,8 @@ permalink: /tool/umongo/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-11-10
-latest_release_version: 1.6.1
+latest_release_date: 2014-06-01
+latest_release_version: 1.6.2
 
 # Github Info
 github_repo: umongo
