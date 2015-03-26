@@ -24,8 +24,6 @@ In order to submit a new tool, please [submit a pull request](https://github.com
 
 Similarly, please feel free to submit pull requests with updated information for any existing tools.
 
-Don't forget to add your tool to `sitemap.xml` in your pull request, as the site map is currently not automatically generated.
-
 ### Feature suggestions or bugs
 
 Please raise any feature suggestions or bugs in the mongodb-tools [Github issue queue](https://github.com/IanWhalen/mongodb-tools.com/issues), or email me (Ian Whalen) at (ian dot whalen) at (gmail dot com).

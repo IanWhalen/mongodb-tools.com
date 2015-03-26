@@ -26,4 +26,7 @@ latest_release_version:
 # Github Info
 github_repo:
 github_user:
+
+# Include in sitemap?
+sitemap: false
 ---
