@@ -3,7 +3,7 @@
 name: Hydra
 language: Python
 license: BSD 2-Clause
-maintained: Actively Maintained
+maintained: Inactive
 support: unsupported
 officialUrl: https://github.com/dropbox/hydra
 
