@@ -6,6 +6,10 @@ license: BSD 2-Clause
 maintained: Inactive
 support: unsupported
 officialUrl: http://rockmongo.com
+environments:
+- apple
+- linux
+- windows
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI
@@ -16,8 +20,8 @@ permalink: /tool/rockmongo/
 layout: tool
 
 # Release Info
-latest_release_date: 2012-12-19
-latest_release_version: 1.1.5
+latest_release_date: 2014-06-05
+latest_release_version: 1.1.6
 
 # Github Info
 github_repo: rockmongo
