@@ -20,8 +20,8 @@ permalink: /tool/genghis/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-12-09
-latest_release_version: 2.3.10
+latest_release_date: 2014-03-21
+latest_release_version: 2.3.11
 
 # Github Info
 github_repo: genghis
