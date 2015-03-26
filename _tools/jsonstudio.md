@@ -5,6 +5,10 @@ language: Java/Javascript
 license: Commercial
 support: Commercial
 officialUrl: http://jsonstudio.com/
+environments:
+- apple
+- linux
+- windows
 
 # Info about the tool on mongodb-tools.com
 purpose: Business Intelligence, Analytics, Data Discovery, Tooling
