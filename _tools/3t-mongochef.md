@@ -20,8 +20,8 @@ permalink: /tool/3t-mongochef/
 layout: tool
 
 # Release Info
-latest_release_date: 2015-02-19
-latest_release_version: 1.10.3
+latest_release_date: 2015-03-09
+latest_release_version: 1.10.8
 
 # Github Info
 github_repo: 

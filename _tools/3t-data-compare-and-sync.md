@@ -20,8 +20,8 @@ permalink: /tool/3t-data-compare-and-sync/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-02-18
-latest_release_version: 1.7.6
+latest_release_date: 2015-03-05
+latest_release_version: 1.7.8
 
 # Github Info
 github_repo: 
