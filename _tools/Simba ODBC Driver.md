@@ -20,8 +20,6 @@ permalink: /tool/simba-odbc-driver/
 layout: tool
 
 # Release Info
-latest_release_date: 1999-12-31
-latest_release_version: 1.2
 
 # Github Info
 ---

@@ -20,8 +20,8 @@ permalink: /tool/moped/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-08-10
-latest_release_version: 1.5.1
+latest_release_date: 2015-02-20
+latest_release_version: 2.0.4
 
 # Github Info
 github_repo: moped

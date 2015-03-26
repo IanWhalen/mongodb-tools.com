@@ -3,7 +3,7 @@
 name: MongoMapper
 language: Ruby
 license: MIT
-maintained: Actively Maintained
+maintained: Inactive
 support: unsupported
 officialUrl: http://mongomapper.com/
 environments:

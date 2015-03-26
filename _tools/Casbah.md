@@ -20,8 +20,8 @@ permalink: /tool/casbah/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-02-09
-latest_release_version: 2.6.5
+latest_release_date: 2014-01-30
+latest_release_version: 2.8.0
 
 # Github Info
 github_repo: casbah

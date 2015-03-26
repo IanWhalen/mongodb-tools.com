@@ -20,9 +20,10 @@ permalink: /tool/mgo/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-11-17
-latest_release_version: r2013.11.18
+latest_release_date: 2015-01-24
+latest_release_version: r2015.01.24
 
 # Github Info
+github_repo: mgo
+github_user: go-mgo
 ---
-

@@ -20,13 +20,12 @@ permalink: /tool/motor/
 layout: tool
 
 # Release Info
-latest_release_date: 2013-10-17
-latest_release_version: 0.1.2
+latest_release_date: 2015-01-30
+latest_release_version: 0.4
 
 # Github Info
 github_repo: motor
 github_user: mongodb
-github_latest_commit_date: 2014-02-22
-stargazers_count: 225
+stargazers_count: 421
 ---
 

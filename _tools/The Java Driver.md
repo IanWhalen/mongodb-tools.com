@@ -13,15 +13,15 @@ environments:
 
 # Info about the tool on mongodb-tools.com
 purpose: Client Interface
-description: The official, 10gen-supported client interface for Java applications.
+description: The officially supported client interface for Java applications.
 slug: the-java-driver
 img: 
 permalink: /tool/the-java-driver/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-01-27
-latest_release_version: 2.11.4
+latest_release_date: 2015-01-30
+latest_release_version: 2.13.0
 
 # Github Info
 github_repo: mongo-java-driver
