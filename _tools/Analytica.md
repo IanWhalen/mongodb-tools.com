@@ -16,8 +16,8 @@ permalink: /tool/analytica/
 layout: tool
 
 # Release Info
-latest_release_date: 2009-12-31
-latest_release_version: 
+latest_release_date: 2014-01-01
+latest_release_version: 4.5
 
 # Github Info
 ---
