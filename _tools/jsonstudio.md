@@ -3,6 +3,7 @@
 name: JSON Studio
 language: Java/Javascript
 license: Commercial
+maintained: Actively Maintained
 support: unsupported
 officialUrl: http://jsonstudio.com/
 environments:

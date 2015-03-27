@@ -3,6 +3,7 @@
 name: Jaspersoft
 language: Java
 license: Commercial
+maintained: Actively Maintained
 support: unsupported
 officialUrl: http://community.jaspersoft.com/project/mongodb-connector/
 
