@@ -1,23 +1,25 @@
 ---
 # Info about the tool
 name: SlamData
-Language: Scala/Purescript
+language: Scala/Purescript
 license: Open Source AGPL V3
 maintained: Actively Maintained
 support: available
 officialUrl: http://www.slamdata.com
 
 # Info about the tool on mongodb-tools.com
-purpose: Run SQL on MongoDB
+purpose: Data Connector
 description: Open Source project that allows users to write SQL directly against MongoDB data.  
-slug: SlamData
-img: slamdata-icon.png
+slug: slamdata
+img: slamdata.png
 permalink: /tool/slamdata/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-8-29
-latest_release_version: 0.1.0
+latest_release_date: 2015-03-05
+latest_release_version: 1.3.2
 
 # Github Info
+github_repo: slamdata
+github_user: slamdata
 ---
