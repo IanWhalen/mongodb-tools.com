@@ -1,6 +1,7 @@
 ---
 # Info about the tool
 name: NoSQL Viewer for BigData
+language: Unknown
 license: Commercial
 maintained: Actively Maintained
 support: unsupported
