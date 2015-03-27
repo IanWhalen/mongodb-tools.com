@@ -1,6 +1,6 @@
 ---
 # Info about the tool
-name: Mtools
+name: mtools
 language: Python
 license: Apache
 maintained: Actively Maintained
@@ -20,8 +20,8 @@ permalink: /tool/mtools/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-05-20
-latest_release_version: 1.1.5
+latest_release_date: 2015-03-10
+latest_release_version: 1.1.8
 
 # Github Info
 github_repo: mtools
