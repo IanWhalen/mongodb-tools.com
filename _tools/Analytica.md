@@ -3,9 +3,9 @@
 name: Analytica
 language: Unknown
 license: Commercial
-maintained: Abandonware
+maintained: Actively Maintained
 support: unsupported
-officialUrl: http://www.analytica.com/
+officialUrl: http://www.lumina.com/products/analytica-editions/
 
 # Info about the tool on mongodb-tools.com
 purpose: Business Intelligence
@@ -16,7 +16,7 @@ permalink: /tool/analytica/
 layout: tool
 
 # Release Info
-latest_release_date: 2014-01-01
+latest_release_date: 2014-02-14
 latest_release_version: 4.5
 
 # Github Info
