@@ -4,7 +4,7 @@ name: Mongo Management Studio
 language: Javascript
 license: Commercial
 maintained: Actively Maintained
-support: Supported
+support: unsupported
 officialUrl: http://www.litixsoft.de/english/mms/
 environments:
 - apple

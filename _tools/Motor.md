@@ -4,7 +4,7 @@ name: Motor
 language: Python
 license: Apache
 maintained: Actively Maintained
-support: Supported
+support: unsupported
 officialUrl: http://motor.readthedocs.org/
 environments:
 - apple
