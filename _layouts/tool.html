@@ -59,7 +59,11 @@ layout: default
       {% if page.github_repo and page.github_latest_commit_date %}
       <p>The last known commit to {{ page.name }} was <strong>{{ page.github_latest_commit_date | timeago }}</strong>.</p>
       {% endif %}
-
+    
+    {% if page.content != '' %}
+    <p><b>Our take: </b>{{ page.content }}</p>
+    {% endif %}
+    
     <!--   {% if page.language != 'Unknown' %}
       <a href="/language/{{ tool['Language']|dasherize() }}">Find More <strong itemprop="applicationCategory">{{ tool['Language']}}</strong> Tools Here</a><br>
       {% endif %} -->
