@@ -11,7 +11,7 @@ officialUrl: https://github.com/variety/variety
 purpose: Shell Enhancement
 description: A tool that leverages the MongoDB shell's Javascript interface to analyze your "schema" and identify outliers.
 slug: variety
-img: 
+img: variety.png
 permalink: /tool/variety/
 layout: tool
 
