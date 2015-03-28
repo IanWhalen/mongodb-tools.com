@@ -49,6 +49,7 @@ layout: default
             <i class="fa fa-{{ env }}"></i>
           {% endfor %}
       {% endif %}
+      <p><a itemprop="url" href="{{ page.officialUrl }}">Developer's Site</a></p>
     </blockquote>
       <hr>
       {% if page.latest_release_date and page.latest_release_version %}
@@ -58,12 +59,15 @@ layout: default
       {% if page.github_repo and page.github_latest_commit_date %}
       <p>The last known commit to {{ page.name }} was <strong>{{ page.github_latest_commit_date | timeago }}</strong>.</p>
       {% endif %}
-
+    
+    {% if page.content != '' %}
+    <p><b>Our take: </b>{{ page.content }}</p>
+    {% endif %}
+    
     <!--   {% if page.language != 'Unknown' %}
       <a href="/language/{{ tool['Language']|dasherize() }}">Find More <strong itemprop="applicationCategory">{{ tool['Language']}}</strong> Tools Here</a><br>
       {% endif %} -->
     <!--   <a href="/purpose/{{ tool['Purpose']|dasherize() }}">Find More <strong itemprop="applicationCategory">{{ tool['Purpose']}}</strong> Tools Here</a><br> -->
-      <a itemprop="url" href="{{ page.officialUrl }}">Developer's Site</a>
   </div>
 </div>
 
