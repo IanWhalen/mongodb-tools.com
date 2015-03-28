@@ -1,12 +1,23 @@
+{% capture page_title %}
+{% if page.title %}{{ page.title }}{% else %}{{ site.name }} | {{page.purpose}} | {{ page.name }}{% endif%}
+{% endcapture %}
+{% capture page_description %}
+{% if page.description %}{{ page.name}}: {{ page.description }}{% else %}{{ site.description }}{% endif %}
+{% endcapture %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{ page.title }}</title>
+    <title>{{ page_title | escape | strip_newlines }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A directory of GUIs, admin interfaces and other tools for getting the most out of MongoDB, a NoSQL document database.">
-    <meta name="keywords" content="">
+    <meta name="description" content="{{page_description | escape | strip_newlines | truncate: 150, '...' }}">
     <meta name="author" content="Ian Whalen">
     <meta charset="utf-8">
+    <meta property="og:title" content="{{ page_title | escape | strip_newlines }}" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="{{ site.name }}"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic|PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>

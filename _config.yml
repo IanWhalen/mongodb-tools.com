@@ -1,4 +1,5 @@
 name: MongoDB Tools
+description: A directory of GUIs, admin interfaces, and other tools for getting the most out of MongoDB, a popular open source document-oriented database.
 markdown: redcarpet
 highlighter: pygments
 collections:
