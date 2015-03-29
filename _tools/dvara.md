@@ -12,7 +12,7 @@ environments:
 - windows
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Data Connector
 description: A connection pooling proxy built at Parse/Facebook for pre-2.6 MongoDB.
 slug: dvara
 img: parse.png

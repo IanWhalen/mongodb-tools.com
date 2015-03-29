@@ -12,7 +12,7 @@ environments:
 - windows
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: Casbah is a toolkit for built on top of the official Java driver with better integration for Scala applications.
 slug: casbah
 img: 

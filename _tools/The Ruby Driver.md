@@ -12,7 +12,7 @@ environments:
 - windows
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: The officially supported client interface for Ruby applications.
 slug: the-ruby-driver
 img: ruby.png

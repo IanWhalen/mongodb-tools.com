@@ -8,7 +8,7 @@ support: supported
 officialUrl: http://php.net/manual/en/book.mongo.php
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: The officially supported client interface for PHP applications.
 slug: the-php-driver
 img: 

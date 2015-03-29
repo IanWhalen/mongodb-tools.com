@@ -8,7 +8,7 @@ support: unsupported
 officialUrl: https://github.com/comtihon/mongodb-erlang
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: MongoDB client interface for Erlang applications.
 slug: the-erlang-driver
 img: 

@@ -8,7 +8,7 @@ support: supported
 officialUrl: https://www.npmjs.com/package/mongodb
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: The officially supported client interface for Node.js applications.
 slug: the-node-driver
 img: node.png

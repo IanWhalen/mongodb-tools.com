@@ -12,7 +12,7 @@ environments:
 - windows
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: A client interface that implements a rich selection of features under a very simple API following standard Go idioms.
 slug: mgo
 img: mgo.png

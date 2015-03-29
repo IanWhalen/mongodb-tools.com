@@ -12,7 +12,7 @@ environments:
 - windows
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: An idiomatic Clojure wrapper around the MongoDB Java driver.
 slug: monger
 img: monger.png

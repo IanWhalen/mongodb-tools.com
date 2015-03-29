@@ -12,7 +12,7 @@ environments:
 - windows
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: A driver that presents a Tornado callback-based API for non-blocking access to MongoDB.
 slug: motor
 img: motor.png

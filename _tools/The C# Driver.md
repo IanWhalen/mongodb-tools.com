@@ -12,7 +12,7 @@ environments:
 - windows
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: The officially supported client interface for C# applications.
 slug: the-csharp-driver
 img: csharp.png

@@ -12,7 +12,7 @@ environments:
 - windows
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: The officially supported client interface for Java applications.
 slug: the-java-driver
 img: 

@@ -2,9 +2,9 @@
   values:
   - Backup
   - Business Intelligence
-  - Client Interface
   - Data Connector
   - Deployment Automation
+  - Driver
   - GUI
   - Log Analysis
   - Monitoring

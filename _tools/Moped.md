@@ -12,7 +12,7 @@ environments:
 - windows
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: A driver exposing a simple, elegant, and fast API. This is the supported driver for the Mongoid ODM.
 slug: moped
 img: 

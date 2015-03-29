@@ -8,7 +8,7 @@ support: supported
 officialUrl: http://docs.mongodb.org/ecosystem/drivers/cpp/
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: The officially supported client interface for C++ applications.
 slug: the-cpp-driver
 img: 

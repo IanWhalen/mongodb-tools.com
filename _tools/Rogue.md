@@ -12,7 +12,7 @@ environments:
 - windows
 
 # Info about the tool on mongodb-tools.com
-purpose: Client Interface
+purpose: Driver
 description: A type-safe internal Scala DSL for constructing and executing find and modify commands against MongoDB in the Lift web framework.
 slug: rogue
 img: 
