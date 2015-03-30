@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: Mongo-Express
-language: Javascript
+language: JavaScript
 license: MIT
 maintained: Inactive
 support: unsupported

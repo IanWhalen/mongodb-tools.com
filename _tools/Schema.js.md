@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: Schema.js
-language: Javascript
+language: JavaScript
 license: MIT And GPL
 maintained: Inactive
 support: unsupported
@@ -9,7 +9,7 @@ officialUrl: http://skratchdot.com/projects/mongodb-schema/
 
 # Info about the tool on mongodb-tools.com
 purpose: Shell Enhancement
-description: An extension that leverages the MongoDB shell's Javascript interface to provide "schema" analysis.
+description: An extension that leverages the MongoDB shell's JavaScript interface to provide "schema" analysis.
 slug: schema-js
 img: 
 permalink: /tool/schema-js/

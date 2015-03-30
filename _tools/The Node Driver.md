@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: The Node Driver
-language: Javascript
+language: JavaScript
 license: Apache 2.0
 maintained: Actively Maintained
 support: supported

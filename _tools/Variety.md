@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: Variety
-language: Javascript
+language: JavaScript
 license: MIT
 maintained: Actively Maintained
 support: unsupported
@@ -9,7 +9,7 @@ officialUrl: https://github.com/variety/variety
 
 # Info about the tool on mongodb-tools.com
 purpose: Shell Enhancement
-description: A tool that leverages the MongoDB shell's Javascript interface to analyze your "schema" and identify outliers.
+description: A tool that leverages the MongoDB shell's JavaScript interface to analyze your "schema" and identify outliers.
 slug: variety
 img: variety.png
 permalink: /tool/variety/

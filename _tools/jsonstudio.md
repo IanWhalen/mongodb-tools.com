@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: JSON Studio
-language: Java/Javascript
+language: Java
 license: Commercial
 maintained: Actively Maintained
 support: unsupported

@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: Mongo Management Studio
-language: Javascript
+language: JavaScript
 license: Commercial
 maintained: Actively Maintained
 support: unsupported

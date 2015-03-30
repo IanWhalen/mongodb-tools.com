@@ -1,7 +1,7 @@
 ---
 # Info about the tool
 name: Mongoose
-language: Javascript
+language: JavaScript
 license: MIT
 maintained: Actively Maintained
 support: unsupported
