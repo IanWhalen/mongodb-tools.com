@@ -439,6 +439,12 @@ div.main {
     color: #dddfe3;
 }
 
+div.detail-no-image {
+    width:300px;
+    height:250px;
+    float:left;
+    text-align:center;
+}
 
 /* Tool details
 ----------------------------------*/

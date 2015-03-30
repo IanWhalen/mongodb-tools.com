@@ -23,6 +23,10 @@ layout: default
 
       {% if page.img %}
         <p><a itemprop="url" href="{{ page.officialUrl }}" target="_blank"><img align="left" src="/img/{{ page.img }}" width="370" height="200" style="padding-right:10px"></a>
+      {% else %}
+        <p><a itemprop="url" href="{{ page.officialUrl }}" target="_blank"><div class="detail-no-image">
+            <i class="fa fa-cogs" style="font-size: 180px; color: #dddfe3;"></i>
+        </div></a>
       {% endif %}
 
 
