@@ -12,10 +12,10 @@ environments:
 - windows
 
 # Info about the tool on mongodb-tools.com
-purpose: Effortlessly build and deploy highly customizable, fully featured RESTful Web Services.
-description: REST APIs for Humans™
+purpose: REST Interface
+description: Effortlessly build and deploy highly customizable, fully featured RESTful Web Services.
 slug: eve
-img: eve.png 
+img: eve_logo.png 
 permalink: /tool/eve
 layout: tool
 
