@@ -15,8 +15,8 @@ environments:
 purpose: REST Interface
 description: Effortlessly build and deploy highly customizable, fully featured RESTful Web Services.
 slug: eve
-img: eve_logo.png 
-permalink: /tool/eve
+img: eve_logo.png
+permalink: /tool/eve/
 layout: tool
 
 # Release Info
