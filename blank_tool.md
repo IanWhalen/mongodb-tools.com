@@ -15,6 +15,7 @@ environments:
 purpose: 
 description: 
 slug: 
+# image should be added to the img/ directory, ideally 370x200px
 img: 
 permalink: 
 layout: tool
@@ -27,6 +28,6 @@ latest_release_version:
 github_repo:
 github_user:
 
-# Include in sitemap?
+# Include in sitemap? Change this to "true" or remove the "sitemap" line
 sitemap: false
 ---
