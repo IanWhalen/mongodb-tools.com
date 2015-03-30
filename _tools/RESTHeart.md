@@ -27,6 +27,4 @@ latest_release_version: 0.10.0
 github_repo: RESTHeart
 github_user: SoftInstigate
 
-# Include in sitemap?
-sitemap: true
 ---

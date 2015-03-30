@@ -27,6 +27,4 @@ latest_release_version: 1.2.0
 github_repo: amid
 github_user: mariano-fiorentino
 
-# Include in sitemap?
-sitemap: false
 ---
