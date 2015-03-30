@@ -16,6 +16,7 @@
 - name: license
   values:
   - 2-clause BSD
+  - AGPL
   - Apache
   - Apache 2.0
   - BSD 2-Clause

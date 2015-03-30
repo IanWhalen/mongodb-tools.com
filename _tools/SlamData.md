@@ -2,7 +2,7 @@
 # Info about the tool
 name: SlamData
 language: Scala/Purescript
-license: Open Source AGPL V3
+license: AGPL
 maintained: Actively Maintained
 support: unsupported
 officialUrl: http://www.slamdata.com
