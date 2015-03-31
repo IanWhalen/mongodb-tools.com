@@ -1,33 +1,49 @@
 ---
-# Info about the tool
+# Tool name
 name: 
+
+# Software language (if applicable, see _data/attr.yml)
 language: 
+
+# License (should be listed in _data/attr.yml)
 license: 
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: 
+
+# url of support forum
 support: 
-officialUrl: 
+
+# homepage url
+officialUrl:
+
+# supported operating systems (if applicable) 
 environments:
 - apple
 - linux
 - windows
 
-# Info about the tool on mongodb-tools.com
+# Purpose (see _data/attr.yml for valid choices)
 purpose: 
+
+# Short description of tool
 description: 
-slug: 
+
 # image should be added to the img/ directory, ideally 370x200px
 img: 
-permalink: 
-layout: tool
 
 # Release Info
-latest_release_date:
 latest_release_version:
+latest_release_date:
 
 # Github Info
-github_repo:
 github_user:
+github_repo:
 
 # Include in sitemap? Change this to "true" or remove the "sitemap" line
 sitemap: false
+
+# Do not change the following settings
+layout: tool
+
 ---
