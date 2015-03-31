@@ -4,7 +4,7 @@ name: SlamData
 language: Scala/Purescript
 license: AGPL
 maintained: Actively Maintained
-support: unsupported
+support: Commercial support available
 officialUrl: http://www.slamdata.com
 
 # Info about the tool on mongodb-tools.com
