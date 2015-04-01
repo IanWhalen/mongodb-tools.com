@@ -24,7 +24,7 @@ environments:
 - windows
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Shell Enhancement
+purpose: Schema Analysis
 
 # Short description of tool
 description: An extension that leverages the MongoDB shell's JavaScript interface to provide "schema" analysis.

@@ -1,6 +1,6 @@
 ---
 # Tool name
-name: Variety
+name: mongodb-schema
 
 # Software language (if applicable, see _data/attr.yml)
 language: JavaScript
@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: https://github.com/variety/variety
+officialUrl: https://github.com/mongodb-js/mongodb-schema
 
 # supported operating systems (if applicable)
 environments:
@@ -27,18 +27,18 @@ environments:
 purpose: Schema Analysis
 
 # Short description of tool
-description: A tool that leverages the MongoDB shell's JavaScript interface to analyze your "schema" and identify outliers.
+description: This package is dual-purpose. It serves as a node.js module and can also be used in the MongoDB shell directly, where it extends the DBCollection shell object.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: variety.png
+img: 
 
 # Release Info
-latest_release_version: 1.2.4
-latest_release_date: 2013-12-04
+latest_release_version: 0.6.0
+latest_release_date: 2015-01-16
 
 # Github Info
-github_user: variety
-github_repo: variety
+github_user: mongodb-js
+github_repo: mongodb-schema
 
 # Do not change the following settings
 layout: tool

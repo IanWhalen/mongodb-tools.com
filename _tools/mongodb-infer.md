@@ -1,6 +1,6 @@
 ---
 # Tool name
-name: Variety
+name: mongodb-infer
 
 # Software language (if applicable, see _data/attr.yml)
 language: JavaScript
@@ -9,13 +9,13 @@ language: JavaScript
 license: MIT
 
 # Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
 support: 
 
 # homepage url
-officialUrl: https://github.com/variety/variety
+officialUrl: https://github.com/imlucas/mongodb-infer
 
 # supported operating systems (if applicable)
 environments:
@@ -27,18 +27,18 @@ environments:
 purpose: Schema Analysis
 
 # Short description of tool
-description: A tool that leverages the MongoDB shell's JavaScript interface to analyze your "schema" and identify outliers.
+description: MongoDB schema inference
 
 # image should be added to the img/ directory, ideally 370x200px
-img: variety.png
+img: 
 
 # Release Info
-latest_release_version: 1.2.4
-latest_release_date: 2013-12-04
+latest_release_version: 0.02
+latest_release_date: 2014-05-20
 
 # Github Info
-github_user: variety
-github_repo: variety
+github_user: imlucas
+github_repo: mongodb-infer
 
 # Do not change the following settings
 layout: tool

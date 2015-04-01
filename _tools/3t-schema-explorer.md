@@ -24,7 +24,7 @@ environments:
 - windows
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: GUI
+purpose: Schema Analysis
 
 # Short description of tool
 description: 3T Schema Explorer is a multi-platform schema analysis GUI tool for MongoDB with full support for MongoDB 3.0
