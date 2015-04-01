@@ -5,6 +5,7 @@ highlighter: pygments
 collections:
   tools:
     output: true
+    permalink: /tool/:name/
 gems:
   - jekyll-timeago
   - jekyll-sitemap
