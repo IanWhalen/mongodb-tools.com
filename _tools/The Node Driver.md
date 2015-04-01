@@ -1,26 +1,47 @@
 ---
-# Info about the tool
+# Tool name
 name: The Node Driver
+
+# Software language (if applicable, see _data/attr.yml)
 language: JavaScript
+
+# License (should be listed in _data/attr.yml)
 license: Apache 2.0
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
-support: supported
+
+# url of support forum
+support: 
+
+# homepage url
 officialUrl: https://www.npmjs.com/package/mongodb
 
-# Info about the tool on mongodb-tools.com
+# supported operating systems (if applicable)
+environments:
+- apple
+- linux
+- windows
+
+# Purpose (see _data/attr.yml for valid choices)
 purpose: Driver
+
+# Short description of tool
 description: The officially supported client interface for Node.js applications.
-slug: the-node-driver
+
+# image should be added to the img/ directory, ideally 370x200px
 img: node.png
-permalink: /tool/the-node-driver/
-layout: tool
 
 # Release Info
-latest_release_date: 2015-03-16
 latest_release_version: 2.0.22
+latest_release_date: 2015-03-16
 
 # Github Info
-github_repo: node-mongodb-native
 github_user: mongodb
+github_repo: node-mongodb-native
+
+# Do not change the following settings
+layout: tool
+
 ---
 

@@ -1,30 +1,48 @@
 ---
-# Info about the tool
+# Tool name
 name: MongoMapper
+
+# Software language (if applicable, see _data/attr.yml)
 language: Ruby
+
+# License (should be listed in _data/attr.yml)
 license: MIT
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: Inactive
-support: unsupported
+
+# url of support forum
+support: 
+
+# homepage url
 officialUrl: http://mongomapper.com/
+
+# supported operating systems (if applicable)
 environments:
 - apple
 - linux
 - windows
 
-# Info about the tool on mongodb-tools.com
+# Purpose (see _data/attr.yml for valid choices)
 purpose: Object Document Mapper
+
+# Short description of tool
 description: MongoMapper is an object mapper for MongoDB built in Ruby to be simple and extensible.
 slug: mongomapper
+
+# image should be added to the img/ directory, ideally 370x200px
 img: mongomapper.png
-permalink: /tool/mongomapper/
-layout: tool
 
 # Release Info
-latest_release_date: 2012-09-11
 latest_release_version: 0.12.0
+latest_release_date: 2012-09-11
 
 # Github Info
-github_repo: mongomapper
 github_user: mongomapper
+github_repo: mongomapper
+
+# Do not change the following settings
+layout: tool
+
 ---
 

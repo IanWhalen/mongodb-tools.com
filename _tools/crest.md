@@ -1,32 +1,46 @@
 ---
-# Info about the tool
+# Tool name
 name: Crest
+
+# Software language (if applicable, see _data/attr.yml)
 language: JavaScript
+
+# License (should be listed in _data/attr.yml)
 license: MIT
-maintained: Inactive 
-support: 
+
+# Maintained: "Actively Maintained" or "Inactive"
+maintained: Inactive
+
+# url of support forum
+support:
+
+# homepage url
 officialUrl: https://github.com/cordazar/crest
+
+# supported operating systems (if applicable)
 environments:
 - apple
 - linux
 - windows
 
-# Info about the tool on mongodb-tools.com
+# Purpose (see _data/attr.yml for valid choices)
 purpose: REST Interface
+
+# Short description of tool
 description: REST API Server for MongoDB
-slug: crest
+
+# image should be added to the img/ directory, ideally 370x200px
 img:
-permalink: /tool/crest/
-layout: tool
 
 # Release Info
-latest_release_date: 2013-04-06
 latest_release_version: 0.0.4
+latest_release_date: 2013-04-06
 
 # Github Info
-github_repo: crest
 github_user: cordazar
+github_repo: crest
 
-# Include in sitemap?
-sitemap: true
+# Do not change the following settings
+layout: tool
+
 ---

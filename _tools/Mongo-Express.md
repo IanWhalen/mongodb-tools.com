@@ -1,26 +1,47 @@
 ---
-# Info about the tool
+# Tool name
 name: Mongo-Express
+
+# Software language (if applicable, see _data/attr.yml)
 language: JavaScript
+
+# License (should be listed in _data/attr.yml)
 license: MIT
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: Inactive
-support: unsupported
+
+# url of support forum
+support: 
+
+# homepage url
 officialUrl: http://andzdroid.github.io/mongo-express/
 
-# Info about the tool on mongodb-tools.com
+# supported operating systems (if applicable)
+environments:
+- apple
+- linux
+- windows
+
+# Purpose (see _data/attr.yml for valid choices)
 purpose: GUI
+
+# Short description of tool
 description: A web-based MongoDB admin interface, written with Node.js and express.
-slug: mongo-express
+
+# image should be added to the img/ directory, ideally 370x200px
 img: mongo-express.png
-permalink: /tool/mongo-express/
-layout: tool
 
 # Release Info
-latest_release_date: 2013-01-01
 latest_release_version: 0.18.0
+latest_release_date: 2013-01-01
 
 # Github Info
-github_repo: mongo-express
 github_user: andzdroid
+github_repo: mongo-express
+
+# Do not change the following settings
+layout: tool
+
 ---
 

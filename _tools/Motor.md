@@ -1,31 +1,47 @@
 ---
-# Info about the tool
+# Tool name
 name: Motor
+
+# Software language (if applicable, see _data/attr.yml)
 language: Python
+
+# License (should be listed in _data/attr.yml)
 license: Apache
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
-support: unsupported
+
+# url of support forum
+support: 
+
+# homepage url
 officialUrl: http://motor.readthedocs.org/
+
+# supported operating systems (if applicable)
 environments:
 - apple
 - linux
 - windows
 
-# Info about the tool on mongodb-tools.com
+# Purpose (see _data/attr.yml for valid choices)
 purpose: Driver
+
+# Short description of tool
 description: A driver that presents a Tornado callback-based API for non-blocking access to MongoDB.
-slug: motor
+
+# image should be added to the img/ directory, ideally 370x200px
 img: motor.png
-permalink: /tool/motor/
-layout: tool
 
 # Release Info
-latest_release_date: 2015-01-30
 latest_release_version: 0.4
+latest_release_date: 2015-01-30
 
 # Github Info
-github_repo: motor
 github_user: mongodb
-stargazers_count: 421
+github_repo: motor
+
+# Do not change the following settings
+layout: tool
+
 ---
 

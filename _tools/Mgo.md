@@ -1,29 +1,44 @@
 ---
-# Info about the tool
+# Tool name
 name: Mgo
+
+# Software language (if applicable, see _data/attr.yml)
 language: Go
+
+# License (should be listed in _data/attr.yml)
 license: Simplified BSD
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
-support: unsupported
+
+# url of support forum
+support: 
+
+# homepage url
 officialUrl: http://labix.org/mgo
 environments:
 - apple
 - linux
 - windows
 
-# Info about the tool on mongodb-tools.com
+# Purpose (see _data/attr.yml for valid choices)
 purpose: Driver
+
+# Short description of tool
 description: A client interface that implements a rich selection of features under a very simple API following standard Go idioms.
-slug: mgo
+
+# image should be added to the img/ directory, ideally 370x200px
 img: mgo.png
-permalink: /tool/mgo/
-layout: tool
 
 # Release Info
-latest_release_date: 2015-01-24
 latest_release_version: r2015.01.24
+latest_release_date: 2015-01-24
 
 # Github Info
-github_repo: mgo
 github_user: go-mgo
+github_repo: mgo
+
+# Do not change the following settings
+layout: tool
+
 ---

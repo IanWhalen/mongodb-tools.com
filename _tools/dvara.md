@@ -1,29 +1,46 @@
 ---
-# Info about the tool
+# Tool name
 name: dvara
+
+# Software language (if applicable, see _data/attr.yml)
 language: Go
+
+# License (should be listed in _data/attr.yml)
 license: BSD 2-Clause
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
-support: unsupported
+
+# url of support forum
+support:
+
+# homepage url
 officialUrl: http://blog.parse.com/2014/06/23/dvara/
+
+# supported operating systems (if applicable) 
 environments:
 - apple
 - linux
 - windows
 
-# Info about the tool on mongodb-tools.com
+# Purpose (see _data/attr.yml for valid choices)
 purpose: Data Connector
+
+# Short description of tool
 description: A connection pooling proxy built at Parse/Facebook for pre-2.6 MongoDB.
-slug: dvara
+
+# image should be added to the img/ directory, ideally 370x200px
 img: parse.png
-permalink: /tool/dvara/
-layout: tool
 
 # Release Info
-latest_release_date: 2015-01-20
 latest_release_version: untagged
+latest_release_date: 2015-01-20
 
 # Github Info
-github_repo: dvara
 github_user: facebookgo
+github_repo: dvara
+
+# Do not change the following settings
+layout: tool
+
 ---

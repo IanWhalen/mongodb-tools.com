@@ -1,30 +1,46 @@
 ---
-# Info about the tool
+# Tool name
 name: Genghis
+
+# Software language (if applicable, see _data/attr.yml)
 language: Ruby
+
+# License (should be listed in _data/attr.yml)
 license: MIT
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
-support: unsupported
+
+# url of support forum
+support:
+
+# homepage url
 officialUrl: http://genghisapp.com/
+
+# supported operating systems (if applicable) 
 environments:
 - apple
 - linux
 - windows
 
-# Info about the tool on mongodb-tools.com
+# Purpose (see _data/attr.yml for valid choices)
 purpose: GUI
+
+# Short description of tool
 description: A single-file app providing a GUI for querying a MongoDB instance.
-slug: genghis
+
+# image should be added to the img/ directory, ideally 370x200px
 img: genghis.png
-permalink: /tool/genghis/
-layout: tool
 
 # Release Info
-latest_release_date: 2014-03-21
 latest_release_version: 2.3.11
+latest_release_date: 2014-03-21
 
 # Github Info
-github_repo: genghis
 github_user: bobthecow
----
+github_repo: genghis
 
+# Do not change the following settings
+layout: tool
+
+---

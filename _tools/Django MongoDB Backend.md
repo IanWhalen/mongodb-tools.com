@@ -1,30 +1,46 @@
 ---
-# Info about the tool
+# Tool name
 name: Django MongoDB Backend
+
+# Software language (if applicable, see _data/attr.yml)
 language: Python
+
+# License (should be listed in _data/attr.yml)
 license: 2-clause BSD
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
-support: unsupported
+
+# url of support forum
+support: 
+
+# homepage url
 officialUrl: http://django-nonrel.org/
+
+# supported operating systems (if applicable)
 environments:
 - apple
 - linux
 - windows
 
-# Info about the tool on mongodb-tools.com
+# Purpose (see _data/attr.yml for valid choices)
 purpose: Object Document Mapper
+
+# Short description of tool
 description: A MongoDB backend for Django.
-slug: django-mongodb-backend
+
+# image should be added to the img/ directory, ideally 370x200px
 img: 
-permalink: /tool/django-mongodb-backend/
-layout: tool
 
 # Release Info
-latest_release_date: 2014-05-18
 latest_release_version: 0.5.2
+latest_release_date: 2014-05-18
 
 # Github Info
-github_repo: mongodb-engine
 github_user: django-nonrel
----
+github_repo: mongodb-engine
 
+# Do not change the following settings
+layout: tool
+
+---

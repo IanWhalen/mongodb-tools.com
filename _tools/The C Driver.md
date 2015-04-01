@@ -1,30 +1,47 @@
 ---
-# Info about the tool
+# Tool name
 name: The C Driver
+
+# Software language (if applicable, see _data/attr.yml)
 language: C
+
+# License (should be listed in _data/attr.yml)
 license: Apache 2.0
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
-support: supported
+
+# url of support forum
+support: 
+
+# homepage url
 officialUrl: http://docs.mongodb.org/ecosystem/drivers/c/
+
+# supported operating systems (if applicable)
 environments:
 - apple
 - linux
 - windows
 
-# Info about the tool on mongodb-tools.com
+# Purpose (see _data/attr.yml for valid choices)
 purpose: Driver
+
+# Short description of tool
 description: The officially supported client interface for C applications.
-slug: the-c-driver
+
+# image should be added to the img/ directory, ideally 370x200px
 img: c.png
-permalink: /tool/the-c-driver/
-layout: tool
 
 # Release Info
-latest_release_date: 2015-03-11
 latest_release_version: 1.1.2
+latest_release_date: 2015-03-11
 
 # Github Info
-github_repo: mongo-c-driver
 github_user: mongodb
+github_repo: mongo-c-driver
+
+# Do not change the following settings
+layout: tool
+
 ---
 

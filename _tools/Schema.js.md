@@ -1,26 +1,47 @@
 ---
-# Info about the tool
+# Tool name
 name: Schema.js
+
+# Software language (if applicable, see _data/attr.yml)
 language: JavaScript
+
+# License (should be listed in _data/attr.yml)
 license: MIT And GPL
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: Inactive
-support: unsupported
+
+# url of support forum
+support: 
+
+# homepage url
 officialUrl: http://skratchdot.com/projects/mongodb-schema/
 
-# Info about the tool on mongodb-tools.com
+# supported operating systems (if applicable)
+environments:
+- apple
+- linux
+- windows
+
+# Purpose (see _data/attr.yml for valid choices)
 purpose: Shell Enhancement
+
+# Short description of tool
 description: An extension that leverages the MongoDB shell's JavaScript interface to provide "schema" analysis.
-slug: schema-js
+
+# image should be added to the img/ directory, ideally 370x200px
 img: 
-permalink: /tool/schema-js/
-layout: tool
 
 # Release Info
-latest_release_date: 2012-05-27
 latest_release_version: 1.1
+latest_release_date: 2012-05-27
 
 # Github Info
-github_repo: mongodb-schema
 github_user: skratchdot
+github_repo: mongodb-schema
+
+# Do not change the following settings
+layout: tool
+
 ---
 
