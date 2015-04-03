@@ -20,6 +20,19 @@ officialUrl: http://community.jaspersoft.com/project/mongodb-connector/
 # supported operating systems (if applicable)
 environments:
 
+# (optional) fully supported MongoDB versions that have been tested
+mongodb_versions:
+#- 2.2
+#- 2.4
+#- 2.6
+#- 3.0
+
+# (optional) minimum MongoDB version
+minimum_mongodb_version:
+
+# (optional) Support for MongoDB Enterprise features? None, Limited, Full
+mongodb_enterprise_support: 
+
 # Purpose (see _data/attr.yml for valid choices)
 purpose: Business Intelligence
 

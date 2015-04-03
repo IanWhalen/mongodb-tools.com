@@ -24,11 +24,11 @@ environments:
 - windows
 
 # (optional) fully supported MongoDB versions that have been tested
-#mongodb_versions:
-# - 2.2
-# - 2.4
-# - 2.6
-# - 3.0
+mongodb_versions:
+#- 2.2
+#- 2.4
+#- 2.6
+#- 3.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
