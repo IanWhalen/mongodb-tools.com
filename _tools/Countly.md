@@ -40,7 +40,7 @@ purpose: Analytics
 description: Open source, enterprise, real-time mobile application management environment with user profiles, analytics, push notifications, crash reports and referral analytics.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: countly.png
+#img: countly.png
 
 # Release Info
 latest_release_version: 15.03.01
