@@ -34,7 +34,7 @@ mongodb_versions:
 minimum_mongodb_version:
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
-mongodb_enterprise_support: 
+mongodb_enterprise_support: Full
 
 # Purpose (see _data/attr.yml for valid choices)
 purpose: Driver

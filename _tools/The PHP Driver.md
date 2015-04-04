@@ -37,7 +37,7 @@ mongodb_versions:
 minimum_mongodb_version:
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
-mongodb_enterprise_support: 
+mongodb_enterprise_support: Full
 
 # Short description of tool
 description: The officially supported client interface for PHP applications.
