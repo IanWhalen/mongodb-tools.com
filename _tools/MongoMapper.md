@@ -47,8 +47,8 @@ slug: mongomapper
 img: mongomapper.png
 
 # Release Info
-latest_release_version: 0.12.0
-latest_release_date: 2012-09-11
+latest_release_version: 0.13.1
+latest_release_date: 2014-11-18
 
 # Github Info
 github_user: mongomapper
