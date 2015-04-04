@@ -51,9 +51,6 @@ latest_release_date:
 github_user: 
 github_repo: 
 
-# Include in sitemap? Change this to "true" or remove the "sitemap" line
-sitemap: false
-
 # Do not change the following settings
 layout: tool
 
