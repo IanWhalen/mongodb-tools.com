@@ -41,6 +41,18 @@ layout: default
       {% if page.maintained %}
         <p>Maintenance status: <strong>{{page.maintained}}</strong>
       {% endif %}
+      {% if page.minimum_mongodb_version %}
+        <p>Minimum MongoDB version: <strong>{{page.minimum_mongodb_version}}</strong>
+      {% endif %}
+      {% if page.mongodb_versions %}
+        <p class="mongodb_version">Supported MongoDB versions:
+          {% for version in page.mongodb_versions %}
+            <strong>{{version}}</strong>
+          {% endfor %}
+      {% endif %}
+      {% if page.mongodb_enterprise_support %}
+        <p>MongoDB Enterprise support: <strong>{{page.mongodb_enterprise_support}}</strong>
+      {% endif %}
       {% if page.license %}
         <p>License: <strong>{{page.license}}</strong>
       {% endif %}

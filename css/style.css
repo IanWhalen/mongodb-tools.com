@@ -546,6 +546,14 @@ p.top-details {
   padding:20px
 }
 
+.mongodb_version strong:after {
+  content: ','
+}
+
+.mongodb_version strong:last-of-type:after {
+    content:''
+}
+
 /* Chosen UI Fixes
 ----------------------------------*/
 
