@@ -1,5 +1,6 @@
 - name: purpose
   values:
+  - Analytics
   - Backup
   - Business Intelligence
   - Data Connector
