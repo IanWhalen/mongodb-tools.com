@@ -6,7 +6,7 @@ name: Luamongo
 language: Lua
 
 # License (should be listed in _data/attr.yml)
-license: Unknown
+license: MIT
 
 # Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
