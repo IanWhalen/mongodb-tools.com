@@ -13,15 +13,15 @@ environments:
 
 # Info about the tool on mongodb-tools.com
 purpose: GUI
-description: A CRUD interface to MongoDB with a focus on ease of use and a pretty UI.
+description: A CRUD interface to MongoDB with a focus on ease of use and a pretty UI. Includes support for MongoDB 3.0.
 slug: mongo-management-studio
 img: mongo-management-studio.png
 permalink: /tool/mongo-management-studio/
 layout: tool
 
 # Release Info
-latest_release_date: 2015-03-19
-latest_release_version: 1.6.0
+latest_release_date: 2015-05-08
+latest_release_version: 1.7.0
 
 # Github Info
 github_repo:
