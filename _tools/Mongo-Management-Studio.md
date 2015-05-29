@@ -1,29 +1,59 @@
 ---
-# Info about the tool
+# Tool name
 name: Mongo Management Studio
-language: Javascript
+
+# Software language (if applicable, see _data/attr.yml)
+language: JavaScript
+
+# License (should be listed in _data/attr.yml)
 license: Commercial
+
+# Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
-support: Supported
+
+# url of support forum
+support: https://groups.google.com/forum/?hl=de#!forum/mongo-management-studio
+
+# homepage url
 officialUrl: http://www.litixsoft.de/english/mms/
+
+# supported operating systems (if applicable)
 environments:
 - apple
 - linux
 - windows
 
-# Info about the tool on mongodb-tools.com
+# (optional) fully supported MongoDB versions that have been tested
+mongodb_versions:
+#- 2.2
+- 2.4
+- 2.6
+- 3.0
+
+# (optional) minimum MongoDB version
+minimum_mongodb_version:
+
+# (optional) Support for MongoDB Enterprise features? None, Limited, Full
+mongodb_enterprise_support:
+
+# Purpose (see _data/attr.yml for valid choices)
 purpose: GUI
-description: A CRUD interface to MongoDB with a focus on ease of use and a pretty UI. Includes support for MongoDB 3.0.
-slug: mongo-management-studio
+
+# Short description of tool
+description: A CRUD interface to MongoDB with a focus on ease of use and a pretty UI.
+
+# image should be added to the img/ directory, ideally 370x200px
 img: mongo-management-studio.png
-permalink: /tool/mongo-management-studio/
-layout: tool
 
 # Release Info
-latest_release_date: 2015-05-08
 latest_release_version: 1.7.0
+latest_release_date: 2015-05-08
 
 # Github Info
-github_repo:
 github_user:
+github_repo:
+
+# Do not change the following settings
+layout: tool
+
 ---
