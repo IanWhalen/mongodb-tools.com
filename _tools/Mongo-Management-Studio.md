@@ -40,14 +40,14 @@ mongodb_enterprise_support:
 purpose: GUI
 
 # Short description of tool
-description: A CRUD interface to MongoDB with a focus on ease of use and a pretty UI.
+description: A CRUD interface to MongoDB with a focus on ease of use and a pretty UI, including support for SSH and SSL.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: mongo-management-studio.png
 
 # Release Info
-latest_release_version: 1.7.0
-latest_release_date: 2015-05-08
+latest_release_version: 1.8.0
+latest_release_date: 2015-07-09
 
 # Github Info
 github_user:
