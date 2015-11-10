@@ -3,7 +3,7 @@
 name: 3T MongoChef
 
 # Software language (if applicable, see _data/attr.yml)
-language: Java
+# language: Java
 
 # License (should be listed in _data/attr.yml)
 license: Commercial
@@ -28,6 +28,7 @@ mongodb_versions:
 - 2.4
 - 2.6
 - 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -45,8 +46,8 @@ description: 3T MongoChef is a MongoDB GUI for Mac, Windows, and Linux. 3T Mongo
 img: 3t-mongochef.png
 
 # Release Info
-latest_release_version: 1.10.8
-latest_release_date: 2015-03-09
+latest_release_version: 3.0.7
+latest_release_date: 2015-11-03
 
 # Github Info
 github_user: 
