@@ -29,6 +29,8 @@ mongodb_versions:
 - 2.4
 - 2.6
 - 3.0
+- 3.2
+
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +48,8 @@ description: A comprehensive tool suite for MongoDB with a focus on data access,
 img: jsonar.png
 
 # Release Info
-latest_release_version: 2.3
-latest_release_date: 2014-10-07
+latest_release_version: 4.1.0
+latest_release_date: 2015-11-09
 
 # Github Info
 github_user: 
