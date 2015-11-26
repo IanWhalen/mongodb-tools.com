@@ -3,7 +3,7 @@
 name: ClusterControl
 
 # Software language (if applicable, see _data/attr.yml)
-language: JavaScript
+language: C++, JavaScript
 
 # License (should be listed in _data/attr.yml)
 license: Commercial
