@@ -36,7 +36,7 @@ minimum_mongodb_version:
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Deployment Automation, Monitoring, Backup, Performance Tuning
+purpose: GUI, Deployment Automation, Monitoring, Backup, Performance Tuning
 
 # Short description of tool
 description: Management Automation for MongoDB (plus MySQL and PostgreSQL): Deploy, manage, monitor and scale entire clusters
