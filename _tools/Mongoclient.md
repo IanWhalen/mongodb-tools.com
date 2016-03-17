@@ -27,6 +27,9 @@ environments:
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
 - 3.2
+- 3.0
+- 2.6
+- 2.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
