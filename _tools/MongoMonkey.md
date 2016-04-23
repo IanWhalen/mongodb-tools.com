@@ -37,7 +37,7 @@ minimum_mongodb_version:
 mongodb_enterprise_support:
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: REST Interface
+purpose: GUI
 
 # Short description of tool
 description: An npm mongo GUI. Support for multiple queries, and mongo 3+ compatible.
