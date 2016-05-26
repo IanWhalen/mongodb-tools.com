@@ -19,10 +19,9 @@ officialUrl: http://sboesebeck.github.io/morphium/
 
 # supported operating systems (if applicable)
 environments:
-- Mac OSX
-- Linux
-- Windows
-- all OS running Java
+- apple
+- linux
+- windows
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
@@ -37,10 +36,9 @@ minimum_mongodb_version:
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
 mongodb_enterprise_support: 
-none
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Object Mapper
+purpose: Object Document Mapper
 
 # Short description of tool
 description: Morphium is a full featured POJO Mapper for MongoDB, including cluster awareness, declarative caching and many more features
@@ -49,8 +47,8 @@ description: Morphium is a full featured POJO Mapper for MongoDB, including clus
 img: morphium.png
 
 # (optional) Release Info
-latest_release_version: 2.2.23
-latest_release_date: 2015-09-11
+latest_release_version: 3.0.0
+latest_release_date: 2016-05-02
 
 # (optional) Github Info
 github_user: sboesebeck
