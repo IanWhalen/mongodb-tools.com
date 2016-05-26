@@ -3,7 +3,7 @@
 name: Mongoclient
 
 # Software language (if applicable, see _data/attr.yml)
-language: JavaScript (MeteorJS)
+language: JavaScript
 
 # License (should be listed in _data/attr.yml)
 license: MIT
@@ -22,14 +22,13 @@ environments:
 - apple
 - linux
 - windows
-- mobile
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 3.2
+- 2.4
 - 3.0
 - 2.6
-- 2.4
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -41,14 +40,14 @@ mongodb_enterprise_support:
 purpose: GUI
 
 # Short description of tool
-description: Featured mongodb management tool. 
+description: Cross-platform MongoDB Management Client written in Meteor.js
 
 # (optional) image should be added to the img/ directory, ideally 370x200px
 img: mongoclient.png
 
 # (optional) Release Info
-latest_release_version: 1.0.0
-latest_release_date: 2016-15-03
+latest_release_version: 1.2.1
+latest_release_date: 2016-05-23
 
 # (optional) Github Info
 github_user: rsercano
