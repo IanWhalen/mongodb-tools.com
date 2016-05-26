@@ -47,8 +47,8 @@ description: MongoBooster is a shell-centric cross-platform GUI tool for MongoDB
 img: mongobooster.png
 
 # Release Info
-latest_release_version: 1.0.1
-latest_release_date: 2015-12-12
+latest_release_version: 2.0.1
+latest_release_date: 2016-05-24
 
 # Github Info
 github_user: 
