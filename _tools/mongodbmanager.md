@@ -23,10 +23,11 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.2
+- 2.4
+- 2.6
+- 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -44,8 +45,8 @@ description: A desktop GUI tool for MongoDB database management, administration 
 img: mongodbmanager.png 
 
 # Release Info
-latest_release_version: 2.3
-latest_release_date: 2015-03-23
+latest_release_version: 3.1.0.5
+latest_release_date: 2015-10-08
 
 # Github Info
 github_user:

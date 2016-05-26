@@ -1,6 +1,6 @@
 ---
 # Tool name
-name: The Node Driver
+name: The Node.js Driver
 
 # Software language (if applicable, see _data/attr.yml)
 language: JavaScript
@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: https://www.npmjs.com/package/mongodb
+officialUrl: http://mongodb.github.io/node-mongodb-native/2.1/
 
 # supported operating systems (if applicable)
 environments:
@@ -25,10 +25,10 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
 - 2.4
 - 2.6
 - 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +46,8 @@ description: The officially supported client interface for Node.js applications.
 img: node.png
 
 # Release Info
-latest_release_version: 2.0.22
-latest_release_date: 2015-03-16
+latest_release_version: 2.1.20
+latest_release_date: 2016-05-25
 
 # Github Info
 github_user: mongodb

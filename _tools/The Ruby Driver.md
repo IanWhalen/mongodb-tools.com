@@ -29,6 +29,7 @@ mongodb_versions:
 - 2.4
 - 2.6
 - 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +47,8 @@ description: The officially supported client interface for Ruby applications.
 img: ruby.png
 
 # Release Info
-latest_release_version: 1.12.0
-latest_release_date: 2015-01-30
+latest_release_version: 2.2.5
+latest_release_date: 2016-03-01
 
 # Github Info
 github_user: mongodb

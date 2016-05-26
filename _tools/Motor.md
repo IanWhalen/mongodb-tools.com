@@ -25,10 +25,11 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.2
+- 2.4
+- 2.6
+- 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +47,8 @@ description: A driver that presents a Tornado callback-based API for non-blockin
 img: motor.png
 
 # Release Info
-latest_release_version: 0.4
-latest_release_date: 2015-01-30
+latest_release_version: 0.6.2
+latest_release_date: 2016-03-08
 
 # Github Info
 github_user: mongodb

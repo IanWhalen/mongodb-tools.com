@@ -25,10 +25,10 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
 - 2.4
 - 2.6
 - 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +46,8 @@ description: The officially supported client interface for Perl applications.
 img: 
 
 # Release Info
-latest_release_version: 0.708.0.0
-latest_release_date: 2015-01-21
+latest_release_version: 1.4.1
+latest_release_date: 2016-05-18
 
 # Github Info
 github_user: mongodb

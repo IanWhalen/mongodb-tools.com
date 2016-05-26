@@ -25,10 +25,10 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
 - 2.4
-#- 2.6
+- 2.6
 #- 3.0
+#- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +46,8 @@ description: MongoDB client interface for Erlang applications.
 img: 
 
 # Release Info
-latest_release_version: 0.4.1
-latest_release_date: 2015-02-19
+latest_release_version: 0.9.8
+latest_release_date: 2016-04-05
 
 # Github Info
 github_user: comtihon
