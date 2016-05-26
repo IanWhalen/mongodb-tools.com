@@ -25,10 +25,10 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.4
+- 2.6
+- 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -40,14 +40,14 @@ mongodb_enterprise_support:
 purpose: GUI
 
 # Short description of tool
-description: A CRUD interface to MongoDB with a focus on ease of use and a pretty UI.
+description: A CRUD interface to MongoDB with a focus on ease of use and a pretty UI, including support for SSH and SSL.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: mongo-management-studio.png
 
 # Release Info
-latest_release_version: 1.6.0
-latest_release_date: 2015-03-19
+latest_release_version: 1.9.4
+latest_release_date: 2016-03-17
 
 # Github Info
 github_user: 
