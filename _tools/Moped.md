@@ -9,13 +9,13 @@ language: Ruby
 license: MIT
 
 # Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
 support: 
 
 # homepage url
-officialUrl: http://mongoid.org/en/moped/
+officialUrl: https://github.com/mongoid/moped
 
 # supported operating systems (if applicable)
 environments:
@@ -46,8 +46,8 @@ description: A driver exposing a simple, elegant, and fast API. This is the supp
 img: 
 
 # Release Info
-latest_release_version: 2.0.4
-latest_release_date: 2015-02-20
+latest_release_version: 2.0.7
+latest_release_date: 2015-08-15
 
 # Github Info
 github_user: mongoid
