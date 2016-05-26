@@ -28,7 +28,7 @@ mongodb_versions:
 - 2.4
 - 2.6
 #- 3.0
-#s- 3.2
+#- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
