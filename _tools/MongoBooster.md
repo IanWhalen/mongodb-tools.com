@@ -1,9 +1,9 @@
 ---
 # Tool name
-name: MMS Backup
+name: MongoBooster
 
 # Software language (if applicable, see _data/attr.yml)
-language: Unknown
+language: Javascript
 
 # License (should be listed in _data/attr.yml)
 license: Commercial
@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: https://mms.mongodb.com/learn-more#backup
+officialUrl: http://mongobooster.com
 
 # supported operating systems (if applicable)
 environments:
@@ -25,29 +25,30 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
+- 2.2
 - 2.4
 - 2.6
 - 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
-minimum_mongodb_version: 2.4.3 (for a sharded cluster)
+minimum_mongodb_version:
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
-mongodb_enterprise_support: Full
+mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Backup
+purpose: GUI
 
 # Short description of tool
-description: A cloud-based service for backing up and restoring data in MongoDB.
+description: MongoBooster is a shell-centric cross-platform GUI tool for MongoDB v2.2-3.2, which provides update-in-place, Lodash & Moment.js integration, ES6 syntax support and true intellisense experience.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: backup-service.png
+img: mongobooster.png
 
 # Release Info
-latest_release_version: 
-latest_release_date: 
+latest_release_version: 2.0.1
+latest_release_date: 2016-05-24
 
 # Github Info
 github_user: 
@@ -57,4 +58,3 @@ github_repo:
 layout: tool
 
 ---
-

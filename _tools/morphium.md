@@ -1,9 +1,9 @@
 ---
 # Tool name
-name: mtools
+name: Morphium
 
 # Software language (if applicable, see _data/attr.yml)
-language: Python
+language: Java
 
 # License (should be listed in _data/attr.yml)
 license: Apache
@@ -11,11 +11,11 @@ license: Apache
 # Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
 
-# url of support forum
-support: 
+# (optional) url of support forum
+support: https://github.com/sboesebeck/morphium
 
 # homepage url
-officialUrl: https://github.com/rueckstiess/mtools
+officialUrl: http://sboesebeck.github.io/morphium/
 
 # supported operating systems (if applicable)
 environments:
@@ -25,10 +25,11 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
-- 2.4
-- 2.6
-- 3.0
+#- 2.2
+#- 2.4
+#- 2.6
+#- 3.0
+#- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -37,24 +38,23 @@ minimum_mongodb_version:
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Log Analysis
+purpose: Object Document Mapper
 
 # Short description of tool
-description: A collection of helper scripts to set up MongoDB test environments and parse MongoDB log files.
+description: Morphium is a full featured POJO Mapper for MongoDB, including cluster awareness, declarative caching and many more features
 
-# image should be added to the img/ directory, ideally 370x200px
-img: mtools.png
+# (optional) image should be added to the img/ directory, ideally 370x200px
+img: morphium.png
 
-# Release Info
-latest_release_version: 1.2.1
-latest_release_date: 2016-03-22
+# (optional) Release Info
+latest_release_version: 3.0.0
+latest_release_date: 2016-05-02
 
-# Github Info
-github_user: rueckstiess
-github_repo: mtools
+# (optional) Github Info
+github_user: sboesebeck
+github_repo: morphium
 
 # Do not change the following settings
 layout: tool
 
 ---
-

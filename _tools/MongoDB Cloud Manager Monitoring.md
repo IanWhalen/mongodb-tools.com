@@ -1,21 +1,21 @@
 ---
 # Tool name
-name: mtools
+name: MongoDB Cloud Manager - Monitoring
 
 # Software language (if applicable, see _data/attr.yml)
-language: Python
+# language: Unknown
 
 # License (should be listed in _data/attr.yml)
-license: Apache
+license: Commercial
 
 # Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.cloud.mongodb.com/
 
 # homepage url
-officialUrl: https://github.com/rueckstiess/mtools
+officialUrl: https://www.mongodb.com/cloud
 
 # supported operating systems (if applicable)
 environments:
@@ -25,33 +25,33 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
 - 2.4
 - 2.6
 - 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
-minimum_mongodb_version:
+# minimum_mongodb_version: 2.4.3
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
-mongodb_enterprise_support: 
+mongodb_enterprise_support: Full
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Log Analysis
+purpose: Monitoring
 
 # Short description of tool
-description: A collection of helper scripts to set up MongoDB test environments and parse MongoDB log files.
+description: Cloud Manager is a freemium service from MongoDB, Inc. that includes comprehensive features for managing, monitoring, and backing up MongoDB infrastructure.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: mtools.png
+img: mongodb-cloud-manager-monitoring.png
 
 # Release Info
-latest_release_version: 1.2.1
-latest_release_date: 2016-03-22
+latest_release_version: 
+latest_release_date: 
 
 # Github Info
-github_user: rueckstiess
-github_repo: mtools
+github_user: 
+github_repo: 
 
 # Do not change the following settings
 layout: tool
