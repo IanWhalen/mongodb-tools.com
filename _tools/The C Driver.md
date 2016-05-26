@@ -25,10 +25,10 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
 - 2.4
 - 2.6
 - 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +46,8 @@ description: The officially supported client interface for C applications.
 img: c.png
 
 # Release Info
-latest_release_version: 1.1.2
-latest_release_date: 2015-03-11
+latest_release_version: 1.3.5
+latest_release_date: 2016-03-31
 
 # Github Info
 github_user: mongodb
