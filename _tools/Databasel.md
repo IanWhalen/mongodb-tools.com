@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support:
 
 # homepage url
-officialUrl: http://databasel.com/?ref=
+officialUrl: http://databasel.com/?ref=mongodb-tools
 
 # supported operating systems (if applicable)
 environments:
