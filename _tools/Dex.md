@@ -9,7 +9,7 @@ language: Python
 license: MIT
 
 # Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
 support: 
@@ -25,8 +25,8 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
+- 2.2
+- 2.4
 #- 2.6
 #- 3.0
 
