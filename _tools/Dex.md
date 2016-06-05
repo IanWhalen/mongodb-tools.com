@@ -37,7 +37,7 @@ minimum_mongodb_version:
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Performance Tuning
+purpose: Diagnostics & Performance Tuning
 
 # Short description of tool
 description: Dex is a tool developed by the mLab engineers that suggests corrections to your indexes based on logged queries.

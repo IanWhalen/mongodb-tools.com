@@ -37,7 +37,7 @@ minimum_mongodb_version:
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Log Analysis
+purpose: Diagnostics & Performance Tuning
 
 # Short description of tool
 description: A visualizer that takes mongod log files and generates easy-to-parse pictures of the represented servers.

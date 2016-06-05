@@ -37,7 +37,7 @@ minimum_mongodb_version:
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Log Analysis
+purpose: Diagnostics & Performance Tuning
 
 # Short description of tool
 description: A collection of helper scripts to set up MongoDB test environments and parse MongoDB log files.
