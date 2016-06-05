@@ -43,7 +43,7 @@ purpose: Schema Analysis
 description: This package infers a probabilistic schema for a MongoDB collection. It can be used as a Node.js module and also includes a command-line `mongodb-schema` utility.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: 
+img: mongodb-schema.png
 
 # Release Info
 latest_release_version: 4.1.1
