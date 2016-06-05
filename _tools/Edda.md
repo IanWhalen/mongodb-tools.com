@@ -15,7 +15,7 @@ maintained: Inactive
 support: unsupported
 
 # homepage url
-officialUrl: https://github.com/10gen-labs/edda
+officialUrl: https://github.com/mongodb-labs/edda
 
 # supported operating systems (if applicable)
 environments:
@@ -25,9 +25,9 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
+- 2.2
+- 2.4
+- 2.6
 #- 3.0
 
 # (optional) minimum MongoDB version
@@ -37,20 +37,20 @@ minimum_mongodb_version:
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Log Analysis
+purpose: Diagnostics & Performance Tuning
 
 # Short description of tool
-description: A visualizer that takes mongod log files and generates easy-to-parse pictures of the represented servers.
+description: A visualizer that generates a timeline of replica set election activity from mongod log files.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: edda.png
 
 # Release Info
 latest_release_version: untagged
-latest_release_date: 2014-07-11
+latest_release_date: 2015-07-23
 
 # Github Info
-github_user: 10gen-labs
+github_user: mongodb-labs
 github_repo: edda
 
 # Do not change the following settings

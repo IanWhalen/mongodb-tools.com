@@ -1,28 +1,27 @@
 ---
 # Tool name
+name: Flashback
 
 # Software language (if applicable, see _data/attr.yml)
-name: Ridemongo
+language: Go
 
 # License (should be listed in _data/attr.yml)
-language: C#
-
-# License (should be listed in _data/attr.yml)
-license: GNU
+license: BSD 2-Clause
 
 # Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
-support: 
+support: https://github.com/ParsePlatform/flashback/issues
 
 # homepage url
-officialUrl: http://www.ridemongo.com.co
+officialUrl: https://github.com/ParsePlatform/flashback
 
-# supported operating systems (if applicable)
+# supported operating systems (if applicable) 
 environments:
-- linux
-- windows
+# - apple
+# - linux
+# - windows
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
@@ -38,21 +37,21 @@ minimum_mongodb_version:
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: GUI
+purpose: Diagnostics & Performance Tuning
 
 # Short description of tool
-description: A cross platform desktop application that gives you a GUI interface to work with MongoDB.
+description: A benchmark framework to capture & replay MongoDB queries using different strategies.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: ridemongo.png
+img: parse.png
 
 # Release Info
-latest_release_version: 
-latest_release_date: 
+latest_release_version: untagged
+latest_release_date: 2015-11-11
 
 # Github Info
-github_user: ghostride
-github_repo: ridemongo
+github_user: ParsePlatform
+github_repo: flashback
 
 # Do not change the following settings
 layout: tool
