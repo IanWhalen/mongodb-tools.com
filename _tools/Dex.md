@@ -9,13 +9,13 @@ language: Python
 license: MIT
 
 # Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
 support: 
 
 # homepage url
-officialUrl: http://blog.mongolab.com/2012/06/introducing-dex-the-index-bot/
+officialUrl: http://blog.mlab.com/2012/06/introducing-dex-the-index-bot/
 
 # supported operating systems (if applicable)
 environments:
@@ -25,8 +25,8 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
+- 2.2
+- 2.4
 #- 2.6
 #- 3.0
 
@@ -40,7 +40,7 @@ mongodb_enterprise_support:
 purpose: Performance Tuning
 
 # Short description of tool
-description: Dex is a tool developed by the MongoLab engineers that suggests corrections to your indexes based on logged queries.
+description: Dex is a tool developed by the mLab engineers that suggests corrections to your indexes based on logged queries.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: dex.png

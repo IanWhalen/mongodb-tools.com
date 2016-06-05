@@ -40,7 +40,7 @@ mongodb_enterprise_support:
 purpose: Driver
 
 # Short description of tool
-description: A driver exposing a simple, elegant, and fast API. This is the supported driver for the Mongoid ODM.
+description: An alternative MongoDB driver used by the Mongoid ODM (versions 3 & 4).
 
 # image should be added to the img/ directory, ideally 370x200px
 img: 

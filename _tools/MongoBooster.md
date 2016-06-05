@@ -35,13 +35,13 @@ mongodb_versions:
 minimum_mongodb_version:
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
-mongodb_enterprise_support: 
+mongodb_enterprise_support: Full
 
 # Purpose (see _data/attr.yml for valid choices)
 purpose: GUI
 
 # Short description of tool
-description: MongoBooster is a shell-centric cross-platform GUI tool for MongoDB v2.2-3.2, which provides update-in-place, Lodash & Moment.js integration, ES6 syntax support and true intellisense experience.
+description: MongoBooster is a shell-centric cross-platform GUI which includes features such as update-in-place, Lodash & Moment.js integration, ES6 syntax support, and code completion.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: mongobooster.png

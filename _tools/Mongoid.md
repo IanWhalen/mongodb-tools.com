@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: http://mongoid.org/en/mongoid/
+officialUrl: https://docs.mongodb.com/ecosystem/tutorial/ruby-mongoid-tutorial/
 
 # supported operating systems (if applicable)
 environments:
@@ -26,9 +26,10 @@ environments:
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
 #- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.4
+- 2.6
+- 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,11 +47,11 @@ description: A library providing a familiar API to Ruby developers who have used
 img: mongoid.png
 
 # Tool Release Info
-latest_release_version: 4.0.2
-latest_release_date: 2015-02-20
+latest_release_version: 5.1.3
+latest_release_date: 2016-04-21
 
 # Github Info
-github_user: mongoid
+github_user: mongodb
 github_repo: mongoid
 
 # Do not change the following settings

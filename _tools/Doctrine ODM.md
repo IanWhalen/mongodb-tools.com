@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: https://github.com/doctrine/mongodb-odm
+officialUrl: http://doctrine-orm.readthedocs.io/projects/doctrine-mongodb-odm/en/latest/
 
 # supported operating systems (if applicable)
 environments:
@@ -46,8 +46,8 @@ description: A library that provides a PHP object mapping functionality for Mong
 img: doctrine.png
 
 # Release Info
-latest_release_version: 1.0.0-BETA12
-latest_release_date: 2015-02-24
+latest_release_version: 1.0.5
+latest_release_date: 2016-02-16
 
 # Github Info
 github_user: doctrine
