@@ -40,7 +40,7 @@ mongodb_enterprise_support:
 purpose: GUI
 
 # Short description of tool
-description: An administration GUI tool.
+description: An administration tool written in PHP5.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: rockmongo.png
