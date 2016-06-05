@@ -23,10 +23,11 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.2
+- 2.4
+- 2.6
+- 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -38,14 +39,14 @@ mongodb_enterprise_support:
 purpose: Data Connector
 
 # Short description of tool
-description: MongoDBPumper is an innovative, powerful and comprehensive product for high-performance data migration between Oracle and MongoDB databases in both directions.
+description: MongoDBPumper is a product for bidirectional data migration between Oracle and MongoDB databases.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: mongodbpumper.jpg
 
 # Release Info
-latest_release_version: 2.0.50
-latest_release_date: 2015-03-21
+latest_release_version: 2.0.70
+latest_release_date: 2016-04-11
 
 # Github Info
 github_user: 
