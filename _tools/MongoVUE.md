@@ -3,7 +3,7 @@
 name: MongoVUE
 
 # Software language (if applicable, see _data/attr.yml)
-language: C#
+# language: C#
 
 # License (should be listed in _data/attr.yml)
 license: Commercial
@@ -23,9 +23,9 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
+- 2.2
+- 2.4
+- 2.6
 #- 3.0
 
 # (optional) minimum MongoDB version

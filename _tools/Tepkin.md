@@ -37,17 +37,17 @@ mongodb_enterprise_support:
 purpose: Driver
 
 # Short description of tool
-description: Reactive MongoDB Driver for Scala 2.11 and Java 8 built on top of Akka IO and Akka Streams.
+description: Reactive MongoDB Driver for Scala built on top of Akka IO and Akka Streams.
 
 # (optional) image should be added to the img/ directory, ideally 370x200px
 img: 
 
 # (optional) Release Info
-latest_release_version: 0.1
-latest_release_date: 2015-03-21
+latest_release_version: 0.7
+latest_release_date: 2016-03-09
 
 # (optional) Github Info
-github_user: fehmicansaglam
+github_user: jeroenr
 github_repo: tepkin
 
 # Do not change the following settings

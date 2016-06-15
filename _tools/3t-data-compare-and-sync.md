@@ -3,7 +3,7 @@
 name: 3T Data Compare and Sync
 
 # Software language (if applicable, see _data/attr.yml)
-language: Java
+# language: Java
 
 # License (should be listed in _data/attr.yml)
 license: Commercial
@@ -45,8 +45,8 @@ description: 3T Data Compare & Sync is a multi-platform data comparison and sync
 img: 3t-data-compare-and-sync.png
 
 # Release Info
-latest_release_version: 1.7.8
-latest_release_date: 2015-03-05
+latest_release_version: 2.0.3
+latest_release_date: 2015-07-20
 
 # Github Info
 github_user: 

@@ -1,21 +1,21 @@
 ---
 # Tool name
-name: mongodb-infer
+name: Morphium
 
 # Software language (if applicable, see _data/attr.yml)
-language: JavaScript
+language: Java
 
 # License (should be listed in _data/attr.yml)
-license: MIT
+license: Apache
 
 # Maintained: "Actively Maintained" or "Inactive"
-maintained: Inactive
+maintained: Actively Maintained
 
-# url of support forum
-support: 
+# (optional) url of support forum
+support: https://github.com/sboesebeck/morphium
 
 # homepage url
-officialUrl: https://github.com/imlucas/mongodb-infer
+officialUrl: http://sboesebeck.github.io/morphium/
 
 # supported operating systems (if applicable)
 environments:
@@ -29,6 +29,7 @@ mongodb_versions:
 #- 2.4
 #- 2.6
 #- 3.0
+#- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -37,24 +38,23 @@ minimum_mongodb_version:
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Schema Analysis
+purpose: Object Document Mapper
 
 # Short description of tool
-description: MongoDB schema inference
+description: Morphium is a full featured POJO Mapper for MongoDB, including cluster awareness, declarative caching and many more features
 
-# image should be added to the img/ directory, ideally 370x200px
-img: 
+# (optional) image should be added to the img/ directory, ideally 370x200px
+img: morphium.png
 
-# Release Info
-latest_release_version: 0.02
-latest_release_date: 2014-05-20
+# (optional) Release Info
+latest_release_version: 3.0.0
+latest_release_date: 2016-05-02
 
-# Github Info
-github_user: imlucas
-github_repo: mongodb-infer
+# (optional) Github Info
+github_user: sboesebeck
+github_repo: morphium
 
 # Do not change the following settings
 layout: tool
 
 ---
-

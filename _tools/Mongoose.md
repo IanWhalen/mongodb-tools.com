@@ -25,10 +25,11 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.2
+- 2.4
+- 2.6
+- 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,11 +47,11 @@ description: A library providing elegant MongoDB object modeling for Node.js.
 img: mongoose.png
 
 # Release Info
-latest_release_version: 3.8.25
-latest_release_date: 2015-03-13
+latest_release_version: 4.4.19
+latest_release_date: 2016-05-21
 
 # Github Info
-github_user: learnboost
+github_user: Automattic
 github_repo: mongoose
 
 # Do not change the following settings

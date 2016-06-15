@@ -26,12 +26,13 @@ environments:
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
 #- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.4
+- 2.6
+- 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
-minimum_mongodb_version:
+minimum_mongodb_version: 2.4
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
 mongodb_enterprise_support: 
@@ -40,14 +41,14 @@ mongodb_enterprise_support:
 purpose: Shell Enhancement
 
 # Short description of tool
-description: A config file with a variety of interface tweaks to the default shell.
+description: User experience tweaks for the mongo shell including colorized output, fluent aggregation helpers, and command/API additions.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: mongo-hacker.png
 
 # Release Info
-latest_release_version: 0.0.5
-latest_release_date: 2015-03-19
+latest_release_version: 0.0.13
+latest_release_date: 2016-03-08
 
 # Github Info
 github_user: TylerBrock

@@ -1,6 +1,6 @@
 ---
 # Tool name
-name: Luamongo
+name: LuaMongo
 
 # Software language (if applicable, see _data/attr.yml)
 language: Lua
@@ -40,14 +40,14 @@ mongodb_enterprise_support:
 purpose: Driver
 
 # Short description of tool
-description: Lua driver for MongoDB
+description: Lua driver for MongoDB (building on the official C++ driver).
 
 # (optional) image should be added to the img/ directory, ideally 370x200px
 img: 
 
 # (optional) Release Info
-latest_release_version: 0.4.4
-latest_release_date: 2014-12-07
+latest_release_version: 0.5.1
+latest_release_date: 2015-12-23
 
 # (optional) Github Info
 github_user: moai

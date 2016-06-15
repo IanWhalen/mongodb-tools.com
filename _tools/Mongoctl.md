@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: http://mongolab.org/mongoctl/
+officialUrl: https://github.com/mongolab/mongoctl
 
 # supported operating systems (if applicable)
 environments:
@@ -45,8 +45,8 @@ description: A command line utility to simplify the installation and management 
 img: mongolab.png
 
 # Release Info
-latest_release_version: 0.3.7
-latest_release_date: 2013-07-09
+latest_release_version: 1.0.8
+latest_release_date: 2016-05-27
 
 # Github Info
 github_user: mongolab

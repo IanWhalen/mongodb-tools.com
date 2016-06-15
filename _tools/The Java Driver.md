@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: http://docs.mongodb.org/ecosystem/drivers/java/
+officialUrl: http://mongodb.github.io/mongo-java-driver/
 
 # supported operating systems (if applicable)
 environments:
@@ -25,10 +25,10 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
 - 2.4
 - 2.6
 - 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +46,8 @@ description: The officially supported client interface for Java applications.
 img: 
 
 # Release Info
-latest_release_version: 2.13.0
-latest_release_date: 2015-01-30
+latest_release_version: 3.2.2
+latest_release_date: 2016-02-16
 
 # Github Info
 github_user: mongodb

@@ -1,27 +1,27 @@
 ---
 # Tool name
-name: RJMetrics
+name: Flashback
 
 # Software language (if applicable, see _data/attr.yml)
-language: Unknown
+language: Go
 
 # License (should be listed in _data/attr.yml)
-license: Commercial
+license: BSD 2-Clause
 
 # Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
-support: 
+support: https://github.com/ParsePlatform/flashback/issues
 
 # homepage url
-officialUrl: https://rjmetrics.com/product/connectors/mongo-db
+officialUrl: https://github.com/ParsePlatform/flashback
 
-# supported operating systems (if applicable)
+# supported operating systems (if applicable) 
 environments:
-- apple
-- linux
-- windows
+# - apple
+# - linux
+# - windows
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
@@ -37,24 +37,23 @@ minimum_mongodb_version:
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Business Intelligence
+purpose: Diagnostics & Performance Tuning
 
 # Short description of tool
-description: A hosted service for creating charts and shared dashboards from a disparate set of data sources, including a dedicated connector for MongoDB.
+description: A benchmark framework to capture & replay MongoDB queries using different strategies.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: rjmetrics.png
+img: parse.png
 
 # Release Info
-latest_release_version: 
-latest_release_date: 
+latest_release_version: untagged
+latest_release_date: 2015-11-11
 
 # Github Info
-github_user: 
-github_repo: 
+github_user: ParsePlatform
+github_repo: flashback
 
 # Do not change the following settings
 layout: tool
 
 ---
-

@@ -9,13 +9,13 @@ language: Ruby
 license: MIT
 
 # Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
 support: 
 
 # homepage url
-officialUrl: http://mongoid.org/en/moped/
+officialUrl: https://github.com/mongoid/moped
 
 # supported operating systems (if applicable)
 environments:
@@ -40,14 +40,14 @@ mongodb_enterprise_support:
 purpose: Driver
 
 # Short description of tool
-description: A driver exposing a simple, elegant, and fast API. This is the supported driver for the Mongoid ODM.
+description: An alternative MongoDB driver used by the Mongoid ODM (versions 3 & 4).
 
 # image should be added to the img/ directory, ideally 370x200px
 img: 
 
 # Release Info
-latest_release_version: 2.0.4
-latest_release_date: 2015-02-20
+latest_release_version: 2.0.7
+latest_release_date: 2015-08-15
 
 # Github Info
 github_user: mongoid

@@ -1,9 +1,9 @@
 ---
 # Tool name
-name: MongoDirector
+name: MongoDB Cloud Manager - Backup
 
 # Software language (if applicable, see _data/attr.yml)
-language: Unknown
+# language: Unknown
 
 # License (should be listed in _data/attr.yml)
 license: Commercial
@@ -12,37 +12,38 @@ license: Commercial
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.cloud.mongodb.com/
 
 # homepage url
-officialUrl: http://mongodirector.com/
+officialUrl: https://www.mongodb.com/cloud
 
 # supported operating systems (if applicable)
 environments:
+- apple
 - linux
 - windows
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.4
+- 2.6
+- 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
-minimum_mongodb_version:
+minimum_mongodb_version: 2.4.3 (for a sharded cluster)
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
-mongodb_enterprise_support: 
+mongodb_enterprise_support: Full
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Deployment Automation
+purpose: Backup
 
 # Short description of tool
-description: A SaaS management layer that allows users to deploy and maitnain MongoDB clusters within their own cloud accounts.
+description: Cloud Manager is the only solution that offers continuous, real-time backup for MongoDB with point-in-time recovery of replica sets and cluster-wide snapshots of sharded clusters.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: 
+img: mongodb-cloud-manager-backup.png
 
 # Release Info
 latest_release_version: 

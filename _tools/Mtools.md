@@ -25,10 +25,10 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.2
+- 2.4
+- 2.6
+- 3.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -37,7 +37,7 @@ minimum_mongodb_version:
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Log Analysis
+purpose: Diagnostics & Performance Tuning
 
 # Short description of tool
 description: A collection of helper scripts to set up MongoDB test environments and parse MongoDB log files.
@@ -46,8 +46,8 @@ description: A collection of helper scripts to set up MongoDB test environments 
 img: mtools.png
 
 # Release Info
-latest_release_version: 1.1.8
-latest_release_date: 2015-03-10
+latest_release_version: 1.2.1
+latest_release_date: 2016-03-22
 
 # Github Info
 github_user: rueckstiess
