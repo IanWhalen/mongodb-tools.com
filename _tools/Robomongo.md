@@ -46,8 +46,8 @@ description: A desktop application embedding the MongoDB shell and providing ide
 img: robomongo.png
 
 # Release Info
-latest_release_version: 0.9.0 RC8
-latest_release_date: 2016-04-14
+latest_release_version: 0.9.0
+latest_release_date: 2016-10-06
 
 # Github Info
 github_user: paralect
