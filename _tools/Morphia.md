@@ -30,6 +30,7 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,8 +48,8 @@ description: A lightweight type-safe library for mapping Java objects to/from Mo
 img: 
 
 # Release Info
-latest_release_version: 1.1.1
-latest_release_date: 2016-01-27
+latest_release_version: 1.3.0
+latest_release_date: 2016-11-29
 
 # Github Info
 github_user: mongodb
