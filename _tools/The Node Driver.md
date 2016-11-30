@@ -1,6 +1,6 @@
 ---
 # Tool name
-name: The Node.js Driver
+name: MongoDB Node.js Driver
 
 # Software language (if applicable, see _data/attr.yml)
 language: JavaScript
@@ -29,6 +29,7 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +47,8 @@ description: The officially supported client interface for Node.js applications.
 img: node.png
 
 # Release Info
-latest_release_version: 2.1.20
-latest_release_date: 2016-05-25
+latest_release_version: 2.1.22
+latest_release_date: 2016-11-28
 
 # Github Info
 github_user: mongodb

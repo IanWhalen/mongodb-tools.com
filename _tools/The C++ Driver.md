@@ -1,6 +1,6 @@
 ---
 # Tool name
-name: The C++ Driver
+name: MongoDB C++11 Driver
 
 # Software language (if applicable, see _data/attr.yml)
 language: C++
@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: http://docs.mongodb.org/ecosystem/drivers/cpp/
+officialUrl: https://mongodb.github.io/mongo-cxx-driver/
 
 # supported operating systems (if applicable)
 environments:
@@ -29,6 +29,7 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +47,8 @@ description: The officially supported client interface for C++ applications.
 img: 
 
 # Release Info
-latest_release_version: C++11 3.0.1
-latest_release_date: 2016-03-31
+latest_release_version: C++11 3.1.0
+latest_release_date: 2016-11-29
 
 # Github Info
 github_user: mongodb
