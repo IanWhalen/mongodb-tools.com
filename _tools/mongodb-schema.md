@@ -40,14 +40,14 @@ mongodb_enterprise_support:
 purpose: Schema Analysis
 
 # Short description of tool
-description: This package is dual-purpose. It serves as a node.js module and can also be used in the MongoDB shell directly, where it extends the DBCollection shell object.
+description: This package infers a probabilistic schema for a MongoDB collection. It can be used as a Node.js module and also includes a command-line `mongodb-schema` utility.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: 
+img: mongodb-schema.png
 
 # Release Info
-latest_release_version: 0.6.0
-latest_release_date: 2015-01-16
+latest_release_version: 4.1.1
+latest_release_date: 2016-03-17
 
 # Github Info
 github_user: mongodb-js

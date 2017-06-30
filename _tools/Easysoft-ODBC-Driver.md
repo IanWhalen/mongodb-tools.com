@@ -25,9 +25,9 @@ environments:
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
 #- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.4
+- 2.6
+- 3.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -39,7 +39,7 @@ mongodb_enterprise_support:
 purpose: Data Connector
 
 # Short description of tool
-description: High-performance ODBC Driver for MongoDB database. Allows SQL connection to MongoDB.
+description: ODBC driver to connect industry standard BI, analytics, and spreadsheet applications to MongoDB.
 
 # image should be added to the img/ directory, ideally 370x200px
 img:

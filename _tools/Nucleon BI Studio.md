@@ -38,7 +38,7 @@ mongodb_enterprise_support:
 purpose: Business Intelligence
 
 # Short description of tool
-description: A tool for business intelligence, data reporting, data visualization, data mining  and data analysis.
+description: A tool for business intelligence, data reporting, data visualization, data mining, and data analysis.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: nucleon.png

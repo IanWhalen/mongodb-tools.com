@@ -5,12 +5,11 @@
   - Business Intelligence
   - Data Connector
   - Deployment Automation
+  - Diagnostics & Performance Tuning
   - Driver
   - GUI
-  - Log Analysis
   - Monitoring
   - Object Document Mapper
-  - Performance Tuning
   - REST Interface
   - Shell Enhancement
   - Schema Analysis
@@ -26,6 +25,7 @@
   - Eclipse Public
   - GNU
   - GPLv2
+  - ISC
   - LGPL
   - MIT
   - MIT And GPL

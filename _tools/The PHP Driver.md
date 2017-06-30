@@ -1,6 +1,6 @@
 ---
 # Tool name
-name: PHP MongoDB Driver
+name:  MongoDB PHP Driver
 
 # Software language (if applicable, see _data/attr.yml)
 language: PHP
@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: http://php.net/manual/en/book.mongo.php
+officialUrl: http://php.net/mongodb
 
 # Purpose (see _data/attr.yml for valid choices)
 purpose: Driver
@@ -28,10 +28,11 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
 - 2.4
 - 2.6
 - 3.0
+- 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +47,8 @@ description: The officially supported client interface for PHP applications.
 img: 
 
 # Release Info
-latest_release_version: 1.6.5
-latest_release_date: 2015-03-13
+latest_release_version: 1.2.0
+latest_release_date: 2016-11-29
 
 # Github Info
 github_user: mongodb

@@ -1,21 +1,21 @@
 ---
 # Tool name
-name: Mongri
+name: Mongoclient
 
 # Software language (if applicable, see _data/attr.yml)
 language: JavaScript
 
 # License (should be listed in _data/attr.yml)
-license: Commercial
+license: MIT
 
 # Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
 
-# url of support forum
-support: 
+# (optional) url of support forum
+support: https://groups.google.com/forum/#!forum/mongoclient
 
 # homepage url
-officialUrl: http://github.com/dongri/mongri
+officialUrl: http://www.mongoclient.com
 
 # supported operating systems (if applicable)
 environments:
@@ -25,10 +25,10 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.4
+- 3.0
+- 2.6
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -40,18 +40,18 @@ mongodb_enterprise_support:
 purpose: GUI
 
 # Short description of tool
-description: A web-based user interface for MongoDB
+description: Cross-platform MongoDB Management Client written in Meteor.js
 
-# image should be added to the img/ directory, ideally 370x200px
-img: mongri.png
+# (optional) image should be added to the img/ directory, ideally 370x200px
+img: mongoclient.png
 
-# Release Info
-latest_release_version: 0.0.1
-latest_release_date: 2014-07-01
+# (optional) Release Info
+latest_release_version: 1.2.1
+latest_release_date: 2016-05-23
 
-# Github Info
-github_user: dongri
-github_repo: mongri
+# (optional) Github Info
+github_user: rsercano
+github_repo: mongoclient
 
 # Do not change the following settings
 layout: tool

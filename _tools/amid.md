@@ -46,8 +46,8 @@ description: AMID (Another Mongo Internet Driver) is a Node.js REST interface fo
 img: 
 
 # Release Info
-latest_release_version: 1.2.0
-latest_release_date: 2015-02-28
+latest_release_version: 1.2.5
+latest_release_date: 2015-11-18
 
 # Github Info
 github_user: mariano-fiorentino

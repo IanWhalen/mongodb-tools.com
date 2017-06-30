@@ -27,27 +27,28 @@ environments:
 mongodb_versions:
 #- 2.2
 #- 2.4
-#- 2.6
-#- 3.0
+- 2.6
+- 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
-mongodb_enterprise_support: 
+mongodb_enterprise_support: Full
 
 # Purpose (see _data/attr.yml for valid choices)
 purpose: Driver
 
 # Short description of tool
-description: Casbah is a toolkit for built on top of the official Java driver with better integration for Scala applications.
+description: Casbah is a toolkit built on top of the official Java driver with better integration for Scala applications.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: 
+img: casbah.png
 
 # Release Info
-latest_release_version: 2.8.0
-latest_release_date: 2015-01-30
+latest_release_version: 3.1.1
+latest_release_date: 2016-03-02
 
 # Github Info
 github_user: mongodb

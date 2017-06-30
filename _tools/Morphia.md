@@ -25,10 +25,12 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.2
+- 2.4
+- 2.6
+- 3.0
+- 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +48,8 @@ description: A lightweight type-safe library for mapping Java objects to/from Mo
 img: 
 
 # Release Info
-latest_release_version: r0.1110
-latest_release_date: 2015-02-06
+latest_release_version: 1.3.0
+latest_release_date: 2016-11-29
 
 # Github Info
 github_user: mongodb
@@ -55,5 +57,4 @@ github_repo: morphia
 
 # Do not change the following settings
 layout: tool
-
 ---

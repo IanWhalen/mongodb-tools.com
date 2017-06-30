@@ -46,8 +46,8 @@ description: Jongo allows querying in Java as in the Mongo shell; unmarshalling 
 img: jongo.jpg
 
 # (optional) Release Info
-latest_release_version: 1.1
-latest_release_date: 2014-07-22
+latest_release_version: 1.3.0
+latest_release_date: 2016-04-02
 
 # (optional) Github Info
 github_user: bguerout

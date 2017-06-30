@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: http://motor.readthedocs.org/
+officialUrl: http://motor.readthedocs.io
 
 # supported operating systems (if applicable)
 environments:
@@ -25,10 +25,12 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.2
+- 2.4
+- 2.6
+- 3.0
+- 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +48,8 @@ description: A driver that presents a Tornado callback-based API for non-blockin
 img: motor.png
 
 # Release Info
-latest_release_version: 0.4
-latest_release_date: 2015-01-30
+latest_release_version: 1.1
+latest_release_date: 2016-11-29
 
 # Github Info
 github_user: mongodb

@@ -26,9 +26,10 @@ environments:
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
 #- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.4
+- 2.6
+- 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +47,8 @@ description: Effortlessly build and deploy highly customizable, fully featured R
 img: eve_logo.png
 
 # Release Info
-latest_release_version: 0.5.3
-latest_release_date: 2015-03-17
+latest_release_version: 0.6.3
+latest_release_date: 2016-03-16
 
 # Github Info
 github_user: nicolaiarocci

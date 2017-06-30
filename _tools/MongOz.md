@@ -9,7 +9,7 @@ language: Java
 license: Apache 2.0
 
 # Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
 support: 

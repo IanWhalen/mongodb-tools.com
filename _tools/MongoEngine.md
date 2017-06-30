@@ -26,9 +26,10 @@ environments:
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
 #- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.4
+- 2.6
+- 3.0
+- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,8 +48,8 @@ slug: mongoengine
 img: mongoengine.png
 
 # Release Info
-latest_release_version: 0.8.7
-latest_release_date: 2014-01-25
+latest_release_version: 0.10.6
+latest_release_date: 2016-01-25
 
 # Github Info
 github_user: MongoEngine

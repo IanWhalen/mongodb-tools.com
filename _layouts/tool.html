@@ -56,7 +56,7 @@ layout: default
       {% if page.license %}
         <p>License: <strong>{{page.license}}</strong>
       {% endif %}
-      {% if page.language != "Unknown" %}
+      {% if page.language && page.language != "Unknown" %}
         <p>Language: <strong>{{page.language}}</strong>
       {% endif %}
       {% if page.environments %}
