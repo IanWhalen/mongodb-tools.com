@@ -1,6 +1,6 @@
 ---
 # Tool name
-name: 3T Data Compare and Sync
+name: Studio 3T (formerly MongoChef) 
 
 # Software language (if applicable, see _data/attr.yml)
 # language: Java
@@ -12,22 +12,24 @@ license: Commercial
 maintained: Actively Maintained
 
 # url of support forum
-support: unsupported
+support: https://studio3t.com/feedback/
 
 # homepage url
-officialUrl: http://3t.io/data-compare
+officialUrl: https://studio3t.com/
 
 # supported operating systems (if applicable)
 environments:
+- windows
 - apple
 - linux
-- windows
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
 - 2.4
 - 2.6
 - 3.0
+- 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -39,14 +41,14 @@ mongodb_enterprise_support:
 purpose: GUI
 
 # Short description of tool
-description: 3T Data Compare & Sync is a multi-platform data comparison and synchronization GUI tool for MongoDB with full support for MongoDB 3.0
+description: Studio 3T is a fully featured IDE for MongoDB. The best MongoDB GUI for MongoDB professionals. Studio 3T is free for personal and non-commercial use. Full support for MongoDB 3.4
 
 # image should be added to the img/ directory, ideally 370x200px
-img: 3t-data-compare-and-sync.png
+img: studio-3t.png
 
 # Release Info
-latest_release_version: 2.0.3
-latest_release_date: 2015-07-20
+latest_release_version: 5.3.4
+latest_release_date: 2017-06-19
 
 # Github Info
 github_user: 
