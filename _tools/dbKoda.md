@@ -45,8 +45,8 @@ description: dbKoda is a modern open source database development tool featuring 
 img: dbKoda.png
 
 # Release Info
-latest_release_version: 0.6
-latest_release_date: 2017-07-17
+latest_release_version: 0.7.0
+latest_release_date: 2017-08-31
 
 # Github Info
 github_user: SouthbankSoftware
