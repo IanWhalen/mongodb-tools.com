@@ -42,7 +42,6 @@ purpose: Driver
 
 # Short description of tool
 description: The officially supported client interface for C++ applications.
-slug: cxx-driver
 
 # image should be added to the img/ directory, ideally 370x200px
 img: 
