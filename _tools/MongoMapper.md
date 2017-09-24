@@ -12,7 +12,7 @@ license: MIT
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/mongomapper/mongomapper/issues
 
 # homepage url
 officialUrl: http://mongomapper.com/
@@ -47,8 +47,8 @@ slug: mongomapper
 img: mongomapper.png
 
 # Release Info
-latest_release_version: 0.13.1
-latest_release_date: 2014-11-18
+latest_release_version: 0.14.0
+latest_release_date: 2017-01-19
 
 # Github Info
 github_user: mongomapper
