@@ -47,7 +47,7 @@ description: A MongoDB GUI installable via npm. Run multiple queries with tabbed
 img: mongomonkey.png
 
 # Release Info
-latest_release_version: 1.0.2
+latest_release_version: 2.0.4
 # latest_release_date: 2015-03-13
 
 # Github Info

@@ -12,7 +12,7 @@ license: MIT
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: https://docs.mongodb.com/ecosystem/tutorial/ruby-mongoid-tutorial/
@@ -47,8 +47,8 @@ description: A library providing a familiar API to Ruby developers who have used
 img: mongoid.png
 
 # Tool Release Info
-latest_release_version: 5.1.3
-latest_release_date: 2016-04-21
+latest_release_version: 6.2.1
+latest_release_date: 2017-08-16
 
 # Github Info
 github_user: mongodb

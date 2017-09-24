@@ -12,10 +12,10 @@ license: Unknown
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/mongodb-labs/mongo-connector/issues
 
 # homepage url
-officialUrl: https://github.com/10gen-labs/mongo-connector/wiki
+officialUrl: https://github.com/mongodb-labs/mongo-connector/wiki
 
 # supported operating systems (if applicable)
 environments:
@@ -46,11 +46,11 @@ description: A generic connection system to integrate MongoDB with another syste
 img: 
 
 # Release Info
-latest_release_version: 2.0.1
-latest_release_date: 2015-02-10
+latest_release_version: 2.5.1
+latest_release_date: 2017-02-28
 
 # Github Info
-github_user: 10gen-labs
+github_user: mongodb-labs
 github_repo: mongo-connector
 
 # Do not change the following settings

@@ -12,7 +12,7 @@ license: GNU
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/Studio3T/robomongo/issues
 
 # homepage url
 officialUrl: http://robomongo.org/

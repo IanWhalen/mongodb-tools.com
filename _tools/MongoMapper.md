@@ -41,7 +41,6 @@ purpose: Object Document Mapper
 
 # Short description of tool
 description: MongoMapper is an object mapper for MongoDB built in Ruby to be simple and extensible.
-slug: mongomapper
 
 # image should be added to the img/ directory, ideally 370x200px
 img: mongomapper.png

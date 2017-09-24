@@ -25,7 +25,6 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.4
 - 2.6
 - 3.0
 - 3.2

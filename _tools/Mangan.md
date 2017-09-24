@@ -47,8 +47,8 @@ description: Unobtrusive MongoDB Object Persister/Document Mapper.
 img: mangan.png
 
 # Release Info
-latest_release_version: 4.4.6
-latest_release_date: 2017-03-17
+latest_release_version: 4.4.17
+latest_release_date: 2017-09-08
 
 # Github Info
 github_user: Maslosoft

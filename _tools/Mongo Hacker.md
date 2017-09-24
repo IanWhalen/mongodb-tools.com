@@ -12,7 +12,7 @@ license: MIT
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/TylerBrock/mongo-hacker/issues
 
 # homepage url
 officialUrl: http://tylerbrock.github.io/mongo-hacker/
@@ -30,6 +30,7 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version: 2.4
@@ -47,8 +48,8 @@ description: User experience tweaks for the mongo shell including colorized outp
 img: mongo-hacker.png
 
 # Release Info
-latest_release_version: 0.0.13
-latest_release_date: 2016-03-08
+latest_release_version: 0.0.15
+latest_release_date: 2016-10-29
 
 # Github Info
 github_user: TylerBrock

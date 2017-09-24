@@ -9,10 +9,10 @@ language: Objective C
 license: Apache 2.0
 
 # Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+maintained: Inactive
 
 # (optional) url of support forum
-support: 
+support: https://github.com/paulmelnikow/ObjCMongoDB/issues
 
 # homepage url
 officialUrl: https://github.com/paulmelnikow/ObjCMongoDB/wiki/GettingStarted

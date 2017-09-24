@@ -12,7 +12,7 @@ license: Eclipse Public
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://groups.google.com/forum/?fromgroups#!forum/clojure-mongodb
 
 # homepage url
 officialUrl: http://clojuremongodb.info/
@@ -46,8 +46,8 @@ description: An idiomatic Clojure wrapper around the MongoDB Java driver.
 img: monger.png
 
 # Release Info
-latest_release_version: 2.1.0
-latest_release_date: 2015-02-23
+latest_release_version: 3.1.0
+latest_release_date: 2016-09-20
 
 # Github Info
 github_user: michaelklishin

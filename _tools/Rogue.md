@@ -9,7 +9,7 @@ language: Scala
 license: Apache 2.0
 
 # Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
 support: 
@@ -46,12 +46,12 @@ description: A type-safe internal Scala DSL for constructing and executing find 
 img: 
 
 # Release Info
-latest_release_version: 2.2.0
-latest_release_date: 2013-07-11
+latest_release_version: 2.5.1
+latest_release_date: 2015-01-19
 
 # Github Info
 github_user: foursquare
-github_repo: rogue
+github_repo: fsqio
 
 # Do not change the following settings
 layout: tool

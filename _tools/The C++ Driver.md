@@ -42,13 +42,14 @@ purpose: Driver
 
 # Short description of tool
 description: The officially supported client interface for C++ applications.
+slug: cxx-driver
 
 # image should be added to the img/ directory, ideally 370x200px
 img: 
 
 # Release Info
-latest_release_version: C++11 3.1.0
-latest_release_date: 2016-11-29
+latest_release_version: C++11 3.1.3
+latest_release_date: 2017-08-22
 
 # Github Info
 github_user: mongodb

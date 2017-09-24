@@ -25,7 +25,6 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
 - 2.4
 - 2.6
 - 3.0
@@ -48,8 +47,8 @@ description: The officially supported client interface for Python applications.
 img: python.png
 
 # Release Info
-latest_release_version: 3.4.0
-latest_release_date: 2016-11-29
+latest_release_version: 3.5.1
+latest_release_date: 2017-08-24
 
 # Github Info
 github_user: mongodb

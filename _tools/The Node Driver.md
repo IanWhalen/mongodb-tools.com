@@ -47,8 +47,8 @@ description: The officially supported client interface for Node.js applications.
 img: node.png
 
 # Release Info
-latest_release_version: 2.1.22
-latest_release_date: 2016-11-28
+latest_release_version: 2.2.31
+latest_release_date: 2017-08-09
 
 # Github Info
 github_user: mongodb
