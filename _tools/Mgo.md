@@ -12,7 +12,7 @@ license: Simplified BSD
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: http://groups.google.com/group/mgo-users
 
 # homepage url
 officialUrl: http://labix.org/mgo
@@ -44,8 +44,8 @@ description: A client interface that implements a rich selection of features und
 img: mgo.png
 
 # Release Info
-latest_release_version: r2015.01.24
-latest_release_date: 2015-01-24
+latest_release_version: r2015.12.06
+latest_release_date: 2015-12-06
 
 # Github Info
 github_user: go-mgo
