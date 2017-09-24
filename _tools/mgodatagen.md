@@ -12,7 +12,7 @@ license: MIT
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/feliixx/mgodatagen/issues
 
 # homepage url
 officialUrl: https://github.com/feliixx/mgodatagen
@@ -40,14 +40,14 @@ mongodb_enterprise_support:
 purpose: Diagnostics & Performance Tuning
 
 # Short description of tool
-description: A small CLI tool to quickly generate millions of pseudo-random BSON documents and insert them into a Mongodb instance. Test how your application responds when your database grows.
+description: A small CLI tool to quickly generate millions of pseudo-random BSON documents and insert them into a MongoDB instance. Test how your application responds when your database grows.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: 
 
 # Release Info
-latest_release_version: 0.0.1
-latest_release_date: 2017-08-11
+latest_release_version: 0.2
+latest_release_date: 2017-09-15
 
 # Github Info
 github_user: feliixx
