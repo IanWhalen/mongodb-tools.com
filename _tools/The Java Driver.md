@@ -12,7 +12,7 @@ license: Apache
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: http://mongodb.github.io/mongo-java-driver/

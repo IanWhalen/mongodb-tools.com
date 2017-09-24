@@ -12,7 +12,7 @@ license: Apache
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/rueckstiess/mtools/issues
 
 # homepage url
 officialUrl: https://github.com/rueckstiess/mtools

@@ -12,7 +12,7 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: http://php.net/mongodb

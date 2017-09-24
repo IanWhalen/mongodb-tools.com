@@ -12,7 +12,7 @@ license: Unknown
 maintained: Inactive
 
 # url of support forum
-support: unsupported
+support:
 
 # homepage url
 officialUrl: https://github.com/mongodb-labs/edda

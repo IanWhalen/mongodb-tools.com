@@ -12,7 +12,7 @@ license: MIT
 maintained: Actively Maintained
 
 # (optional) url of support forum
-support: http://groups.google.com/group/luamongo
+support: https://groups.google.com/group/luamongo
 
 # homepage url
 officialUrl: https://github.com/moai/luamongo

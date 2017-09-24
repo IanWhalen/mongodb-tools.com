@@ -12,7 +12,7 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # url of support forum
-support: supported
+support:
 
 # homepage url
 officialUrl: https://github.com/mongobee/mongobee

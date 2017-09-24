@@ -12,7 +12,7 @@ license: BSD
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://groups.google.com/forum/#!forum/python-eve
 
 # homepage url
 officialUrl: http://python-eve.org
