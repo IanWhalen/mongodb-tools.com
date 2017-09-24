@@ -8,7 +8,7 @@ title: MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff
 <div class="main outer">
   <div id="Grid" class="inner">
   {% for t in site.tools %}
-  <div class="mix tool {{ t.purpose | handle }} {{ t.language | languageHandle }} {{ t.license | handle }} {{ t.support | handle }} {{ t.environments | join: ' ' }} {{ t.mongodb_versions | join: ' ' | replace: '.', '_' }} {{ t.mongodb_enterprise_support | handle }}">
+  <div class="mix tool {{ t.purpose | handle }} {{ t.language | languageHandle }} {{ t.license | handle }} {{ t.support | handle }} {{ t.environments | join: ' ' }} {{ t.mongodb_versions | join: ' ' | replace: '.', '_' }} {{ t.mongodb_enterprise_support | handle }} {{ t.maintained | maintenanceHandle }}">
     <div class="tile">
       {% if t.img %}
       <div class="tool-image">
