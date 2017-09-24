@@ -46,8 +46,8 @@ description: The officially supported client interface for C# applications.
 img: csharp.png
 
 # Release Info
-latest_release_version: 2.4.0
-latest_release_date: 2016-11-29
+latest_release_version: 2.4.4
+latest_release_date: 2017-06-09
 
 # Github Info
 github_user: mongodb
