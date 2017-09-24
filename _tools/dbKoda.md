@@ -28,7 +28,6 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
-- 3.5
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -50,8 +49,8 @@ latest_release_version: 0.6
 latest_release_date: 2017-07-17
 
 # Github Info
-github_user: admin@southbanksoftware.com
-github_repo: https://github.com/SouthbankSoftware/dbkoda
+github_user: SouthbankSoftware
+github_repo: dbkoda
 
 # Do not change the following settings
 layout: tool
