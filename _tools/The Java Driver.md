@@ -12,7 +12,7 @@ license: Apache
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: http://mongodb.github.io/mongo-java-driver/
@@ -47,8 +47,8 @@ description: The officially supported client interface for Java applications.
 img: 
 
 # Release Info
-latest_release_version: 3.4.0
-latest_release_date: 2016-11-29
+latest_release_version: 3.5.0
+latest_release_date: 2017-08-03
 
 # Github Info
 github_user: mongodb

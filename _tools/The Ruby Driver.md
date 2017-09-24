@@ -12,7 +12,7 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: http://api.mongodb.org/ruby/current/
@@ -25,7 +25,6 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
 - 2.4
 - 2.6
 - 3.0
@@ -48,8 +47,8 @@ description: The officially supported client interface for Ruby applications.
 img: ruby.png
 
 # Release Info
-latest_release_version: 2.4.0
-latest_release_date: 2016-11-29
+latest_release_version: 2.4.3
+latest_release_date: 2017-07-24
 
 # Github Info
 github_user: mongodb

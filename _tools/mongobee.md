@@ -12,7 +12,7 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # url of support forum
-support: supported
+support:
 
 # homepage url
 officialUrl: https://github.com/mongobee/mongobee
@@ -46,8 +46,8 @@ description: mongobee is a Java tool which can help you to manage changes in you
 img: mongobee.png
 
 # Release Info
-latest_release_version: 0.9
-latest_release_date: 2014-11-24
+latest_release_version: 0.13
+latest_release_date: 2017-08-12
 
 # Github Info
 github_user: mongobee

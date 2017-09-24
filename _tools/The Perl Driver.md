@@ -12,7 +12,7 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: https://metacpan.org/module/MongoDB
@@ -47,8 +47,8 @@ description: The officially supported client interface for Perl applications.
 img: 
 
 # Release Info
-latest_release_version: 1.6.0
-latest_release_date: 2016-11-29
+latest_release_version: 1.8.0
+latest_release_date: 2017-04-10
 
 # Github Info
 github_user: mongodb

@@ -12,7 +12,7 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # (optional) url of support forum
-support: 
+support: https://bitbucket.org/djcbeach/monary/issues
 
 # homepage url
 officialUrl: https://bitbucket.org/djcbeach/monary/overview
@@ -46,8 +46,8 @@ description: Monary is an array-based querying mechanism for MongoDB, using Pyth
 img: 
 
 # (optional) Release Info
-latest_release_version: 0.2.3
-latest_release_date: 2014-07-08
+latest_release_version: 0.5.0
+latest_release_date: 2016-08-14
 
 # (optional) Github Info
 github_user: 

@@ -9,7 +9,7 @@ language: Unknown
 license: Commercial
 
 maintained: Actively Maintained
-support: unsupported
+support:
 
 # homepage url
 officialUrl: http://www.spviewer.com/nosqlviewer.html

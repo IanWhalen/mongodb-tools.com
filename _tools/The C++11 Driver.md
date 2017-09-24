@@ -12,7 +12,7 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: https://mongodb.github.io/mongo-cxx-driver/
@@ -47,8 +47,8 @@ description: The officially supported client interface for C++ applications.
 img: 
 
 # Release Info
-latest_release_version: C++11 3.1.0
-latest_release_date: 2016-11-29
+latest_release_version: C++11 3.1.3
+latest_release_date: 2017-08-22
 
 # Github Info
 github_user: mongodb

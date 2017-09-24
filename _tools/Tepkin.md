@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: https://github.com/fehmicansaglam/tepkin
+officialUrl: https://github.com/jeroenr/tepkin
 
 # supported operating systems (if applicable)
 environments:

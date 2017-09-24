@@ -1,18 +1,18 @@
 ---
 # Tool name
-name: Mongoclient
+name: Nosqlclient (formerly Mongoclient)
 
 # Software language (if applicable, see _data/attr.yml)
 language: JavaScript
 
 # License (should be listed in _data/attr.yml)
-license: MIT
+license: AGPL
 
 # Maintained: "Actively Maintained" or "Inactive"
 maintained: Actively Maintained
 
 # (optional) url of support forum
-support: https://groups.google.com/forum/#!forum/mongoclient
+support: 
 
 # homepage url
 officialUrl: http://www.mongoclient.com
@@ -29,12 +29,13 @@ mongodb_versions:
 - 3.0
 - 2.6
 - 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
-mongodb_enterprise_support: 
+mongodb_enterprise_support: Full
 
 # Purpose (see _data/attr.yml for valid choices)
 purpose: GUI
@@ -46,12 +47,12 @@ description: Cross-platform MongoDB Management Client written in Meteor.js
 img: mongoclient.png
 
 # (optional) Release Info
-latest_release_version: 1.2.1
-latest_release_date: 2016-05-23
+latest_release_version: 2.2.0
+latest_release_date: 2017-08-23
 
 # (optional) Github Info
-github_user: rsercano
-github_repo: mongoclient
+github_user: nosqlclient
+github_repo: nosqlclient
 
 # Do not change the following settings
 layout: tool

@@ -50,8 +50,8 @@ description: A cross platform console schema analyzer with various data analyzes
 img: mongoeye.png
 
 # Release Info
-latest_release_version: v0.2
-latest_release_date: 2017-07-18
+latest_release_version: v0.3
+latest_release_date: 2017-08-31
 
 # Github Info
 github_user: mongoeye

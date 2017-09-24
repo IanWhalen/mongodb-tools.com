@@ -25,13 +25,13 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.4
 - 2.6
 - 3.0
 - 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
-# minimum_mongodb_version: 2.4.3
+minimum_mongodb_version: 2.6
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
 mongodb_enterprise_support: Full

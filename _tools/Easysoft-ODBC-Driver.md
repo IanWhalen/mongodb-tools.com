@@ -12,7 +12,7 @@ license: Commercial
 maintained: Actively Maintained
 
 # url of support forum
-support: unsupported
+support:
 
 # homepage url
 officialUrl: http://www.easysoft.com/products/data_access/odbc-mongodb-driver/

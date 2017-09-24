@@ -12,7 +12,7 @@ license: Apache
 maintained: Actively Maintained
 
 # (optional) url of support forum
-support: 
+support: https://github.com/bguerout/jongo/issues
 
 # homepage url
 officialUrl: https://github.com/bguerout/jongo

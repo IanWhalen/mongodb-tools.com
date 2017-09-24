@@ -12,7 +12,7 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://stackoverflow.com/questions/tagged/spring-data-mongodb
 
 # homepage url
 officialUrl: http://projects.spring.io/spring-data-mongodb/
@@ -46,8 +46,8 @@ description: Spring-based, POJO-centric model for interacting with a MongoDB DBC
 img: spring-data-mongodb.png
 
 # Release Info
-latest_release_version: 1.6.2
-latest_release_date: 2015-01-28
+latest_release_version: 1.10.7
+latest_release_date: 2017-01-26
 
 # Github Info
 github_user: spring-projects

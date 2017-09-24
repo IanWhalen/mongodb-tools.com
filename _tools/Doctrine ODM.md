@@ -12,7 +12,7 @@ license: MIT
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/doctrine/mongodb-odm/issues
 
 # homepage url
 officialUrl: http://doctrine-orm.readthedocs.io/projects/doctrine-mongodb-odm/en/latest/
@@ -46,8 +46,8 @@ description: A library that provides a PHP object mapping functionality for Mong
 img: doctrine.png
 
 # Release Info
-latest_release_version: 1.0.5
-latest_release_date: 2016-02-16
+latest_release_version: 1.1.6
+latest_release_date: 2017-08-20
 
 # Github Info
 github_user: doctrine

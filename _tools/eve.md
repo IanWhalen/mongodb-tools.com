@@ -12,7 +12,7 @@ license: BSD
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://groups.google.com/forum/#!forum/python-eve
 
 # homepage url
 officialUrl: http://python-eve.org
@@ -47,8 +47,8 @@ description: Effortlessly build and deploy highly customizable, fully featured R
 img: eve_logo.png
 
 # Release Info
-latest_release_version: 0.6.3
-latest_release_date: 2016-03-16
+latest_release_version: 0.7.4
+latest_release_date: 2017-05-25
 
 # Github Info
 github_user: nicolaiarocci

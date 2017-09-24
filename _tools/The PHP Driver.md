@@ -12,7 +12,7 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: http://php.net/mongodb
@@ -47,8 +47,8 @@ description: The officially supported client interface for PHP applications.
 img: 
 
 # Release Info
-latest_release_version: 1.2.0
-latest_release_date: 2016-11-29
+latest_release_version: 1.3.0
+latest_release_date: 2017-09-20
 
 # Github Info
 github_user: mongodb

@@ -12,7 +12,7 @@ license: AGPL
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: http://restheart.org/support.html
 
 # homepage url
 officialUrl: http://restheart.org/
@@ -46,8 +46,8 @@ description: Java REST API server for MongoDB, built on top of Undertow non-bloc
 img: restheart.jpg
 
 # Release Info
-latest_release_version: 0.10.0
-latest_release_date: 2015-02-15
+latest_release_version: 3.1.3
+latest_release_date: 2017-09-21
 
 # Github Info
 github_user: SoftInstigate

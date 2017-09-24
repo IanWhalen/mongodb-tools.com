@@ -12,7 +12,7 @@ license: MIT
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: http://groups.google.com/group/mongoose-orm
 
 # homepage url
 officialUrl: http://mongoosejs.com/
@@ -30,6 +30,7 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,8 +48,8 @@ description: A library providing elegant MongoDB object modeling for Node.js.
 img: mongoose.png
 
 # Release Info
-latest_release_version: 4.4.19
-latest_release_date: 2016-05-21
+latest_release_version: 4.11.12
+latest_release_date: 2017-09-18
 
 # Github Info
 github_user: Automattic

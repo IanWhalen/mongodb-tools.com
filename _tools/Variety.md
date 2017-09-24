@@ -12,7 +12,7 @@ license: MIT
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/variety/variety/issues
 
 # homepage url
 officialUrl: https://github.com/variety/variety
@@ -46,8 +46,8 @@ description: A tool that leverages the MongoDB shell's JavaScript interface to a
 img: variety.png
 
 # Release Info
-latest_release_version: 1.2.4
-latest_release_date: 2013-12-04
+latest_release_version: 1.5.0
+latest_release_date: 2015-05-14
 
 # Github Info
 github_user: variety

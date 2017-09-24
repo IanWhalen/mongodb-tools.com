@@ -12,7 +12,7 @@ license: Apache
 maintained: Actively Maintained
 
 # (optional) url of support forum
-support: https://github.com/sboesebeck/morphium
+support: https://github.com/sboesebeck/morphium/issues
 
 # homepage url
 officialUrl: http://sboesebeck.github.io/morphium/
@@ -47,8 +47,8 @@ description: Morphium is a full featured POJO Mapper for MongoDB, including clus
 img: morphium.png
 
 # (optional) Release Info
-latest_release_version: 3.0.0
-latest_release_date: 2016-05-02
+latest_release_version: 3.1.4
+latest_release_date: 2017-09-18
 
 # (optional) Github Info
 github_user: sboesebeck

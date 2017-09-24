@@ -12,7 +12,7 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: http://docs.mongodb.org/ecosystem/drivers/c/
@@ -47,8 +47,8 @@ description: The officially supported client interface for C applications.
 img: c.png
 
 # Release Info
-latest_release_version: 1.5.0
-latest_release_date: 2016-11-27
+latest_release_version: 1.8.0
+latest_release_date: 2017-09-14
 
 # Github Info
 github_user: mongodb

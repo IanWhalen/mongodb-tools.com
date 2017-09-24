@@ -65,7 +65,12 @@ layout: default
             <i class="fa fa-{{ env }}"></i>
           {% endfor %}
       {% endif %}
-      <p><a itemprop="url" href="{{ page.officialUrl }}">Developer's Site</a></p>
+      <p>
+        <a itemprop="url" href="{{ page.officialUrl }}">Developer's Site</a>
+        {% if page.support %}
+          | <a itemprop="support" href="{{ page.support }}">Support Forum</a>
+        {% endif %}
+        </p>
     </blockquote>
       <hr>
       {% if page.latest_release_date and page.latest_release_version %}
