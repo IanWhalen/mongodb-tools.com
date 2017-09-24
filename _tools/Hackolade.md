@@ -44,7 +44,7 @@ purpose: Schema Analysis
 description: Visual data modeling tool for MongoDB schemas. GUI designer with ER Diagrams, reverse-engineering, documentation, and much more.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: hackolade.jpg
+img: hackolade.png
 
 # Release Info
 latest_release_version: 1.2.4
