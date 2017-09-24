@@ -56,7 +56,7 @@ layout: default
       {% if page.license %}
         <p>License: <strong>{{page.license}}</strong>
       {% endif %}
-      {% if page.language && page.language != "Unknown" %}
+      {% if page.language and page.language != "Unknown" %}
         <p>Language: <strong>{{page.language}}</strong>
       {% endif %}
       {% if page.environments %}
@@ -69,7 +69,7 @@ layout: default
     </blockquote>
       <hr>
       {% if page.latest_release_date and page.latest_release_version %}
-      <p>The most recent known version of {{ page.name }} is <strong itemprop="softwareVersion">{{ page.latest_release_version' }}</strong> - it was released <strong itemprop="datePublished" content="{{ page.latest_release_date }}">{{ page.latest_release_date | timeago }}</strong>.</p>
+      <p>The most recent known version of {{ page.name }} is <strong itemprop="softwareVersion">{{ page.latest_release_version }}</strong> - it was released <strong itemprop="datePublished" content="{{ page.latest_release_date }}">{{ page.latest_release_date | timeago }}</strong>.</p>
       {% endif %}
 
       {% if page.github_repo and page.github_latest_commit_date %}
@@ -79,12 +79,7 @@ layout: default
     {% if page.content != '' %}
     <p><b>Our take: </b>{{ page.content }}</p>
     {% endif %}
-    
-    <!--   {% if page.language != 'Unknown' %}
-      <a href="/language/{{ tool['Language']|dasherize() }}">Find More <strong itemprop="applicationCategory">{{ tool['Language']}}</strong> Tools Here</a><br>
-      {% endif %} -->
-    <!--   <a href="/purpose/{{ tool['Purpose']|dasherize() }}">Find More <strong itemprop="applicationCategory">{{ tool['Purpose']}}</strong> Tools Here</a><br> -->
-  </div>
+    </div>
 </div>
 
 <p><i>This page is a work in progress.  Please bear with me while I bring it up to speed.  In the meantime, feel free to leave your thoughts on this tool in the comments below.  Or, if you are the developer of this tool, please let me know of any updated information I should have.</i>
