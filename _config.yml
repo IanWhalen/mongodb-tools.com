@@ -6,7 +6,7 @@ collections:
   tools:
     output: true
     permalink: /tool/:name/
-gems:
+plugins:
   - jekyll-timeago
   - jekyll-sitemap
 url: http://mongodb-tools.com
