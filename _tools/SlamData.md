@@ -40,7 +40,7 @@ mongodb_enterprise_support:
 purpose: Data Connector
 
 # Short description of tool
-description: Embedded reporting/Business Intelligence for MongoDB. Create reports visually or via SQL. Querys are done in-database so no need for ETL. And now mapping. 
+description: Embedded reporting/Business Intelligence for MongoDB. Create reports visually or via SQL. Queries are done in-database so no need for ETL or mapping.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: slamdata.png
