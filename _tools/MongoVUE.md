@@ -8,7 +8,7 @@ name: MongoVUE
 # License (should be listed in _data/attr.yml)
 license: Commercial
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Inactive
 
 # url of support forum

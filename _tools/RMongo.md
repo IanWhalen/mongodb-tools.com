@@ -8,7 +8,7 @@ language: R
 # License (should be listed in _data/attr.yml)
 license: GNU
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Inactive
 
 # (optional) url of support forum

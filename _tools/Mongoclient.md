@@ -8,7 +8,7 @@ language: JavaScript
 # License (should be listed in _data/attr.yml)
 license: AGPL
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # (optional) url of support forum

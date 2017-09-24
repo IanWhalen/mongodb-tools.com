@@ -8,7 +8,7 @@ language: JavaScript
 # License (should be listed in _data/attr.yml)
 license: MIT And GPL
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Inactive
 
 # url of support forum

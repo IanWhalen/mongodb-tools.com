@@ -8,7 +8,7 @@ language: PHP
 # License (should be listed in _data/attr.yml)
 license: GNU
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Inactive
 
 # url of support forum
