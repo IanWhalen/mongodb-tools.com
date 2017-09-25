@@ -9,13 +9,13 @@ language: Unknown
 license: Commercial
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Unknown
 
 # url of support forum
-support: 
+support: https://support.pentaho.com
 
 # homepage url
-officialUrl: http://www.pentahobigdata.com/ecosystem/partner-testimonials/mongodb
+officialUrl: http://www.pentaho.com/analytics-for-mongodb
 
 # supported operating systems (if applicable)
 environments:
@@ -26,8 +26,8 @@ environments:
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
 #- 2.2
-#- 2.4
-#- 2.6
+- 2.4
+- 2.6
 #- 3.0
 
 # (optional) minimum MongoDB version

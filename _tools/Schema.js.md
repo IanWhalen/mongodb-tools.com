@@ -12,7 +12,7 @@ license: MIT And GPL
 maintained: Inactive
 
 # url of support forum
-support: 
+support: https://github.com/skratchdot/mongodb-schema/issues/
 
 # homepage url
 officialUrl: http://skratchdot.com/projects/mongodb-schema/

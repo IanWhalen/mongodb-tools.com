@@ -9,10 +9,10 @@ language: Python
 license: BSD 2-Clause
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2013
 
 # url of support forum
-support: 
+support: https://github.com/dropbox/hydra/issues
 
 # homepage url
 officialUrl: https://github.com/dropbox/hydra

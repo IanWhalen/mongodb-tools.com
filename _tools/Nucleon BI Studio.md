@@ -9,7 +9,7 @@ language:
 license: Commercial
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Unknown
 
 # url of support forum
 support: 
@@ -44,7 +44,7 @@ description: A tool for business intelligence, data reporting, data visualizatio
 img: nucleon.png
 
 # Release Info
-latest_release_version: 5.0
+latest_release_version: 9.2
 latest_release_date: 
 
 # Github Info

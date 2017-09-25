@@ -12,7 +12,7 @@ license: MIT
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/mongolab/mongoctl/issues
 
 # homepage url
 officialUrl: https://github.com/mongolab/mongoctl
@@ -45,8 +45,8 @@ description: A command line utility to simplify the installation and management 
 img: mongolab.png
 
 # Release Info
-latest_release_version: 1.0.8
-latest_release_date: 2016-05-27
+latest_release_version: 1.4.2
+latest_release_date: 2017-09-10
 
 # Github Info
 github_user: mongolab

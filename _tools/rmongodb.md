@@ -9,13 +9,13 @@ language: R
 license: Apache 2.0
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2014
 
 # (optional) url of support forum
-support: 
+support: https://github.com/dselivanov/rmongodb/issues
 
 # homepage url
-officialUrl: https://github.com/mongosoup/rmongodb/
+officialUrl: https://github.com/dselivanov/rmongodb
 
 # supported operating systems (if applicable)
 environments:
@@ -50,7 +50,7 @@ latest_release_version: 1.8.0
 latest_release_date: 2014-11-12
 
 # (optional) Github Info
-github_user: mongosoup
+github_user: dselivanov
 github_repo: rmongodb
 
 # Do not change the following settings

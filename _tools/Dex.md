@@ -9,7 +9,7 @@ language: Python
 license: MIT
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2013
 
 # url of support forum
 support: 

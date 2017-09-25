@@ -9,7 +9,7 @@ language: Unknown
 license: Commercial
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Unknown
 
 # url of support forum
 support:
@@ -44,8 +44,8 @@ description: An administration tool for managing, querying, editing, visualizing
 img: nucleon.png
 
 # Release Info
-latest_release_version: 5.5
-latest_release_date: 
+latest_release_version: 9.2
+latest_release_date: 2017-03-04
 
 # Github Info
 github_user: 

@@ -12,7 +12,7 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: http://groups.google.com/group/mongodb-casbah-users
 
 # homepage url
 officialUrl: http://mongodb.github.io/casbah/

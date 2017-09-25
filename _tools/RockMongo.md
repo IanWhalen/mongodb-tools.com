@@ -9,7 +9,7 @@ language: PHP
 license: BSD 2-Clause
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2014
 
 # url of support forum
 support: 

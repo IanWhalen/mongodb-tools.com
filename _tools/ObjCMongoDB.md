@@ -9,7 +9,7 @@ language: Objective C
 license: Apache 2.0
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2014
 
 # (optional) url of support forum
 support: https://github.com/paulmelnikow/ObjCMongoDB/issues

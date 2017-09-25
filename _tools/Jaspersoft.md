@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: 
 
 # homepage url
-officialUrl: http://community.jaspersoft.com/project/mongodb-connector/
+officialUrl: https://www.jaspersoft.com/instant-analytics-mongodb
 
 # supported operating systems (if applicable)
 environments:

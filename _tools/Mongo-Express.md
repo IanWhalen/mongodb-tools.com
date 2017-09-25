@@ -9,13 +9,13 @@ language: JavaScript
 license: MIT
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/mongo-express/mongo-express/issues
 
 # homepage url
-officialUrl: http://andzdroid.github.io/mongo-express/
+officialUrl: https://github.com/mongo-express/mongo-express
 
 # supported operating systems (if applicable)
 environments:
@@ -46,15 +46,14 @@ description: A web-based MongoDB admin interface, written with Node.js and expre
 img: mongo-express.png
 
 # Release Info
-latest_release_version: 0.18.0
-latest_release_date: 2013-01-01
+latest_release_version: 0.42.3
+latest_release_date: 2017-09-24
 
 # Github Info
-github_user: andzdroid
+github_user: mongo-express
 github_repo: mongo-express
 
 # Do not change the following settings
 layout: tool
 
 ---
-

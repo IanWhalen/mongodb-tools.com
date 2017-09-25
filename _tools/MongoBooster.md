@@ -48,8 +48,8 @@ description: MongoBooster is a shell-centric cross-platform GUI which includes f
 img: mongobooster.png
 
 # Release Info
-latest_release_version: 3.2.1
-latest_release_date: 2016-12-08
+latest_release_version: 4.0.2
+latest_release_date: 2017-08-20
 
 # Github Info
 github_user: 

@@ -9,10 +9,10 @@ language: Objective C
 license: Unknown
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive since 2015
 
 # url of support forum
-support: 
+support: https://github.com/jeromelebel/MongoHub-Mac/issues
 
 # homepage url
 officialUrl: https://github.com/jeromelebel/MongoHub-Mac

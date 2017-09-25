@@ -12,7 +12,7 @@ license: Apache
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://groups.google.com/group/mongodb-user/
 
 # homepage url
 officialUrl: http://motor.readthedocs.io

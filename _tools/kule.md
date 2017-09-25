@@ -9,10 +9,10 @@ language: Python
 license: MIT
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2015
 
 # url of support forum
-support: 
+support: https://github.com/fatiherikli/kule/issues
 
 # homepage url
 officialUrl: https://github.com/fatiherikli/kule

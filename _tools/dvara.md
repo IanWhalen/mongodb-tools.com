@@ -9,7 +9,7 @@ language: Go
 license: BSD 2-Clause
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive since 2015
 
 # url of support forum
 support:

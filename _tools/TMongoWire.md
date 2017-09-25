@@ -12,7 +12,7 @@ license: MIT
 maintained: Actively Maintained
 
 # (optional) url of support forum
-support: 
+support: https://github.com/stijnsanders/TMongoWire/issues
 
 # homepage url
 officialUrl: https://github.com/stijnsanders/TMongoWire
@@ -43,8 +43,8 @@ description: A Delphi driver for MongoDB. It maps variables onto Delphi variable
 img: 
 
 # (optional) Release Info
-latest_release_version: 
-latest_release_date: 
+latest_release_version: 1.0.1
+latest_release_date: 2017-03-10
 
 # (optional) Github Info
 github_user: stijnsanders

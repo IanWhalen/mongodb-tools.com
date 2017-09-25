@@ -9,10 +9,10 @@ language: Ruby
 license: Apache 2.0
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive since 2014
 
 # url of support forum
-support: 
+support: https://github.com/edelight/chef-mongodb/issues
 
 # homepage url
 officialUrl: https://github.com/edelight/chef-mongodb

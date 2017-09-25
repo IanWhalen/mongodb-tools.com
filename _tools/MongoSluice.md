@@ -9,7 +9,7 @@ language: Java
 license: Commercial
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive since 2015
 
 # (optional) url of support forum
 support: 

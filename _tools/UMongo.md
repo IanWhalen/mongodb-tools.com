@@ -9,13 +9,13 @@ language: Java
 license: Apache 2.0
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2014
 
 # url of support forum
-support: 
+support: https://github.com/agirbal/umongo/issues
 
 # homepage url
-officialUrl: http://edgytech.com/umongo/
+officialUrl: https://github.com/agirbal/umongo
 
 # supported operating systems (if applicable)
 environments:

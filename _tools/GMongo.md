@@ -9,7 +9,7 @@ language: Java
 license: Apache
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2015
 
 # (optional) url of support forum
 support: https://github.com/poiati/gmongo/issues

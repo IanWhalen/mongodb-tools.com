@@ -9,13 +9,13 @@ language: Ruby
 license: Apache 2.0
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2013
 
 # url of support forum
-support: 
+support: https://github.com/derailed/mongo3/issues
 
 # homepage url
-officialUrl: http://mongo3.com
+officialUrl: https://github.com/derailed/mongo3
 
 # supported operating systems (if applicable)
 environments:

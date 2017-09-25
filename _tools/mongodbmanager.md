@@ -3,7 +3,7 @@
 name: NoSQL Manager for MongoDB
 
 # Software language (if applicable, see _data/attr.yml)
-language: C#
+# language: C#
 
 # License (should be listed in _data/attr.yml)
 license: Commercial
@@ -12,7 +12,7 @@ license: Commercial
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://www.mongodbmanager.com/support
 
 # homepage url
 officialUrl: http://mongodbmanager.com/
@@ -28,6 +28,7 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -45,8 +46,8 @@ description: A desktop GUI tool for MongoDB database management, administration 
 img: mongodbmanager.png 
 
 # Release Info
-latest_release_version: 3.1.0.5
-latest_release_date: 2015-10-08
+latest_release_version: 4.7.0.1
+latest_release_date: 2017-07-26
 
 # Github Info
 github_user:

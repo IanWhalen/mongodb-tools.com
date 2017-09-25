@@ -12,7 +12,7 @@ license: Unknown
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://groups.google.com/group/mongodb-user/
 
 # homepage url
 officialUrl: http://docs.mongodb.org/ecosystem/tools/hadoop/
@@ -46,8 +46,8 @@ description: A plugin for Hadoop that gives the ability to use MongoDB as an inp
 img: hadoop.png
 
 # Release Info
-latest_release_version: 1.3.2
-latest_release_date: 2015-02-04
+latest_release_version: 2.0.2
+latest_release_date: 2017-01-28
 
 # Github Info
 github_user: mongodb

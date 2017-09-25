@@ -9,10 +9,10 @@ language: JavaScript
 license: LGPL
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive since 2015
 
 # url of support forum
-support: 
+support: https://github.com/mariano-fiorentino/amid/issues
 
 # homepage url
 officialUrl: https://github.com/mariano-fiorentino/amid

@@ -9,7 +9,7 @@ language: C++
 license: Commercial
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive since 2014
 
 # url of support forum
 support:

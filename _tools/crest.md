@@ -9,10 +9,10 @@ language: JavaScript
 license: MIT
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2013
 
 # url of support forum
-support:
+support: https://github.com/cordazar/crest/issues
 
 # homepage url
 officialUrl: https://github.com/cordazar/crest

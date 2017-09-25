@@ -9,7 +9,7 @@ language: R
 license: GNU
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2013
 
 # (optional) url of support forum
 support: https://github.com/tc/RMongo/issues

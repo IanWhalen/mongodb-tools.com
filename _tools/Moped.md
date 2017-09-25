@@ -9,7 +9,7 @@ language: Ruby
 license: MIT
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Inactive since 2015
 
 # url of support forum
 support: 

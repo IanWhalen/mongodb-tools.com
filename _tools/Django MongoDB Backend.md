@@ -9,7 +9,7 @@ language: Python
 license: 2-clause BSD
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive since 2013
 
 # url of support forum
 support: 

@@ -12,7 +12,7 @@ license: Commercial
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: http://jsonar.freshdesk.com/support/home
 
 # homepage url
 officialUrl: http://jsonstudio.com/
@@ -48,8 +48,8 @@ description: A comprehensive tool suite for MongoDB with a focus on data access,
 img: jsonar.png
 
 # Release Info
-latest_release_version: 4.1.0
-latest_release_date: 2015-11-09
+latest_release_version: 5.5.0
+latest_release_date: 2016-12-19
 
 # Github Info
 github_user: 

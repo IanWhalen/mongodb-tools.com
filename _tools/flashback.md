@@ -9,7 +9,7 @@ language: Go
 license: BSD 2-Clause
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Unknown
 
 # url of support forum
 support: https://github.com/ParsePlatform/flashback/issues
