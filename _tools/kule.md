@@ -8,11 +8,11 @@ language: Python
 # License (should be listed in _data/attr.yml)
 license: MIT
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Inactive
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2015
 
 # url of support forum
-support: 
+support: https://github.com/fatiherikli/kule/issues
 
 # homepage url
 officialUrl: https://github.com/fatiherikli/kule

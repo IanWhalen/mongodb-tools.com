@@ -8,11 +8,11 @@ language: JavaScript
 # License (should be listed in _data/attr.yml)
 license: MIT
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/mongodb-js/mongodb-schema/issues
 
 # homepage url
 officialUrl: https://github.com/mongodb-js/mongodb-schema
@@ -46,8 +46,8 @@ description: This package infers a probabilistic schema for a MongoDB collection
 img: mongodb-schema.png
 
 # Release Info
-latest_release_version: 4.1.1
-latest_release_date: 2016-03-17
+latest_release_version: 6.1.1
+latest_release_date: 2017-06-05
 
 # Github Info
 github_user: mongodb-js

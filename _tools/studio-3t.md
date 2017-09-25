@@ -8,7 +8,7 @@ name: Studio 3T (formerly MongoChef)
 # License (should be listed in _data/attr.yml)
 license: Commercial
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum

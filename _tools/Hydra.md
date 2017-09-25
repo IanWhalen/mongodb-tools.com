@@ -8,11 +8,11 @@ language: Python
 # License (should be listed in _data/attr.yml)
 license: BSD 2-Clause
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Inactive
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2013
 
 # url of support forum
-support: 
+support: https://github.com/dropbox/hydra/issues
 
 # homepage url
 officialUrl: https://github.com/dropbox/hydra

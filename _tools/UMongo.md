@@ -8,14 +8,14 @@ language: Java
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Inactive
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2014
 
 # url of support forum
-support: 
+support: https://github.com/agirbal/umongo/issues
 
 # homepage url
-officialUrl: http://edgytech.com/umongo/
+officialUrl: https://github.com/agirbal/umongo
 
 # supported operating systems (if applicable)
 environments:

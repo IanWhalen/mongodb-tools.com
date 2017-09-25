@@ -8,14 +8,14 @@ language: Ruby
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Inactive
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2013
 
 # url of support forum
-support: 
+support: https://github.com/derailed/mongo3/issues
 
 # homepage url
-officialUrl: http://mongo3.com
+officialUrl: https://github.com/derailed/mongo3
 
 # supported operating systems (if applicable)
 environments:

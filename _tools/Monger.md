@@ -8,7 +8,7 @@ language: Clojure
 # License (should be listed in _data/attr.yml)
 license: Eclipse Public
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum

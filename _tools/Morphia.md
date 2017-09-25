@@ -8,11 +8,11 @@ language: Java
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://groups.google.com/group/mongodb-user/
 
 # homepage url
 officialUrl: https://github.com/mongodb/morphia
@@ -48,8 +48,8 @@ description: A lightweight type-safe library for mapping Java objects to/from Mo
 img: 
 
 # Release Info
-latest_release_version: 1.3.0
-latest_release_date: 2016-11-29
+latest_release_version: 1.3.2
+latest_release_date: 2017-01-31
 
 # Github Info
 github_user: mongodb

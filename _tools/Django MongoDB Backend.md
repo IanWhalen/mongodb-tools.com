@@ -8,8 +8,8 @@ language: Python
 # License (should be listed in _data/attr.yml)
 license: 2-clause BSD
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2013
 
 # url of support forum
 support: 

@@ -8,8 +8,8 @@ language: PHP
 # License (should be listed in _data/attr.yml)
 license: BSD 2-Clause
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Inactive
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2014
 
 # url of support forum
 support: 

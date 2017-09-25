@@ -8,11 +8,11 @@ language: Python
 # License (should be listed in _data/attr.yml)
 license: Apache
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://groups.google.com/group/mongodb-user/
 
 # homepage url
 officialUrl: http://motor.readthedocs.io

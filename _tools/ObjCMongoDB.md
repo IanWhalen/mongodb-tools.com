@@ -8,8 +8,8 @@ language: Objective C
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Inactive
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2014
 
 # (optional) url of support forum
 support: https://github.com/paulmelnikow/ObjCMongoDB/issues

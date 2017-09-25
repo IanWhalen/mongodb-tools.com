@@ -8,14 +8,14 @@ language: Java
 # License (should be listed in _data/attr.yml)
 license: Commercial
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
 support: 
 
 # homepage url
-officialUrl: http://community.jaspersoft.com/project/mongodb-connector/
+officialUrl: https://www.jaspersoft.com/instant-analytics-mongodb
 
 # supported operating systems (if applicable)
 environments:

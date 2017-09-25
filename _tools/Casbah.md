@@ -8,11 +8,11 @@ language: Scala
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: http://groups.google.com/group/mongodb-casbah-users
 
 # homepage url
 officialUrl: http://mongodb.github.io/casbah/

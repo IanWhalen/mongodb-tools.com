@@ -8,7 +8,7 @@ language: Unknown
 # License (should be listed in _data/attr.yml)
 license: Commercial
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
@@ -28,6 +28,7 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -45,8 +46,8 @@ description: MongoDBPumper is a product for bidirectional data migration between
 img: mongodbpumper.jpg
 
 # Release Info
-latest_release_version: 2.0.70
-latest_release_date: 2016-04-11
+latest_release_version: 2.0.72
+latest_release_date: 2017-01-19
 
 # Github Info
 github_user: 

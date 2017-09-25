@@ -8,8 +8,8 @@ language: C++
 # License (should be listed in _data/attr.yml)
 license: Commercial
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2014
 
 # url of support forum
 support:

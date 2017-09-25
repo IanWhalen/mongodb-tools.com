@@ -3,12 +3,12 @@
 name: NoSQL Viewer for BigData
 
 # Software language (if applicable, see _data/attr.yml)
-language: Unknown
+#language: Unknown
 
 # License (should be listed in _data/attr.yml)
 license: Commercial
 
-maintained: Actively Maintained
+maintained: Unknown
 support:
 
 # homepage url

@@ -8,8 +8,8 @@ language: Go
 # License (should be listed in _data/attr.yml)
 license: BSD 2-Clause
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Inactive
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Unknown
 
 # url of support forum
 support: https://github.com/ParsePlatform/flashback/issues

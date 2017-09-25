@@ -8,7 +8,7 @@ language: Unknown
 # License (should be listed in _data/attr.yml)
 license: Commercial
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
@@ -25,16 +25,17 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+- 2.4
+- 2.6
+- 3.0
+- 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
-mongodb_enterprise_support: 
+mongodb_enterprise_support: Full
 
 # Purpose (see _data/attr.yml for valid choices)
 purpose: Data Connector
@@ -46,8 +47,8 @@ description: Simba's MongoDB ODBC Driver with SQL Connector allows any tradition
 img: simba.png
 
 # Release Info
-latest_release_version: 
-latest_release_date: 
+latest_release_version: 2.2.3
+latest_release_date: 2017-07-07
 
 # Github Info
 github_user: 

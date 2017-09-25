@@ -8,11 +8,11 @@ language: Ruby
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2014
 
 # url of support forum
-support: 
+support: https://github.com/edelight/chef-mongodb/issues
 
 # homepage url
 officialUrl: https://github.com/edelight/chef-mongodb

@@ -8,11 +8,11 @@ language: Python
 # License (should be listed in _data/attr.yml)
 license: Unknown
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Inactive
 
 # url of support forum
-support:
+support: https://github.com/mongodb-labs/edda/issues
 
 # homepage url
 officialUrl: https://github.com/mongodb-labs/edda
