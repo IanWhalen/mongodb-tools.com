@@ -35,7 +35,7 @@ purpose: Hosted database with data admin client application
 description: Online database tool is designed for the modern web with high performance REST API and NoSQL MongoDB query language, server-side codehooks, user authentication (Auth0), Media Archive, Realtime messages and secure Ajax/CORS.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: restdb.png
+img: restdblogo-color.png
 
 # Do not change the following settings
 layout: tool
