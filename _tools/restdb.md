@@ -32,7 +32,7 @@ mongodb_versions:
 purpose: Hosted database with data admin client application
 
 # Short description of tool
-description: Online database tool is designed for the modern web with high performance REST API and NoSQL MongoDB query language, server-side codehooks, user authentication (Auth0), Media Archive, Realtime messages and secure Ajax/CORS.
+description: Online database tool for the modern web with high performance REST API and NoSQL MongoDB query language, server-side codehooks, user authentication (Auth0), Media Archive, Realtime messages and secure Ajax/CORS.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: restdblogo-color.png
