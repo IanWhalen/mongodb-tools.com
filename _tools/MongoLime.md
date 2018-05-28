@@ -28,6 +28,8 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
+- 3.6
+- 3.7
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +48,8 @@ description: MongoLime is a powerful MongoDB mobile client, allowing quick and s
 img: mongolime.png
 
 # Release Info
-latest_release_version: 1.0.0
-latest_release_date: 2017-08-14
+latest_release_version: 2.1.2
+latest_release_date: 2018-05-21
 
 # Github Info
 github_user: 
