@@ -9,7 +9,7 @@ language: Scala
 license: Apache 2.0
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
 support: http://groups.google.com/group/mongodb-casbah-users
