@@ -9,7 +9,7 @@ language: Java
 license: Unknown
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
 support: https://groups.google.com/group/mongodb-user/
