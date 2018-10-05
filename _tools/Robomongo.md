@@ -9,7 +9,7 @@ language: C++
 license: GNU
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
 support: https://github.com/Studio3T/robomongo/issues
