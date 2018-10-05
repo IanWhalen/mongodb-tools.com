@@ -12,10 +12,10 @@ license: Apache 2.0
 maintained: Actively Maintained
 
 # url of support forum
-support: https://groups.google.com/group/mongodb-user/
+support: https://groups.google.com/group/morphia
 
 # homepage url
-officialUrl: https://github.com/mongodb/morphia
+officialUrl: http://morphiaorg.github.io/morphia/
 
 # supported operating systems (if applicable)
 environments:
