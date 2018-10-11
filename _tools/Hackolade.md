@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: https://hackolade.zendesk.com/hc/en-us/requests/new
 
 # homepage url
-officialUrl: http://hackolade.com
+officialUrl: https://hackolade.com
 
 # supported operating systems (if applicable)
 environments:
@@ -30,6 +30,8 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version: 2.4
@@ -41,14 +43,14 @@ mongodb_enterprise_support: Full
 purpose: Schema Analysis
 
 # Short description of tool
-description: Visual data modeling tool for MongoDB schemas. GUI designer with ER Diagrams, reverse-engineering, documentation, and much more.
+description: Visual data modeling tool for MongoDB schemas. Schema designer with ER Diagrams, reverse-engineering, generation of $jsonschema validator, documentation, and much more.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: hackolade.png
 
 # Release Info
-latest_release_version: 1.2.4
-latest_release_date: 2016-12-01
+latest_release_version: 2.2.4
+latest_release_date: 2018-10-09
 
 # Github Info
 github_user: hackolade
