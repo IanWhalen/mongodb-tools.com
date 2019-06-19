@@ -30,6 +30,8 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,8 +49,8 @@ description: The officially supported client interface for C++ applications.
 img: 
 
 # Release Info
-latest_release_version: C++11 3.1.3
-latest_release_date: 2017-08-22
+latest_release_version: C++11 3.4.0
+latest_release_date: 2018-10-15
 
 # Github Info
 github_user: mongodb

@@ -30,6 +30,8 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,8 +49,8 @@ description: The officially supported client interface for Node.js applications.
 img: node.png
 
 # Release Info
-latest_release_version: 2.2.31
-latest_release_date: 2017-08-09
+latest_release_version: 3.2.1
+latest_release_date: 2019-03-21
 
 # Github Info
 github_user: mongodb

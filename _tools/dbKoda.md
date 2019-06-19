@@ -28,6 +28,8 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -45,8 +47,8 @@ description: dbKoda is a modern open source database development tool featuring 
 img: dbKoda.png
 
 # Release Info
-latest_release_version: 0.7.0
-latest_release_date: 2017-08-31
+latest_release_version: 1.1.0
+latest_release_date: 2019-05-29
 
 # Github Info
 github_user: SouthbankSoftware

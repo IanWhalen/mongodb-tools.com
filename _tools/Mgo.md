@@ -9,7 +9,7 @@ language: Go
 license: Simplified BSD
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive
 
 # url of support forum
 support: http://groups.google.com/group/mgo-users

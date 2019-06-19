@@ -30,6 +30,8 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,8 +49,8 @@ description: The officially supported client interface for Java applications.
 img: 
 
 # Release Info
-latest_release_version: 3.5.0
-latest_release_date: 2017-08-03
+latest_release_version: 3.10.2
+latest_release_date: 2019-04-08
 
 # Github Info
 github_user: mongodb
