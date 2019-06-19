@@ -9,7 +9,7 @@ language: C++
 license: GNU
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Actively Maintained
 
 # url of support forum
 support: https://github.com/Studio3T/robomongo/issues
@@ -30,6 +30,8 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version: 2.2
@@ -47,8 +49,8 @@ description: A desktop application embedding the MongoDB shell. A GUI for MongoD
 img: robomongo.png
 
 # Release Info
-latest_release_version: 1.1
-latest_release_date: 2017-06-11
+latest_release_version: 1.3
+latest_release_date: 2019-04-04
 
 # Github Info
 github_user: studio3t
