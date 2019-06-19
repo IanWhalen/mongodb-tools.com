@@ -45,8 +45,8 @@ description: A generic ODM around PyMongo, the MongoDB Python driver.
 img: 
 
 # Release Info
-latest_release_version: 0.4.0
-latest_release_date: 2017-03-11
+latest_release_version: 0.4.1
+latest_release_date: 2018-08-08
 
 # Github Info
 github_user: mongodb

@@ -29,6 +29,9 @@ mongodb_versions:
 #- 2.4
 #- 2.6
 #- 3.0
+- 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +49,8 @@ description: Java REST API server for MongoDB, built on top of Undertow non-bloc
 img: restheart.jpg
 
 # Release Info
-latest_release_version: 3.1.3
-latest_release_date: 2017-09-21
+latest_release_version: 3.10.1
+latest_release_date: 2019-06-13
 
 # Github Info
 github_user: SoftInstigate

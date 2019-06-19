@@ -47,8 +47,8 @@ description: Visual data modeling tool for MongoDB schemas. GUI designer with ER
 img: hackolade.png
 
 # Release Info
-latest_release_version: 1.2.4
-latest_release_date: 2016-12-01
+latest_release_version: 3.2.3
+# latest_release_date: 2016-12-01
 
 # Github Info
 github_user: hackolade

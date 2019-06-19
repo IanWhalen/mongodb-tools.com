@@ -47,8 +47,8 @@ description: MongoDB client interface for Erlang applications.
 img: 
 
 # Release Info
-latest_release_version: 3.0.2
-latest_release_date: 2017-06-19
+latest_release_version: 3.2.0
+latest_release_date: 2018-03-24
 
 # Github Info
 github_user: comtihon
