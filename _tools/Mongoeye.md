@@ -31,8 +31,8 @@ mongodb_versions:
 #- 2.6
 #- 3.0
 #- 3.2
-#- 3.4
-#- 3.5
+- 3.4
+- 3.6
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version: 2.0
@@ -50,8 +50,8 @@ description: A cross platform console schema analyzer with various data analyzes
 img: mongoeye.png
 
 # Release Info
-latest_release_version: v0.3
-latest_release_date: 2017-08-31
+latest_release_version: v0.4
+latest_release_date: 2017-11-23
 
 # Github Info
 github_user: mongoeye

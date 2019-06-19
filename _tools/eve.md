@@ -12,7 +12,7 @@ license: BSD
 maintained: Actively Maintained
 
 # url of support forum
-support: https://groups.google.com/forum/#!forum/python-eve
+support: https://groups.google.com/group/python-eve
 
 # homepage url
 officialUrl: http://python-eve.org
@@ -30,6 +30,8 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
+- 3.6
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,11 +49,11 @@ description: Effortlessly build and deploy highly customizable, fully featured R
 img: eve_logo.png
 
 # Release Info
-latest_release_version: 0.7.4
-latest_release_date: 2017-05-25
+latest_release_version: 0.9.2
+latest_release_date: 2019-06-13
 
 # Github Info
-github_user: nicolaiarocci
+github_user: pyeve
 github_repo: eve
 
 # Do not change the following settings
