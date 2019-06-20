@@ -9,7 +9,7 @@ language: Lua
 license: MIT
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive since 2017
 
 # (optional) url of support forum
 support: https://groups.google.com/group/luamongo
