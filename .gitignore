@@ -1,1 +1,7 @@
+### MongoDB-tools
+bin
 _site
+
+### macOS
+.DS_Store
+._*
