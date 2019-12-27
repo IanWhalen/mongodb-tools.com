@@ -9,7 +9,7 @@ language: Python
 license: Apache 2.0
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Actively Maintained
+maintained: Inactive
 
 # (optional) url of support forum
 support: https://bitbucket.org/djcbeach/monary/issues
@@ -47,7 +47,7 @@ img:
 
 # (optional) Release Info
 latest_release_version: 0.5.0
-latest_release_date: 2016-08-127
+latest_release_date: 2016-08-15
 
 # (optional) Github Info
 github_user: 

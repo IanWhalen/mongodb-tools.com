@@ -50,8 +50,8 @@ description: The officially supported client interface for Python applications.
 img: python.png
 
 # Release Info
-latest_release_version: 3.9.0
-latest_release_date: 2019-04-22
+latest_release_version: 3.10.0
+latest_release_date: 2019-12-11
 
 # Github Info
 github_user: mongodb

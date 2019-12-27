@@ -12,10 +12,10 @@ license: Commercial
 maintained: Actively Maintained
 
 # url of support forum
-support: https://mongobooster.useresponse.com/
+support: https://mongobooster.useresponse.com
 
 # homepage url
-officialUrl: http://\mongobooster.com
+officialUrl: http://mongobooster.com
 
 # supported operating systems (if applicable)
 environments:

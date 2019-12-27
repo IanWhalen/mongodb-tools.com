@@ -48,7 +48,7 @@ img: mangan.png
 
 # Release Info
 latest_release_version: 5.0.19
-latest_release_date: 2017-12-07
+latest_release_date: 2019-12-07
 
 # Github Info
 github_user: Maslosoft

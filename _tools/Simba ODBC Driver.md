@@ -50,7 +50,7 @@ img: simba.png
 
 # Release Info
 latest_release_version: 2.3.9
-latest_release_date: 2017-07-07
+latest_release_date: 2019-10-04
 
 # Github Info
 github_user: 

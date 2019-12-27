@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: https://github.com/mongo-express/mongo-express/issues
 
 # homepage url
-officialUrl: https://github.com/mongo-express/\mongo-express
+officialUrl: https://github.com/mongo-express/mongo-express
 
 # supported operating systems (if applicable)
 environments:
@@ -46,8 +46,8 @@ description: A web-based MongoDB admin interface, written with Node.js and expre
 img: mongo-express.png
 
 # Release Info
-latest_release_version: 0.53.0
-latest_release_date: 2017-07-21
+latest_release_version: 0.54.0
+latest_release_date: 2019-12-24
 
 # Github Info
 github_user: mongo-express
