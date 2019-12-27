@@ -43,8 +43,8 @@ description: Command line tool to outputs any operation from a Mongo database in
 img: mongotail.png
 
 # Release Info
-latest_release_version: 2.1.2
-latest_release_date: 2017-05-30
+latest_release_version: 2.3.0
+latest_release_date: 2019-03-17
 
 # Github Info
 github_user: mrsarm
