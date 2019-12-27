@@ -25,10 +25,9 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.6
-- 3.0
-- 3.2
-- 3.4
+- 3.6
+- 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version: 2.6
@@ -46,8 +45,8 @@ description: A small CLI tool to quickly generate millions of pseudo-random BSON
 img: 
 
 # Release Info
-latest_release_version: 0.2
-latest_release_date: 2017-09-15
+latest_release_version: 0.7.5
+latest_release_date: 2019-07-08
 
 # Github Info
 github_user: feliixx
