@@ -45,8 +45,8 @@ description: A collection of helper scripts to set up MongoDB test environments 
 img: mtools.png
 
 # Release Info
-latest_release_version: 1.5.3
-latest_release_date: 2019-01-27
+latest_release_version: 1.6.0
+latest_release_date: 2019-12-28
 
 # Github Info
 github_user: rueckstiess
