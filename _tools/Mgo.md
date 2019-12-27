@@ -9,13 +9,13 @@ language: Go
 license: Simplified BSD
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive
+maintained: Actively Maintained
 
 # url of support forum
-support: http://groups.google.com/group/mgo-users
+support: https://github.com/globalsign/mgo/issues
 
 # homepage url
-officialUrl: http://labix.org/mgo
+officialUrl: https://github.com/globalsign/mgo
 environments:
 - apple
 - linux
@@ -27,6 +27,9 @@ mongodb_versions:
 #- 2.4
 #- 2.6
 #- 3.0
+- 3.2
+- 3.4
+- 3.6
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -44,11 +47,11 @@ description: A client interface that implements a rich selection of features und
 img: mgo.png
 
 # Release Info
-latest_release_version: r2015.12.06
-latest_release_date: 2015-12-06
+latest_release_version: r2018.06.15
+latest_release_date: 2018-06-16
 
 # Github Info
-github_user: go-mgo
+github_user: globalsign
 github_repo: mgo
 
 # Do not change the following settings
