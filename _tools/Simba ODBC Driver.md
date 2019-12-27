@@ -30,6 +30,8 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,7 +49,7 @@ description: Simba's MongoDB ODBC Driver with SQL Connector allows any tradition
 img: simba.png
 
 # Release Info
-latest_release_version: 2.2.3
+latest_release_version: 2.3.9
 latest_release_date: 2017-07-07
 
 # Github Info

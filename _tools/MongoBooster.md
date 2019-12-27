@@ -15,7 +15,7 @@ maintained: Actively Maintained
 support: https://mongobooster.useresponse.com/
 
 # homepage url
-officialUrl: http://mongobooster.com
+officialUrl: http://\mongobooster.com
 
 # supported operating systems (if applicable)
 environments:
@@ -31,6 +31,9 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
+- 3.6
+- 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version: 2.2
@@ -48,8 +51,8 @@ description: MongoBooster is a shell-centric cross-platform GUI which includes f
 img: mongobooster.png
 
 # Release Info
-latest_release_version: 4.0.2
-latest_release_date: 2017-08-20
+latest_release_version: 5.2
+latest_release_date: 2019-12-11
 
 # Github Info
 github_user: 

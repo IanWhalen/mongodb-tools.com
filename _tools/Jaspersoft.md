@@ -43,8 +43,8 @@ description: A connector to the Jaspersoft BI Suite providing reporting, ad hoc 
 img: jaspersoft.png
 
 # Release Info
-latest_release_version: 
-latest_release_date: 
+latest_release_version: 6.11.10
+latest_release_date: 2019-12-09
 
 # Github Info
 github_user: 

@@ -32,6 +32,7 @@ mongodb_versions:
 - 3.4
 - 3.6
 - 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -49,7 +50,7 @@ description: The officially supported client interface for Python applications.
 img: python.png
 
 # Release Info
-latest_release_version: 3.8.0
+latest_release_version: 3.9.0
 latest_release_date: 2019-04-22
 
 # Github Info

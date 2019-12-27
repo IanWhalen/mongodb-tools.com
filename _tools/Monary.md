@@ -47,7 +47,7 @@ img:
 
 # (optional) Release Info
 latest_release_version: 0.5.0
-latest_release_date: 2016-08-14
+latest_release_date: 2016-08-127
 
 # (optional) Github Info
 github_user: 

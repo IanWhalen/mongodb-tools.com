@@ -45,8 +45,8 @@ description: A command line utility to simplify the installation and management 
 img: mongolab.png
 
 # Release Info
-latest_release_version: 1.4.2
-latest_release_date: 2017-09-10
+latest_release_version: 1.6.2
+latest_release_date: 2018-04-21
 
 # Github Info
 github_user: mongolab
