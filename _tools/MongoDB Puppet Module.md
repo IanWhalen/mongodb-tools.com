@@ -44,8 +44,8 @@ description: A module for Puppet which manages mongod server installation and co
 img: puppet-labs-logo.png
 
 # Release Info
-latest_release_version: 1.0.0
-latest_release_date: 2017-07-01
+latest_release_version: 3.0.0
+latest_release_date: 2019-05-21
 
 # Github Info
 github_user: puppetlabs

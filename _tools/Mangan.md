@@ -25,11 +25,11 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
-- 2.4
-- 2.6
-- 3.0
-- 3.2
+#- 2.2
+#- 2.4
+#- 2.6
+#- 3.0
+#- 3.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,8 +47,8 @@ description: Unobtrusive MongoDB Object Persister/Document Mapper.
 img: mangan.png
 
 # Release Info
-latest_release_version: 4.4.17
-latest_release_date: 2017-09-08
+latest_release_version: 5.0.19
+latest_release_date: 2017-12-07
 
 # Github Info
 github_user: Maslosoft

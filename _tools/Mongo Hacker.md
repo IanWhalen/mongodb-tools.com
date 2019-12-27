@@ -48,8 +48,8 @@ description: User experience tweaks for the mongo shell including colorized outp
 img: mongo-hacker.png
 
 # Release Info
-latest_release_version: 0.0.15
-latest_release_date: 2016-10-29
+latest_release_version: 0.1.1
+latest_release_date: 2019-12-06
 
 # Github Info
 github_user: TylerBrock

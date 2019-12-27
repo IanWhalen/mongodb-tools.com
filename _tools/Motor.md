@@ -31,6 +31,9 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
+- 3.6
+- 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -48,8 +51,8 @@ description: A driver that presents a Tornado callback-based API for non-blockin
 img: motor.png
 
 # Release Info
-latest_release_version: 1.1
-latest_release_date: 2016-11-29
+latest_release_version: 2.1
+latest_release_date: 2019-12-12
 
 # Github Info
 github_user: mongodb

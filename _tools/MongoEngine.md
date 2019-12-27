@@ -26,9 +26,9 @@ environments:
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
 #- 2.2
-- 2.4
-- 2.6
-- 3.0
+#- 2.4
+#- 2.6
+#- 3.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +46,8 @@ description: An ODM library using a simple declarative API similar to the Django
 img: mongoengine.png
 
 # Release Info
-latest_release_version: 0.14.0
-latest_release_date: 2017-05-08
+latest_release_version: 0.18.2
+latest_release_date: 2019-06-26
 
 # Github Info
 github_user: MongoEngine

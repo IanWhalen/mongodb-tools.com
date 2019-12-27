@@ -49,8 +49,8 @@ description: Java REST API server for MongoDB, built on top of Undertow non-bloc
 img: restheart.jpg
 
 # Release Info
-latest_release_version: 3.10.1
-latest_release_date: 2019-06-13
+latest_release_version: 4.1.7
+latest_release_date: 2019-12-16
 
 # Github Info
 github_user: SoftInstigate

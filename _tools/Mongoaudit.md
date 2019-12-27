@@ -48,8 +48,8 @@ description: A CLI tool for auditing MongoDB servers, detecting poor security se
 img: mongoaudit.png
 
 # Tool Release Info
-latest_release_version: 0.0.3
-latest_release_date: 2017-02-16
+latest_release_version: 0.1.0
+latest_release_date: 2018-04-03
 
 # Github Info
 github_user: stampery
