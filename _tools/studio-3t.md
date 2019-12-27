@@ -30,6 +30,9 @@ mongodb_versions:
 - 3.0
 - 3.2
 - 3.4
+- 3.6
+- 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -41,14 +44,14 @@ mongodb_enterprise_support:
 purpose: GUI
 
 # Short description of tool
-description: Studio 3T is a fully featured IDE for MongoDB. The best MongoDB GUI for MongoDB professionals. Studio 3T is free for personal and non-commercial use. Full support for MongoDB 3.4
+description: Studio 3T is a fully featured IDE for MongoDB. Studio 3T is free for personal and non-commercial use.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: studio-3t.png
 
 # Release Info
-latest_release_version: 5.3.4
-latest_release_date: 2017-06-19
+latest_release_version: 2019.7.1
+latest_release_date: 2019-11-18
 
 # Github Info
 github_user: 

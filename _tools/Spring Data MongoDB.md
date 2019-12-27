@@ -46,8 +46,8 @@ description: Spring-based, POJO-centric model for interacting with a MongoDB DBC
 img: spring-data-mongodb.png
 
 # Release Info
-latest_release_version: 1.10.7
-latest_release_date: 2017-01-26
+latest_release_version: 2.2.3
+latest_release_date: 2019-12-05
 
 # Github Info
 github_user: spring-projects
