@@ -12,10 +12,10 @@ license: Commercial
 maintained: Actively Maintained
 
 # url of support forum
-support: https://mongolime.zendesk.com/hc/en-us
+support: https://mongolime.com
 
 # homepage url
-officialUrl: https://mongolime.com/
+officialUrl: https://mongolime.com
 
 # supported operating systems (if applicable)
 environments:
@@ -30,6 +30,8 @@ mongodb_versions:
 - 3.4
 - 3.6
 - 3.7
+- 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -48,8 +50,8 @@ description: MongoLime is a powerful MongoDB mobile client, allowing quick and s
 img: mongolime.png
 
 # Release Info
-latest_release_version: 2.1.2
-latest_release_date: 2018-05-21
+latest_release_version: 2.2.9
+latest_release_date: 2019-12-22
 
 # Github Info
 github_user: 
