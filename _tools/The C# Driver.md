@@ -31,6 +31,7 @@ mongodb_versions:
 - 3.4
 - 3.6
 - 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -48,8 +49,8 @@ description: The officially supported client interface for C# applications.
 img: csharp.png
 
 # Release Info
-latest_release_version: 2.8.1
-latest_release_date: 2019-05-15
+latest_release_version: 2.10.1
+latest_release_date: 2020-01-17
 
 # Github Info
 github_user: mongodb

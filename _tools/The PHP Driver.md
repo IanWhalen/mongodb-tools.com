@@ -35,6 +35,7 @@ mongodb_versions:
 - 3.4
 - 3.6
 - 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -49,8 +50,8 @@ description: The officially supported client interface for PHP applications.
 img: 
 
 # Release Info
-latest_release_version: 1.5.5
-latest_release_date: 2019-06-10
+latest_release_version: 1.6.1
+latest_release_date: 2019-12-06
 
 # Github Info
 github_user: mongodb

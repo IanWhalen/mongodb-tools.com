@@ -50,7 +50,7 @@ img:
 
 # Release Info
 latest_release_version: C++11 3.4.0
-latest_release_date: 2018-10-15
+latest_release_date: 2018-10-1
 
 # Github Info
 github_user: mongodb

@@ -49,8 +49,8 @@ description: The officially supported client interface for Java applications.
 img: 
 
 # Release Info
-latest_release_version: 3.10.2
-latest_release_date: 2019-04-08
+latest_release_version: 3.12.1
+latest_release_date: 2020-01-17
 
 # Github Info
 github_user: mongodb

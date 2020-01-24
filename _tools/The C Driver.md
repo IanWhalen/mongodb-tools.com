@@ -32,6 +32,7 @@ mongodb_versions:
 - 3.4
 - 3.6
 - 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -49,8 +50,8 @@ description: The officially supported client interface for C applications.
 img: c.png
 
 # Release Info
-latest_release_version: 1.14.0
-latest_release_date: 2019-02-22
+latest_release_version: 1.16.0
+latest_release_date: 2020-01-17
 
 # Github Info
 github_user: mongodb

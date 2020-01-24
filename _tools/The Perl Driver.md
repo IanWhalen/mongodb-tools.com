@@ -49,8 +49,8 @@ description: The officially supported client interface for Perl applications.
 img: 
 
 # Release Info
-latest_release_version: 2.0.3
-latest_release_date: 2019-02-07
+latest_release_version: 2.2.1
+latest_release_date: 2019-12-13
 
 # Github Info
 github_user: mongodb

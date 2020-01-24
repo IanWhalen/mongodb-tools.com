@@ -47,11 +47,11 @@ description: Studio 3T is a fully featured IDE for MongoDB. The best MongoDB GUI
 img: studio-3t.png
 
 # Release Info
-latest_release_version: 5.3.4
-latest_release_date: 2017-06-19
+latest_release_version: 2020.1
+latest_release_date: 2020-01-07
 
 # Github Info
-github_user: 
+github_user: Studio3T
 github_repo: 
 
 # Do not change the following settings
