@@ -39,7 +39,7 @@ mongodb_versions:
 minimum_mongodb_version:
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
-mongodb_enterprise_support: 
+mongodb_enterprise_support: full
 
 # Purpose (see _data/attr.yml for valid choices)
 purpose: Deployment Automation
@@ -51,8 +51,8 @@ description: Mongock is a java MongoDB tool for tracking, managing and applying 
 img: mongock.png
 
 # Release Info
-latest_release_version: 0.13
-latest_release_date: 2017-08-12
+latest_release_version: 4.0.7.alpha
+latest_release_date: 2020-06-03
 
 # Github Info
 github_user: cloudyrock
