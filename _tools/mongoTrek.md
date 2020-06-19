@@ -30,6 +30,9 @@ mongodb_versions:
 #- 2.6
 - 3.2
 - 3.4
+- 3.6
+- 3.8
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version: 3.2
@@ -41,14 +44,14 @@ mongodb_enterprise_support:
 purpose: Deployment Automation
 
 # Short description of tool
-description: mongoTrek is a Java tool designed to provide in-application schema and document migration management using the MongoDB Database Commands framework, via a single YAML migrations file. It is inspired by the Liquibase project.
+description: mongoTrek is a JVM tool designed to provide in-application schema and document migration management using the MongoDB Database Commands framework, via a single YAML migrations file. It is inspired by the Liquibase project.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: mongotrek.png
 
 # Release Info
-latest_release_version: 1.1.0
-latest_release_date: 2017-04-12
+latest_release_version: 4.1.0
+latest_release_date: 2020-06-20
 
 # Github Info
 github_user: ozwolf-software
