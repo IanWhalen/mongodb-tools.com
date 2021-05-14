@@ -11,6 +11,8 @@ This is a static site built using the [Jekyll](http://jekyllrb.com/) site genera
 After checking out from Github, run the following commands in the root directory of your checkout:
 
  - `gem install bundler` (if you don't already have this installed)
+ - `gem install webrick`
+ - `bundle add webrick`
  - `bundle install`
  - `jekyll server`
 
